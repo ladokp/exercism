@@ -1,5 +1,7 @@
 .idea/
 .exercism/
+.articles/
+.config/
 obj/
 bin/
 Folder.DotSettings.user

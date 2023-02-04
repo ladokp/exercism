@@ -1,3 +1,5 @@
 .idea/
 .exercism/
 obj/
+bin/
+Folder.DotSettings.user

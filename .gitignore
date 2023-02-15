@@ -1,7 +1,9 @@
-.idea/
-.exercism/
 .articles/
 .config/
-obj/
-bin/
+.exercism/
+.idea/
 Folder.DotSettings.user
+__pycache__/
+bin/
+obj/
+venv/

@@ -19,8 +19,11 @@ class Node:
     @next.setter
     def next(self, node):
         self._next = node
-        if node:
-            node._previous = self
+        if node is not None:
+            node.set_previous_only(self)
+
+    def set_next_only(self, node):
+        self._next = node
 
     @property
     def previous(self):
@@ -29,14 +32,19 @@ class Node:
     @previous.setter
     def previous(self, node):
         self._previous = node
-        if node:
-            node._next = self
+        if node is not None:
+            node.set_next_only(self)
+
+    def set_previous_only(self, node):
+        self._previous = node
 
     def delete(self):
         if self._next is not None:
             self._next.previous = self._previous
+            self._previous = None
         if self._previous is not None:
             self._previous.next = self._next
+            self._next = None
 
 
 class LinkedList:
@@ -76,22 +84,20 @@ class LinkedList:
     def pop(self):
         if self._head is None:
             raise EmptyListException()
-        value = self._head.value
-        self._head = self._head.previous
-        if self._head:
-            self._head.next = None
+        node = self._head
+        self._head = node.previous
         self._count -= 1
-        return value
+        node.delete()
+        return node.value
 
     def shift(self):
         if self._tail is None:
             raise EmptyListException()
-        value = self._tail.value
-        self._tail = self._tail.next
-        if self._tail:
-            self._tail.previous = None
+        node = self._tail
+        self._tail = node.next
         self._count -= 1
-        return value
+        node.delete()
+        return node.value
 
     def delete(self, value):
         for node in self:
@@ -102,9 +108,8 @@ class LinkedList:
                 if node is self._tail:
                     self._tail = node.next
                 self._count -= 1
-                break
-        else:
-            raise ValueNotFoundException()
+                return
+        raise ValueNotFoundException()
 
     def __iter__(self):
         node = self._tail

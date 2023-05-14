@@ -1,27 +1,17 @@
-from typing import Iterable, Any, Self, Optional, Iterator
-
-
-class EmptyCustomSet:
-    """A class enabling the CustomSet to be initialized with None"""
+from __future__ import annotations
+from typing import Iterable, Any, Optional, Iterator
 
 
 class CustomSet:
-    """A custom set implementation"""
+    """Create a CustomSet from any object(s)."""
 
-    def __init__(self, elements: Optional[Any] = EmptyCustomSet):
-        if elements is EmptyCustomSet:
+    def __init__(self, elements: Optional[Any] = None):
+        if elements is None:
             self.elements = []
+        elif isinstance(elements, Iterable):
+            self.elements = list(elements)
         else:
-            try:
-                _ = (
-                    element for element in elements
-                )  # just check if given object is iterable
-            except TypeError:
-                self.elements = [
-                    elements
-                ]  # in case no iterable is given add the element to a new list
-            else:
-                self.elements = list(elements)
+            self.elements = [elements]
 
     def isempty(self) -> bool:
         return len(self) == 0
@@ -29,26 +19,26 @@ class CustomSet:
     def __contains__(self, element: Any) -> bool:
         return element in self.elements
 
-    def issubset(self, other: Self) -> bool:
+    def issubset(self, other: CustomSet) -> bool:
         return all(element in other for element in self)
 
-    def isdisjoint(self, other: Self) -> bool:
+    def isdisjoint(self, other: CustomSet) -> bool:
         return all(element not in other for element in self)
 
-    def __eq__(self, other: Self) -> bool:
+    def __eq__(self, other: CustomSet) -> bool:
         return self.issubset(other) and other.issubset(self)
 
     def add(self, element: Any) -> None:
         if element not in self:
             self.elements.append(element)
 
-    def intersection(self, other: Self) -> Self:
+    def intersection(self, other: CustomSet) -> CustomSet:
         return CustomSet(element for element in other if element in self)
 
-    def __sub__(self, other: Self) -> Self:
+    def __sub__(self, other: CustomSet) -> CustomSet:
         return CustomSet(element for element in self if element not in other)
 
-    def __add__(self, other: Self) -> Self:
+    def __add__(self, other: CustomSet) -> CustomSet:
         new_set = CustomSet(self)
         for element in other:
             new_set.add(element)

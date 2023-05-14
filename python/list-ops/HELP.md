@@ -116,6 +116,7 @@ Should those resources not suffice, you could submit your (incomplete) solution 
 Below are some resources for getting help if you run into trouble:
 
 - [The PSF](https://www.python.org) hosts Python downloads, documentation, and community resources.
+- [The Exercism Community on Discord](https://exercism.org/r/discord)
 - [Python Community on Discord](https://pythondiscord.com/) is a very helpful and active community.
 - [/r/learnpython/](https://www.reddit.com/r/learnpython/) is a subreddit designed for Python learners.
 - [#python on Libera.chat](https://www.python.org/community/irc/) this is where the core developers for the language hang out and get work done.

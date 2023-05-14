@@ -34,6 +34,7 @@ The precise number and names of the operations to be implemented will be track d
 - @Dog
 - @dvermd
 - @gabriel376
+- @IsaacG
 - @N-Parsons
 - @pheanex
 - @rootulp

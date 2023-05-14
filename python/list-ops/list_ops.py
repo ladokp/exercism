@@ -28,9 +28,7 @@ def foldl(function, list_, accumulator):
 
 
 def foldr(function, list_, accumulator):
-    for item in reverse(list_):
-        accumulator = function(item, accumulator)
-    return accumulator
+    return foldl(function, reverse(list_), accumulator)
 
 
 def reverse(list_):

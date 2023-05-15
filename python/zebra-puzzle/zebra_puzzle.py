@@ -17,14 +17,11 @@ def solve():
         for (red, green, ivory, yellow, blue) in permutations(range(5))
         if green - ivory == 1
         for (norway, english, ukraine, spain, japan) in permutations(range(5))
-        if norway == 0
-        if english == red
+        if norway == 0 and english == red
         for (dog, fox, snails, horse, zebra) in permutations(range(5))
         if spain == dog
         for (coffee, tea, milk, orange, water) in permutations(range(5))
-        if coffee == green
-        if ukraine == tea
-        if milk == 2
+        if all((coffee == green, ukraine == tea, milk == 2))
         for (
             oldgold,
             kools,
@@ -32,11 +29,15 @@ def solve():
             luckystrike,
             parliaments,
         ) in permutations(range(5))
-        if oldgold == snails
-        if kools == yellow
-        if abs(chesterfields - fox) == 1
-        if abs(kools - horse) == 1
-        if luckystrike == orange
-        if parliaments == japan
-        if abs(norway - blue) == 1
+        if all(
+            (
+                oldgold == snails,
+                kools == yellow,
+                abs(chesterfields - fox) == 1,
+                abs(kools - horse) == 1,
+                luckystrike == orange,
+                parliaments == japan,
+                abs(norway - blue) == 1,
+            )
+        )
     )

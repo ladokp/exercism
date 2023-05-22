@@ -2,16 +2,16 @@ package armstrong
 
 import (
 	"math"
-	"strconv"
 )
 
 func IsNumber(number int) bool {
-	numberString := strconv.FormatInt(int64(number), 10)
-	numberLength := float64(len(numberString))
-	var calculatedNumber float64
-	for _, digit := range numberString {
-		digitFloat := float64(int(digit) - '0')
-		calculatedNumber += math.Pow(digitFloat, numberLength)
+	var (
+		digits           = float64(int(math.Log10(float64(number)) + 1))
+		calculatedNumber float64
+	)
+	for digitBase := number; digitBase > 0; {
+		calculatedNumber += math.Pow(float64(digitBase%10), digits)
+		digitBase /= 10
 	}
 	return int(calculatedNumber) == number
 }

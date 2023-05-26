@@ -3,20 +3,23 @@ package atbash
 import (
 	"bytes"
 	"strings"
-	"unicode"
 )
 
-const clusterSize = 5
+const (
+	clusterSize = 5
+	encryption  = "abcdefghijklmnopqrstuvwxyz"
+)
 
 func Atbash(plain string) string {
 	var letterCount int8
 	ciphered := bytes.Buffer{}
 	for _, character := range strings.ToLower(plain) {
-		if unicode.IsLetter(character) {
-			character = 'z' - character + 'a'
-		}
-		if unicode.IsLetter(character) || unicode.IsNumber(character) {
-			ciphered.WriteRune(character)
+		if 'a' <= character && character <= 'z' || '0' <= character && character <= '9' {
+			if 'a' <= character && character <= 'z' {
+				ciphered.WriteByte(encryption['z'-character])
+			} else {
+				ciphered.WriteRune(character)
+			}
 			letterCount++
 			if letterCount%clusterSize == 0 {
 				ciphered.WriteByte(' ')

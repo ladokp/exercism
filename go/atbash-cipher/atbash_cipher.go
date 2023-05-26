@@ -5,20 +5,22 @@ import (
 	"unicode"
 )
 
-func Atbash(plain string) (ciphered string) {
-	plain = strings.ToLower(plain)
-	var characterCount int8
-	for _, character := range plain {
+const clusterSize = 5
+
+func Atbash(plain string) string {
+	var letterCount int8
+	cipherSlice := make([]rune, 0, len(plain))
+	for _, character := range strings.ToLower(plain) {
 		if unicode.IsLetter(character) {
 			character = 'z' - character%'a'
 		}
 		if unicode.IsLetter(character) || unicode.IsNumber(character) {
-			ciphered += string(character)
-			characterCount++
-			if characterCount%5 == 0 {
-				ciphered += " "
+			cipherSlice = append(cipherSlice, character)
+			letterCount++
+			if letterCount%clusterSize == 0 {
+				cipherSlice = append(cipherSlice, ' ')
 			}
 		}
 	}
-	return strings.TrimSpace(ciphered)
+	return strings.TrimSpace(string(cipherSlice))
 }

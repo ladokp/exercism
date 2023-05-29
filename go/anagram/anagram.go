@@ -5,10 +5,11 @@ import (
 	"strings"
 )
 
-func SortString(word string) string {
+func SortString(word string) (result string) {
 	wordList := strings.Split(word, "")
 	sort.Strings(wordList)
-	return strings.Join(wordList, "")
+	result = strings.Join(wordList, "")
+	return
 }
 
 func Detect(subject string, candidates []string) (result []string) {

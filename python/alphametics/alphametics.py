@@ -1,18 +1,23 @@
-import re
 from itertools import permutations
+from typing import Dict, Optional, List, Tuple
 
 
-def solve(puzzle):
-    distinct_letters = "".join(set(re.findall("\\w", puzzle)))
-    non_zeroes = [ord(letter) for letter in re.findall("(?<!\\w)\\w", puzzle)]
-    if len(distinct_letters) <= 10:
-        distinct_combinations = permutations(
-            "0123456789", len(distinct_letters)
-        )
-        puzzle_translated = puzzle.translate
-        for combo in distinct_combinations:
-            mapping = puzzle.maketrans(distinct_letters, "".join(combo))
-            if all(mapping[non_zero] != 48 for non_zero in non_zeroes) and eval(
-                puzzle_translated(mapping)
-            ):
-                return {chr(k): int(chr(v)) for k, v in mapping.items()}
+def parse_puzzle(puzzle: str) -> Tuple[List, str]:
+    inputs, value = puzzle.split(" == ")
+    words = [i.strip() for i in inputs.split("+")]
+    return (words, value.strip())
+
+
+def solve(puzzle: str) -> Optional[Dict[str, int]]:
+    words, value = parse_puzzle(puzzle)
+    nonzero = set([word[0] for word in words + [value] if len(word) > 1])
+    letters = list(set("".join(words + [value])) - nonzero) + list(nonzero)
+    for permutation in permutations("0123456789", len(letters)):
+        conv_dict = dict(zip(letters, permutation))
+        if "0" in permutation[-len(nonzero) :]:
+            continue
+        values = [int("".join(conv_dict[w] for w in word)) for word in words]
+        summed = int("".join(conv_dict[v] for v in value))
+        if sum(values) == summed:
+            return {k: int(v) for k, v in conv_dict.items()}
+    return None

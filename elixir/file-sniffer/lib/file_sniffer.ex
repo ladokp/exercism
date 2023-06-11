@@ -23,7 +23,7 @@ defmodule FileSniffer do
   def verify(file_binary, extension) do
     type1 = type_from_binary(file_binary)
     type2 = type_from_extension(extension)
-    if type1 == type2 do
+    if type1 != nil && type1 == type2 do
       {:ok, type1}
     else
       {:error, "Warning, file format and file extension do not match."}

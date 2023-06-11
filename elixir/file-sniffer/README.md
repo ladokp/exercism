@@ -106,3 +106,4 @@ FileSniffer.verify(file, "png")
 ### Contributed to by
 
 - @angelikatyborska
+- @cr0t

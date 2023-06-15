@@ -28,26 +28,18 @@ def value(color):
 
 
 def resistor_label(colors):
+    tolerance_color = colors[-1]
     if len(colors) == 4:
-        first_color, second_color, third_color, tolerance_color = colors[:4]
         resistance_value = (
-            10 * value(first_color) + value(second_color)
-        ) * 10 ** value(third_color)
+            10 * value(colors[0]) + value(colors[1])
+        ) * 10 ** value(colors[2])
     elif len(colors) == 5:
-        (
-            first_color,
-            second_color,
-            third_color,
-            fourth_color,
-            tolerance_color,
-        ) = colors[:5]
         resistance_value = (
-            100 * value(first_color)
-            + 10 * value(second_color)
-            + value(third_color)
-        ) * 10 ** value(fourth_color)
+            100 * value(colors[0]) + 10 * value(colors[1]) + value(colors[2])
+        ) * 10 ** value(colors[3])
     else:
         return "0 ohms"
+
     prefix = ""
     if resistance_value >= 1_000_000_000:
         resistance_value /= 1_000_000_000
@@ -58,5 +50,9 @@ def resistor_label(colors):
     elif resistance_value >= 1_000:
         resistance_value /= 1_000
         prefix = "kilo"
-    resistance_value = f"{resistance_value}".replace(".0", "")
-    return f"{resistance_value} {prefix}ohms ±{RESISTOR_COLORS_TOLERANCE[tolerance_color]}"
+
+    return (
+        f"{resistance_value:g} "
+        f"{prefix}ohms "
+        f"±{RESISTOR_COLORS_TOLERANCE[tolerance_color]}"
+    )

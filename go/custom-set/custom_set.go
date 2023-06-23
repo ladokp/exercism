@@ -72,7 +72,7 @@ func Disjoint(s1, s2 Set) bool {
 }
 
 func Equal(s1, s2 Set) bool {
-	if len(s1) != len(s2) {
+	if s1.Length() != s2.Length() {
 		return false
 	}
 	return Subset(s1, s2)

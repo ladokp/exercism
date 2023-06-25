@@ -1,3 +1,6 @@
 def abbreviate(words):
-    words = words.replace("-", " ").replace("_", "").upper()
-    return "".join(word[0] for word in words.split(" ") if word)
+    return "".join(
+        word[0]
+        for word in words.replace("-", " ").replace("_", "").upper().split(" ")
+        if word
+    )

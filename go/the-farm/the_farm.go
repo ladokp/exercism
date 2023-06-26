@@ -5,31 +5,47 @@ import "errors"
 
 // See types.go for the types defined for this exercise.
 
-// SillyNephewError type describes the nephew's inability to count.
-type SillyNephewError struct {
-	cows int
+type InvalidCowsError struct {
+	cows    int
+	message string
 }
 
-func (e *SillyNephewError) Error() string {
-	return fmt.Sprintf("silly nephew, there cannot be %d cows", e.cows)
+func (e *InvalidCowsError) Error() string {
+	return fmt.Sprintf("%d cows are invalid: %s", e.cows, e.message)
 }
 
 // DivideFood computes the fodder amount per cow for the given cows.
-func DivideFood(weightFodder WeightFodder, cows int) (float64, error) {
-	fodder, err := weightFodder.FodderAmount()
-	switch {
-	case fodder < 0 && err != nil && err != ErrScaleMalfunction:
-		return 0, errors.New("non-scale error")
-	case fodder < 0:
-		return 0, errors.New("negative fodder")
-	case cows == 0:
-		return 0, errors.New("division by zero")
-	case err == ErrScaleMalfunction:
-		fodder *= 2
-	case err != nil:
+func DivideFood(fodderCalculator FodderCalculator, cows int) (float64, error) {
+	fodder, err := fodderCalculator.FodderAmount(cows)
+	if err != nil {
 		return 0, err
-	case cows < 0:
-		return 0, &SillyNephewError{cows: cows}
 	}
-	return fodder / float64(cows), nil
+	fatteningFactor, err := fodderCalculator.FatteningFactor()
+	if err != nil {
+		return 0, err
+	}
+	return fodder * fatteningFactor / float64(cows), nil
+}
+
+func ValidateInputAndDivideFood(fodderCalculator FodderCalculator, cows int) (float64, error) {
+	if cows <= 0 {
+		return 0, errors.New("invalid number of cows")
+	}
+	return DivideFood(fodderCalculator, cows)
+}
+
+func ValidateNumberOfCows(cows int) error {
+	switch {
+	case cows < 0:
+		return &InvalidCowsError{
+			message: "there are no negative cows",
+			cows:    cows,
+		}
+	case cows == 0:
+		return &InvalidCowsError{
+			message: "no cows don't need food",
+			cows:    cows,
+		}
+	}
+	return nil
 }

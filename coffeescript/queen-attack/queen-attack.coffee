@@ -1,15 +1,16 @@
-class QueenAttack
-  constructor: (args) ->
-    @white = args and args.white or [0,3]
-    @black = args and args.black or [7,3]
-    throw 'Queens cannot share the same space' if @white[0] == @black[0] and @white[1] == @black[1]
-  toString: ->
-    board = ('_' for _ in [0...8] for _ in [0...8])
-    board[@white[1]][@white[0]] = 'W'
-    board[@black[1]][@black[0]] = 'B'
-    (row.join(' ') for row in board).join('\n')
-  canAttack: ->
-    x = Math.abs(@black[1] - @white[1])
-    y = Math.abs(@black[0] - @white[0])
-    x == y or x == 0 or y == 0
-module.exports = QueenAttack
+class QueensAttack
+  constructor: (queen) ->
+    throw "row not positive" if queen.row < 0
+    throw "column not positive" if queen.column < 0
+    throw "row not on board" if queen.row > 7
+    throw "column not on board" if queen.column > 7
+    @row = queen.row
+    @column = queen.column
+
+  canAttack: (otherQueen) ->
+    sameRow = @row is otherQueen.row
+    sameColumn = @column is otherQueen.column
+    sameDiagonal = Math.abs(@row - otherQueen.row) is Math.abs(@column - otherQueen.column)
+    sameRow or sameColumn or sameDiagonal
+
+module.exports = QueensAttack

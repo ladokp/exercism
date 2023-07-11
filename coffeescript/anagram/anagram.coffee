@@ -7,6 +7,6 @@ class Anagram
     result = (item for item in targets when (item.toLowerCase() != @word) && (@sortedWord ==     @sorted(item.toLowerCase())) )
 
   sorted: (word) ->
-    word.split('').sort().join('') 
+    word.split('').sort().join('')
 
 module.exports = Anagram

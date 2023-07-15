@@ -3,8 +3,8 @@
 #include <cmath>
 
 namespace darts {
-    int score(double x, double y) {
-        double distance = sqrt(pow(x, 2) + pow(y, 2));
+    int score(float x, float y) {
+        float distance = hypot(x, y);
         if (distance <= 1) {
             return 10;
         }

@@ -14,11 +14,11 @@ export class Matrix {
     }
   }
 
-  get rows() {
+  get rows(): number[][] {
     return this.matrix;
   }
 
-  get columns(): unknown {    
+  get columns(): number[][] {    
     return this.transposedMatrix;
   }
 }

@@ -1,9 +1,8 @@
 export function commands(input: number): string[] {
-  const movements: string[] = [];
-  if (input & 0B00001) movements.push("wink");
-  if (input & 0B00010) movements.push("double blink");
-  if (input & 0B00100) movements.push("close your eyes");
-  if (input & 0B01000) movements.push("jump");
-  if (input & 0B10000) movements.reverse();
-  return movements;
+  const ACTIONS = ["wink", "double blink", "close your eyes", "jump"]
+  const MOVEMENTS: string[] = [];
+  for (let counter = 0; counter < 4; counter++)
+    if (input & (1 << counter)) MOVEMENTS.push(ACTIONS[counter]);
+  if (input & 0B10000) MOVEMENTS.reverse();
+  return MOVEMENTS;
 }

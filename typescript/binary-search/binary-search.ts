@@ -1,13 +1,15 @@
-export function find(haystack: number[], needle: number): number | never {
-  let left: number = 0;
-  let right: number = haystack.length - 1;
+export function find(haystack: number[], needle: number, left: number=0, right: number=(haystack.length-1)): number | never {
+  let middle = Math.floor(((right-left)/2) + left)
 
-  while (left <= right) {
-    const mid: number = Math.floor((left + right) / 2);
-
-    if (haystack[mid] === needle) return mid;
-    if (needle < haystack[mid]) right = mid - 1;
-    else left = mid + 1;
+  switch (true) {
+    case haystack[middle] === needle:
+      return middle
+    case right - left === 0:
+      break
+    case haystack[middle] < needle:
+      return find(haystack, needle, middle+1, right)
+    case haystack[middle] > needle:
+      return find(haystack, needle, left, middle-1)
   }
-  throw new Error('Value not in array');
+  throw new Error('Value not in array')
 }

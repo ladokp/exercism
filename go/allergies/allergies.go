@@ -1,14 +1,14 @@
 package allergies
 
 var allergenMap = map[string]uint{
-	"eggs":         1 << 0,
-	"peanuts":      1 << 1,
-	"shellfish":    1 << 2,
-	"strawberries": 1 << 3,
-	"tomatoes":     1 << 4,
-	"chocolate":    1 << 5,
-	"pollen":       1 << 6,
-	"cats":         1 << 7,
+	"eggs":         1,
+	"peanuts":      2,
+	"shellfish":    4,
+	"strawberries": 8,
+	"tomatoes":     16,
+	"chocolate":    32,
+	"pollen":       64,
+	"cats":         128,
 }
 
 func Allergies(allergies uint) (result []string) {
@@ -20,7 +20,8 @@ func Allergies(allergies uint) (result []string) {
 	return
 }
 
-func AllergicTo(allergies uint, allergen string) bool {
+func AllergicTo(allergies uint, allergen string) (result bool) {
 	score, found := allergenMap[allergen]
-	return found && allergies&score != 0
+	result = found && allergies&score != 0
+	return
 }

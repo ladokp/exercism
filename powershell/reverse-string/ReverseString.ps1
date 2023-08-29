@@ -25,9 +25,5 @@ Function Get-ReverseString {
         [string]$Forward
 	)
 
-    $characterArray = $Forward.ToCharArray()
-    [array]::Reverse($characterArray)
-    $Reversed = -join($characterArray)
-
-    return $Reversed
+    -join [system.collections.stack]::new($Forward.ToCharArray())
 }

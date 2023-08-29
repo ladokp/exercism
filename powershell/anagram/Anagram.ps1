@@ -25,11 +25,11 @@ Function Invoke-Anagram() {
     $sortedTarget = ($Subject.ToLower().ToCharArray() | Sort-Object) -join ""
     $Anagrams = @()
 
-    foreach ($Candidate in $Candidates) {
-        $sortedCandidate = ($candidate.ToLower().ToCharArray() | Sort-Object) -join ""
-        if ($sortedTarget -eq $sortedCandidate -and $Subject.ToLower() -ne             $Candidate.ToLower()) {
-            $Anagrams += $Candidate
+    $Candidates | ForEach-Object {
+        $sortedCandidate = ($_.ToLower().ToCharArray() | Sort-Object) -join ""
+        if ($sortedTarget -eq $sortedCandidate -and $Subject.ToLower() -ne             $_.ToLower()) {
+            $Anagrams += $_
         }
     }
-    return $Anagrams
+    $Anagrams
 }

@@ -25,5 +25,5 @@ Function Get-TwoFer(){
         [string]$Name = "you"
     )
 
-    return "One for $($Name), one for me"
+    "One for $($Name), one for me"
 }

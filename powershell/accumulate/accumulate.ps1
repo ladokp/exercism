@@ -34,8 +34,6 @@ Function Get-Accumulation() {
     )
 
     $Result = @()
-    foreach ($Object in $List) {
-        $Result += &$Func($Object)
-    }
+    $List | ForEach-Object { $Result += &$Func($_) }
     $Result
 }

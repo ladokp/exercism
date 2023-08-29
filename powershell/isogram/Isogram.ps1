@@ -22,8 +22,8 @@ Function Invoke-Isogram() {
     )
 
     $ContainedCharacters = @()
-    foreach ($Character in $Phrase.ToLower().ToCharArray()) {
-        if ("abcdefghijklmnopqrstuvwxyz".Contains("$Character") -eq $false -or $ContainedCharacters.Contains("$Character") -eq $false) { $ContainedCharacters += "$Character"}
+    $Phrase.ToLower().ToCharArray() | ForEach-Object {
+        if ("abcdefghijklmnopqrstuvwxyz".Contains("$_") -eq $false -or $ContainedCharacters.Contains("$_") -eq $false) { $ContainedCharacters += "$_"}
     }
     ($ContainedCharacters -join "") -eq $Phrase
 }

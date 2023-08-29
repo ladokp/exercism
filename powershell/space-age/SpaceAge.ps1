@@ -34,5 +34,5 @@ Function Get-SpaceAge() {
         'Uranus'    = 84.016846
         'Neptune'   = 164.79132
     }
-    return [math]::Round($Seconds / 31557600 / $OrbitalPeriods[$Planet],2)
+    [Math]::Round($Seconds / 31557600 / $OrbitalPeriods[$Planet],2)
 }

@@ -26,11 +26,9 @@ function Get-HammingDifference([string]$strand1, [string]$strand2) {
     This will return a difference of 7.
     #>
 
-    if ($strand1.Length -ne $strand2.Length) {
-        Throw "strands must be of equal length."
-    }
+    if ($strand1.Length -ne $strand2.Length) { Throw "strands must be of equal length." }
     $difference = 0
-    for ($index = 0; $index -lt $strand1.Length; $index++) {
+    foreach ($index in 0..($strand1.Length - 1)) {
         if ($strand1[$index] -ne $strand2[$index]) { $difference++ }
     }
     $difference

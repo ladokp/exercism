@@ -21,32 +21,17 @@ Function Invoke-BinarySearch() {
         [Int64]$Value
     )
 
-    begin {
-        $Array = $Array | Sort-Object
+    $Array = $Array | Sort-Object
+    $start = -1
+    $end = $Array.Length
+    $count = 0
+    
+    while ($end -gt $start + 1) {
+        [int]$index = ($start + $end) / 2
+        if ($Value -lt $Array[$index]) { $end = $index }
+        elseif ($Value -gt $Array[$index]) { $start = $index }
+        elseif ($Value -eq $Array[$index]) { return $index }
+        $count++
     }
-
-    process {
-        $start = -1
-        $end = $Array.Length
-        $count = 0
-
-        while ($end -gt $start + 1) {
-            [int]$i = ($start + $end) / 2
-            if ($Value -lt $Array[$i]) {
-                $end = $i
-            }
-            elseif ($Value -gt $Array[$i]) {
-                $start = $i
-            }
-            elseif ($Value -eq $Array[$i]) {
-                return $i
-            }
-            $count++
-        }
-        throw "error: value not in array"
-    }
-
-    end {
-
-    }
+    throw "error: value not in array"
 }

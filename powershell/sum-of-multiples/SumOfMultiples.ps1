@@ -26,12 +26,9 @@ Function Get-SumOfMultiples {
     )
 
     $result = 0
-    for ($number=1; $number -lt $Limit; $number++){ 
+    foreach ($number in 1..($Limit - 1)){ 
         foreach ($multiple in $Multiples){ 
-            if ($number % $multiple -eq 0) {
-                $result += $number
-                break
-            }
+            if ($number % $multiple -eq 0) { $result += $number; break }
         }
     }
     $result

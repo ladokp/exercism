@@ -32,9 +32,10 @@ Function Get-BobResponse() {
     $isYelling = ($HeyBob -cmatch '^[^a-z]+?[!]?$') -and ($HeyBob -cmatch '[A-Z]+?')
     $isQuestion = ($HeyBob -match '.*\?$')
 
-    if ($isQuestion -and $isYelling) { return "Calm down, I know what I'm doing!" }
-    if ($isQuestion) { return "Sure." }
-    if ($isYelling) { return "Whoa, chill out!" }
-    if ($HeyBob -eq "") { return "Fine. Be that way!" }
-    return "Whatever."
+    $answer = "Whatever."
+    if ($isQuestion -and $isYelling) { $answer = "Calm down, I know what I'm doing!" }
+    elseif ($isQuestion) { $answer = "Sure." }
+    elseif ($isYelling) { $answer = "Whoa, chill out!" }
+    elseif ($HeyBob -eq "") { $answer = "Fine. Be that way!" }
+    $answer 
 }

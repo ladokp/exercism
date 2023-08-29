@@ -29,8 +29,8 @@ Function Get-Slices() {
     if ($SliceLength -lt 0) { Throw "Slice length cannot be negative." }
 
     $slices = @()
-    for ($index = 0; $index -le $Series.Length - $SliceLength; $index++) {
-        $slices += $Series.Substring($index, $SliceLength)
+    0..($Series.Length - $SliceLength) | ForEach-Object {
+        $slices += $Series.Substring($_, $SliceLength)
     }
     $slices
 }

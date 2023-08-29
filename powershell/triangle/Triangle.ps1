@@ -24,13 +24,9 @@ Function Get-Triangle() {
         [double[]]$Sides
     )
 
-    if ($Sides | Where-Object {$_ -le 0}) {
-        Throw "All side lengths must be positive."
-    }
+    if ($Sides | Where-Object {$_ -le 0}) { Throw "All side lengths must be positive." }
     $sortedSides = $Sides | Sort-Object
-    if ($sortedSides[0] + $sortedSides[1] -lt $sortedSides[2]) {
-        Throw "Side lengths violate triangle inequality."
-    }
+    if ($sortedSides[0] + $sortedSides[1] -lt $sortedSides[2]) { Throw "Side lengths violate triangle inequality." }
     switch (($Sides | Select-Object -Unique).Count) {
         1       { return [Triangle]::EQUILATERAL }
         2       { return [Triangle]::ISOSCELES }

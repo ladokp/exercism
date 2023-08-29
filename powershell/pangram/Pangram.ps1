@@ -19,11 +19,11 @@ Function Invoke-Panagram() {
         [string]$Sentence
     )
 
-    $LowerAlphabet = "abcdefghijklmnopqrstuvwxyz"
+    $LowerAlphabet = -join ([char]'a'..[char]'z')
     $ContainedCharacters = @()
     foreach ($Character in $Sentence.ToLower().ToCharArray()) {
         if ($ContainedCharacters.Contains("$Character")) { continue }
-        if ($LowerAlphabet.Contains("$Character")) { $ContainedCharacters += "$Character"}
+        if ($LowerAlphabet.Contains("$Character")) { $ContainedCharacters += "$Character" }
     }
     (($ContainedCharacters | Sort-Object) -join "") -eq $LowerAlphabet
 }

@@ -37,29 +37,29 @@ Function Invoke-ProteinTranslation() {
         [string]$Strand
     )
 
-    $protein = @()
+    $Protein = @()
     :StrandLoop for ($index = 0; $index -lt $Strand.Length; $index += 3) {
         if ($index + 3 -gt $Strand.Length) { throw "error: Invalid codon" }
         switch ($Strand.Substring($index, 3)) {
-            "AUG" { $protein += "Methionine" }
-            "UUU" { $protein += "Phenylalanine" }
-            "UUC" { $protein += "Phenylalanine" }
-            "UUA" { $protein += "Leucine" }
-            "UUG" { $protein += "Leucine" }
-            "UCU" { $protein += "Serine" }
-            "UCC" { $protein += "Serine" }
-            "UCA" { $protein += "Serine" }
-            "UCG" { $protein += "Serine" }
-            "UAU" { $protein += "Tyrosine" }
-            "UAC" { $protein += "Tyrosine" }
-            "UGU" { $protein += "Cysteine" }
-            "UGC" { $protein += "Cysteine" }
-            "UGG" { $protein += "Tryptophan" }
+            "AUG" { $Protein += "Methionine" }
+            "UUU" { $Protein += "Phenylalanine" }
+            "UUC" { $Protein += "Phenylalanine" }
+            "UUA" { $Protein += "Leucine" }
+            "UUG" { $Protein += "Leucine" }
+            "UCU" { $Protein += "Serine" }
+            "UCC" { $Protein += "Serine" }
+            "UCA" { $Protein += "Serine" }
+            "UCG" { $Protein += "Serine" }
+            "UAU" { $Protein += "Tyrosine" }
+            "UAC" { $Protein += "Tyrosine" }
+            "UGU" { $Protein += "Cysteine" }
+            "UGC" { $Protein += "Cysteine" }
+            "UGG" { $Protein += "Tryptophan" }
             "UAA" { break StrandLoop }
             "UAG" { break StrandLoop }
             "UGA" { break StrandLoop }
             default { throw "error: Invalid codon" }
         }
     }
-    return $protein
+    $Protein
 }

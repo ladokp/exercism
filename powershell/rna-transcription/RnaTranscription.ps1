@@ -19,8 +19,6 @@ Function Invoke-RnaTranscription() {
     
     $TranscriptionMap = @{G = "C"; C = "G"; T = "A"; A = "U"}
     $Result = @()
-    foreach ($Character in $Strand.ToCharArray()) {
-        $Result += $TranscriptionMap["$Character"]
-    }
+    $Strand.ToCharArray() | ForEach-Object { $Result += $TranscriptionMap["$_"] }
     $Result -join ""
 }

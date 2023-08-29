@@ -30,17 +30,9 @@ Function Get-Raindrops() {
     )
 
     $result = ""
-    if ($Rain % 3 -eq 0) {
-        $result += "Pling"
-    }
-    if ($Rain % 5 -eq 0) {
-        $result += "Plang"
-    }
-    if ($Rain % 7 -eq 0) {
-        $result += "Plong"
-    }
-    if ($result -eq "") {
-        $result = $Rain
-    }
-    return $result
+    if ($Rain % 3 -eq 0) { $result += "Pling" }
+    if ($Rain % 5 -eq 0) { $result += "Plang" }
+    if ($Rain % 7 -eq 0) { $result += "Plong" }
+    if ($result -eq "") { $result = $Rain }
+    $result
 }

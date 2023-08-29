@@ -19,9 +19,7 @@ Function Invoke-Etl() {
 
     $Result = @{}
     foreach ($Key in $Legacy.PSBase.Keys) {
-        foreach ($Letter in $Legacy[$Key]) {
-            $Result[$Letter.ToLower()] = $Key
-        }
+        $Legacy[$Key] | ForEach-Object { $Result[$_.ToLower()] = $Key }
     }
     $Result
 }

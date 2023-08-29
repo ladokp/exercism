@@ -17,14 +17,8 @@ Function Invoke-CollatzConjecture() {
         [Int64]$Number
     )
 
-    if ($Number -le 0) {
-        Throw "error: Only positive numbers are allowed"
-    }
-    if ($Number -eq 1) {
-        return 0
-    }
-    if ($Number % 2 -eq 0) {
-        return 1 + (Invoke-CollatzConjecture([Math]::Floor($Number / 2)))
-    }
+    if ($Number -le 0) { Throw "error: Only positive numbers are allowed" }
+    if ($Number -eq 1) { return 0 }
+    if ($Number % 2 -eq 0) { return 1 + (Invoke-CollatzConjecture([Math]::Floor($Number / 2))) }
     return 1 + (Invoke-CollatzConjecture(3 * $Number + 1))
 }

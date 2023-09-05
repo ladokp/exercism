@@ -5,20 +5,20 @@ import (
 )
 
 type Animal struct {
-	name  string
-	bLine string
-	toEat string
+	name string
+	line string
+	food string
 }
 
 var foodChain = map[int]Animal{
-	1: {name: "fly", bLine: "I don't know why she swallowed the fly. Perhaps she'll die.", toEat: ""},
-	2: {name: "spider", bLine: "It wriggled and jiggled and tickled inside her.", toEat: "fly"},
-	3: {name: "bird", bLine: "How absurd to swallow a bird!", toEat: "spider that wriggled and jiggled and tickled inside her"},
-	4: {name: "cat", bLine: "Imagine that, to swallow a cat!", toEat: "bird"},
-	5: {name: "dog", bLine: "What a hog, to swallow a dog!", toEat: "cat"},
-	6: {name: "goat", bLine: "Just opened her throat and swallowed a goat!", toEat: "dog"},
-	7: {name: "cow", bLine: "I don't know how she swallowed a cow!", toEat: "goat"},
-	8: {name: "horse", bLine: "She's dead, of course!", toEat: ""},
+	1: {name: "fly", line: "I don't know why she swallowed the fly. Perhaps she'll die.", food: ""},
+	2: {name: "spider", line: "It wriggled and jiggled and tickled inside her.", food: "fly"},
+	3: {name: "bird", line: "How absurd to swallow a bird!", food: "spider that wriggled and jiggled and tickled inside her"},
+	4: {name: "cat", line: "Imagine that, to swallow a cat!", food: "bird"},
+	5: {name: "dog", line: "What a hog, to swallow a dog!", food: "cat"},
+	6: {name: "goat", line: "Just opened her throat and swallowed a goat!", food: "dog"},
+	7: {name: "cow", line: "I don't know how she swallowed a cow!", food: "goat"},
+	8: {name: "horse", line: "She's dead, of course!", food: ""},
 }
 
 func Verse(last int) string {
@@ -26,19 +26,19 @@ func Verse(last int) string {
 	sb.WriteString("I know an old lady who swallowed a ")
 	sb.WriteString(foodChain[last].name)
 	sb.WriteString(".\n")
-	sb.WriteString(foodChain[last].bLine)
-	if foodChain[last].toEat == "" {
+	sb.WriteString(foodChain[last].line)
+	if foodChain[last].food == "" {
 		return sb.String()
 	}
 	for i := last; i > 1; i-- {
 		sb.WriteString("\nShe swallowed the ")
 		sb.WriteString(foodChain[i].name)
 		sb.WriteString(" to catch the ")
-		sb.WriteString(foodChain[i].toEat)
+		sb.WriteString(foodChain[i].food)
 		sb.WriteString(".")
 	}
 	sb.WriteString("\n")
-	sb.WriteString(foodChain[1].bLine)
+	sb.WriteString(foodChain[1].line)
 	return sb.String()
 }
 

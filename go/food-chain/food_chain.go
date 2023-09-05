@@ -1,6 +1,8 @@
 package foodchain
 
-import "bytes"
+import (
+	"strings"
+)
 
 type Animal struct {
 	name  string
@@ -20,35 +22,35 @@ var foodChain = map[int]Animal{
 }
 
 func Verse(last int) string {
-	var buffer bytes.Buffer
-	buffer.WriteString("I know an old lady who swallowed a ")
-	buffer.WriteString(foodChain[last].name)
-	buffer.WriteString(".\n")
-	buffer.WriteString(foodChain[last].bLine)
+	var sb strings.Builder
+	sb.WriteString("I know an old lady who swallowed a ")
+	sb.WriteString(foodChain[last].name)
+	sb.WriteString(".\n")
+	sb.WriteString(foodChain[last].bLine)
 	if foodChain[last].toEat == "" {
-		return buffer.String()
+		return sb.String()
 	}
 	for i := last; i > 1; i-- {
-		buffer.WriteString("\nShe swallowed the ")
-		buffer.WriteString(foodChain[i].name)
-		buffer.WriteString(" to catch the ")
-		buffer.WriteString(foodChain[i].toEat)
-		buffer.WriteString(".")
+		sb.WriteString("\nShe swallowed the ")
+		sb.WriteString(foodChain[i].name)
+		sb.WriteString(" to catch the ")
+		sb.WriteString(foodChain[i].toEat)
+		sb.WriteString(".")
 	}
-	buffer.WriteString("\n")
-	buffer.WriteString(foodChain[1].bLine)
-	return buffer.String()
+	sb.WriteString("\n")
+	sb.WriteString(foodChain[1].bLine)
+	return sb.String()
 }
 
 func Verses(first, last int) string {
-	var buffer bytes.Buffer
+	var sb strings.Builder
 	for index := first; index <= last; index++ {
-		buffer.WriteString(Verse(index))
+		sb.WriteString(Verse(index))
 		if index != last {
-			buffer.WriteString("\n\n")
+			sb.WriteString("\n\n")
 		}
 	}
-	return buffer.String()
+	return sb.String()
 }
 
 func Song() string {

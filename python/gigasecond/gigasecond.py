@@ -1,6 +1,6 @@
 from datetime import timedelta
 
-giga_second = timedelta(seconds=10**9)
+giga_second = timedelta(seconds=1e9)
 
 
 def add(moment):

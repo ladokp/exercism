@@ -17,9 +17,9 @@ func Transpose(rows []string) []string {
 			builders[index2].WriteByte(cell)
 		}
 	}
-	transposedRows := make([]string, len(builders))
-	for i, row := range builders {
-		transposedRows[i] = row.String()
+	transposedRows := make([]string, 0, len(builders))
+	for _, row := range builders {
+		transposedRows = append(transposedRows, row.String())
 	}
 	return transposedRows
 }

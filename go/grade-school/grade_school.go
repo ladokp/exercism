@@ -5,42 +5,40 @@ import (
 )
 
 type Grade struct {
-	level    int
-	students []string
+	level int
+	names []string
 }
 
-type School struct{ grades map[int]*Grade }
+type School struct{ roster map[int]*Grade }
 
 func New() *School {
 	return &School{make(map[int]*Grade)}
 }
 
-func (s *School) Add(student string, level int) {
-	if grade, found := s.grades[level]; found {
-		grade.students = append(grade.students, student)
-		sort.Strings(grade.students)
+func (school *School) Add(student string, level int) {
+	if grade, found := school.roster[level]; found {
+		grade.names = append(grade.names, student)
+		sort.Strings(grade.names)
 	} else {
-		s.grades[level] = &Grade{level, []string{student}}
+		school.roster[level] = &Grade{level, []string{student}}
 	}
-
 }
 
-func (s *School) Grade(level int) []string {
-	grade, found := s.grades[level]
-	if found {
-		return grade.students
+func (school *School) Grade(level int) []string {
+	if grade, found := school.roster[level]; found {
+		return grade.names
 	}
-	return make([]string, 0)
+	return nil
 }
 
-func (s *School) Enrollment() (grades []Grade) {
-	keys := make([]int, 0, len(s.grades))
-	for k := range s.grades {
-		keys = append(keys, k)
+func (school *School) Enrollment() (grades []Grade) {
+	keys := make([]int, 0, len(school.roster))
+	for key := range school.roster {
+		keys = append(keys, key)
 	}
 	sort.Ints(keys)
 	for _, key := range keys {
-		grades = append(grades, *s.grades[key])
+		grades = append(grades, *school.roster[key])
 	}
 	return
 }

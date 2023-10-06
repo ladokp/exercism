@@ -6,9 +6,11 @@ class Bob
         is_yelling = sentence == sentence.toUpperCase() and sentence.toLowerCase() != sentence.toUpperCase()
         if sentence.split(" ").join("") == ""
             return "Fine. Be that way!"
-        else if is_yelling
+        if is_yelling and is_a_question
+            return "Calm down, I know what I'm doing!"
+        if is_yelling
             return "Whoa, chill out!"
-        else if is_a_question
+        if is_a_question
             return "Sure."
         answer
 

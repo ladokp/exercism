@@ -10,7 +10,8 @@ class ScrabbleScore
     
   @score: (word) ->
     word.toLowerCase()
-        .split("")
-        .reduce(((score, c) => score + @scoreTable[c]), 0)
+        .split ""
+        .map (character) => @scoreTable[character]
+        .reduce ((score, accumulator) => score + accumulator), 0
 
 module.exports = ScrabbleScore

@@ -4,14 +4,13 @@ class Node
     @next = next
 
 class LinkedList
-  constructor: ->
-    @head = null
-    
-  count: 0
+  constructor: (head = null)->
+    @head = head
+    @count = 0
 
-  pushNode: (args) ->
-    node = new Node args
-    @count++
+  pushNode: (value) ->
+    node = new Node value
+    @count++ 
     if !@head?
       @head = node
     else
@@ -30,35 +29,35 @@ class LinkedList
       @head = null
       value
     else
-      prev = @head
-      last = prev.next
+      previous = @head
+      last = previous.next
       while last.next?
-        prev = prev.next
-        last = prev.next
+        previous = previous.next
+        last = previous.next
       value = last.value
       last = null
-      prev.next = null
+      previous.next = null
       value
     
 
-  deleteNode: (args) ->
+  deleteNode: (value) ->
     if !@head? then return
 
-    prev = @head
+    previous = @head
 
-    if prev.value == args
-      @head = prev.next
-      prev = null
+    if previous.value == value
+      @head = previous.next
+      previous = null
       @count--
       return
     
-    current = prev.next
+    current = previous.next
     while current?
-      if current.value == args
-        prev.next = current.next
+      if current.value == value
+        previous.next = current.next
         @count--
         return
-      prev = current
+      previous = current
       current = current.next
         
 
@@ -68,9 +67,9 @@ class LinkedList
     @head = @head?.next
     value
 
-  unshiftNode: (args) ->
-    node = new Node args
-    @count++
+  unshiftNode: (value) ->
+    node = new Node value
+    @count++ 
     if !@head?
       @head = node
     else
@@ -78,13 +77,6 @@ class LinkedList
       @head = node
 
   countNodes: ->
-    if !@head? then 0
-    else
-      current = @head
-      c = 0
-      while current?
-        c++
-        current = current.next
-      c
+    @count
 
 module.exports = LinkedList

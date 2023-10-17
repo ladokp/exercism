@@ -4,7 +4,7 @@ class Node
     @next = next
 
 class LinkedList
-  constructor: (head = null)->
+  constructor: (head = null) ->
     @head = head
     @count = 0
 
@@ -19,7 +19,7 @@ class LinkedList
         last = last.next
       last.next = node
 
-  popNode: () ->
+  popNode: ->
     if !@head? then return undefined
 
     @count--
@@ -61,7 +61,7 @@ class LinkedList
       current = current.next
         
 
-  shiftNode: () ->
+  shiftNode: ->
     if @head? then @count--
     value = @head?.value
     @head = @head?.next

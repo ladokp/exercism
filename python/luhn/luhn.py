@@ -8,7 +8,7 @@ class Luhn:
         total = 0
         for index, digit in enumerate(self.card_number[::-1]):
             digit = int(digit)
-            if index % 2 == 1:
+            if index & 1:
                 digit *= 2
                 if digit > 9:
                     digit -= 9

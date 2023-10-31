@@ -42,7 +42,7 @@ def generate_seats(number):
     number = number + 5 if number >= 13 else number + 1
     for seat, letter in zip(range(1, number), generate_seat_letters(number)):
         if (row_number := math.ceil(seat / 4)) != 13:
-            yield f"{str(row_number)}{letter}"
+            yield f"{row_number}{letter}"
 
 
 def assign_seats(passengers):

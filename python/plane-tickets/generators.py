@@ -41,8 +41,7 @@ def generate_seats(number):
 
     number = number + 5 if number >= 13 else number + 1
     for seat, letter in zip(range(1, number), generate_seat_letters(number)):
-        row_number = math.ceil(seat / 4)
-        if row_number != 13:
+        if (row_number := math.ceil(seat / 4)) != 13:
             yield f"{str(row_number)}{letter}"
 
 
@@ -56,12 +55,7 @@ def assign_seats(passengers):
 
     """
 
-    result = {}
-    for passenger, seat_number in zip(
-        passengers, generate_seats(len(passengers))
-    ):
-        result[passenger] = seat_number
-    return result
+    return dict(zip(passengers, generate_seats(len(passengers))))
 
 
 def generate_codes(seat_numbers, flight_id):
@@ -74,5 +68,4 @@ def generate_codes(seat_numbers, flight_id):
     """
 
     for seat in seat_numbers:
-        base_string = f"{seat}{flight_id}"
-        yield base_string + "0" * (12 - len(base_string))
+        yield f"{seat}{flight_id}".ljust(12, "0")

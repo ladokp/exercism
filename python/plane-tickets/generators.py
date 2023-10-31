@@ -1,7 +1,7 @@
 """Functions to automate Conda airlines ticketing system."""
 import math
 
-SEATS_IN_ROW = ["A", "B", "C", "D"]
+SEATS_IN_ROW = ("A", "B", "C", "D")
 NUMBER_OF_SEATS_IN_ROW = len(SEATS_IN_ROW)
 
 
@@ -40,11 +40,10 @@ def generate_seats(number):
     """
 
     number = number + 5 if number >= 13 else number + 1
-    letters = generate_seat_letters(number)
-    for seat in range(1, number):
+    for seat, letter in zip(range(1, number), generate_seat_letters(number)):
         row_number = math.ceil(seat / 4)
         if row_number != 13:
-            yield f"{str(row_number)}{next(letters)}"
+            yield f"{str(row_number)}{letter}"
 
 
 def assign_seats(passengers):

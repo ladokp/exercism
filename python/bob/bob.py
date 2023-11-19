@@ -1,7 +1,5 @@
 def response(hey_bob):
-    hey_bob = hey_bob.strip()
-
-    if not hey_bob:
+    if not (hey_bob := hey_bob.strip()):
         return "Fine. Be that way!"
     is_question = hey_bob.endswith("?")
     is_yelling = hey_bob.isupper()

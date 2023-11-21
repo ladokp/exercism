@@ -1,6 +1,6 @@
 local PopCount = {}
     
-function PopCount.eggCount(number)
+function PopCount.egg_count(number)
     local eggs = 0
     while number > 0 do
         eggs = eggs + (number % 2)

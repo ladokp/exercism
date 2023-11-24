@@ -1,9 +1,6 @@
 def convert(number):
-    message_list = []
-    if number % 3 == 0:
-        message_list.append("Pling")
-    if number % 5 == 0:
-        message_list.append("Plang")
-    if number % 7 == 0:
-        message_list.append("Plong")
-    return "".join(message_list) or str(number)
+    return "".join(
+        f"Pl{character}ng"
+        for condition, character in ((3, "i"), (5, "a"), (7, "o"))
+        if not number % condition
+    ) or str(number)

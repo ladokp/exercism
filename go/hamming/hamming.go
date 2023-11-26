@@ -7,9 +7,8 @@ func Distance(a, b string) (distance int, err error) {
         err = errors.New("length is different")
         return
     }
-
-    for i := 0; i < len(a); i += 1 {
-        if a[i] != b[i] {
+    for index, a_value := range []byte(a) {
+        if a_value != b[index] {
             distance += 1
         }
     }

@@ -1,7 +1,13 @@
 def commands(binary_str):
     number = int(binary_str, 2)
-    code = {1: "wink", 2: "double blink", 4: "close your eyes", 8: "jump"}
-    handshake = [action for bit, action in code.items() if number & bit]
-    if number & 16:
-        handshake.reverse()
-    return handshake
+    handshake = [
+        action
+        for action, bit in (
+            ("wink", 1),
+            ("double blink", 2),
+            ("close your eyes", 4),
+            ("jump", 8),
+        )
+        if number & bit
+    ]
+    return handshake[::-1] if number & 16 else handshake

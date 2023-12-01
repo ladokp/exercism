@@ -1,14 +1,18 @@
-local colors = {
-        "black", "brown", "red", "orange", "yellow", 
-        "green", "blue", "violet", "grey", "white"
+local color_codes = {
+    black = 0,
+    brown = 1,
+    red = 2,
+    orange = 3,
+    yellow = 4,
+    green = 5,
+    blue = 6,
+    violet = 7,
+    grey = 8,
+    white = 9
 }
-
-return {
-  color_code = function(color)
-    for index, value in ipairs(colors) do
-      if value == color then
-        return index - 1
-      end
-    end
-  end
+    
+return { 
+    color_code = function(color)
+        return color_codes[color]
+    end 
 }

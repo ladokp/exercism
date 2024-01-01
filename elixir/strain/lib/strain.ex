@@ -26,10 +26,11 @@ defmodule Strain do
   def discard([], _), do: []
 
   def discard([ head | tail ], fun) do
+    do_not_keep = fn x -> !fun.(x) end
     if fun.(head) do
-      discard(tail, fun)
+      keep(tail, do_not_keep)
     else
-      [ head | discard(tail, fun) ]
+      [ head | keep(tail, do_not_keep) ]
     end
   end
 end

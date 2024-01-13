@@ -7,8 +7,6 @@ class Raindrops
         message += "Plang"
     if number % 7 == 0
         message += "Plong"
-    if !message
-        return "#{number}"
-    return message
+    return message or "#{number}"
 
 module.exports = Raindrops

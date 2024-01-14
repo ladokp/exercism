@@ -18,7 +18,7 @@ class NeedForSpeed {
     }
 
     public float maximalDistance() {
-        return 100 * speed / batteryDrain ;
+        return batteryLevel * speed / batteryDrain ;
     }
 
     public void drive() {

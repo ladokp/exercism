@@ -1,6 +1,3 @@
-import java.util.HashMap;
-import java.util.Map;
-
 class RaindropConverter {
 
     String convert(int number) {

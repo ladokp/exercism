@@ -1,8 +1,11 @@
 class DifferenceOfSquares
-  @squareOfSum: (number) -> (number * (number + 1) / 2) ** 2
+  @squareOfSum: (n) ->
+    (n * (n + 1) / 2) ** 2
 
-  @sumOfSquares: (number) -> number * (number + 1) * (2 * number + 1) / 6
+  @sumOfSquares: (n) ->
+    n * (n + 1) * (2 * n + 1) / 6
 
-  @differenceOfSquares: (number) -> @squareOfSum(number) - @sumOfSquares(number)
+  @differenceOfSquares: (n) ->
+    @squareOfSum(n) - @sumOfSquares(n)
 
 module.exports = DifferenceOfSquares

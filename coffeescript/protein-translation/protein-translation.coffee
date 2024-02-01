@@ -18,7 +18,7 @@ class ProteinTranslation
     'UAG': 'STOP'
     'UGA': 'STOP'
 
-  @proteins: (strand) -> 
+  @proteins: (strand) ->
     codons = []
     while strand.length >= 1
       codons.push strand.slice 0, 3

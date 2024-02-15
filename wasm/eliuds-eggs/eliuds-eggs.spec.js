@@ -5,11 +5,11 @@ let currentInstance;
 
 beforeAll(async () => {
   try {
-    const watPath = new URL("./pop-count.wat", import.meta.url);
+    const watPath = new URL("./eliuds-eggs.wat", import.meta.url);
     const { buffer } = await compileWat(watPath);
     wasmModule = await WebAssembly.compile(buffer);
   } catch (err) {
-    console.log(`Error compiling *.wat: ${err}`);
+    console.log(`Error compiling *.wat: \n${err}`);
     process.exit(1);
   }
 });

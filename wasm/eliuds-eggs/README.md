@@ -1,6 +1,6 @@
-# Pop Count
+# Eliud's Eggs
 
-Welcome to Pop Count on Exercism's WebAssembly Track.
+Welcome to Eliud's Eggs on Exercism's WebAssembly Track.
 If you need help running the tests or submitting your code, check out `HELP.md`.
 
 ## Introduction
@@ -72,4 +72,4 @@ No linear memory is required for this exercise.
 
 ### Based on
 
-Christian Willner, Eric Willigers - https://forum.exercism.org/t/new-exercise-suggestion-pop-count/7632/5
+Christian Willner, Eric Willigers - https://forum.exercism.org/t/new-exercise-suggestion-eliuds-eggs/7632/5

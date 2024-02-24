@@ -24,7 +24,10 @@ defmodule ListOps do
 
   @spec foldr(list, acc, (any, acc -> acc)) :: acc
   def foldr([], acc, _), do: acc
-  def foldr([h | t], acc, f), do: f.(h, foldr(t, acc, f))
+  def foldr(l, acc, f) do
+    [h | t] = reverse(l)
+    foldl(t, f.(h, acc), f)
+  end
 
   @spec append(list, list) :: list
   def append(a, b), do: foldr(a, b, &[&1 | &2])

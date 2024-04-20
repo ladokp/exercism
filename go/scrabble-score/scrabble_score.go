@@ -1,27 +1,32 @@
 package scrabble
 
-import "strings"
+import (
+	"strings"
+)
 
-func Score(word string) int {
-	var count = 0
-	word = strings.ToLower(word)
-	for _, rune := range word {
-		switch {
-		case strings.ContainsRune("aeioulnrst", rune):
-			count += 1
-		case strings.ContainsRune("dg", rune):
-			count += 2
-		case strings.ContainsRune("bcmp", rune):
-			count += 3
-		case strings.ContainsRune("fhvwy", rune):
-			count += 4
-		case strings.ContainsRune("k", rune):
-			count += 5
-		case strings.ContainsRune("jx", rune):
-			count += 8
-		case strings.ContainsRune("qz", rune):
-			count += 10
+var letterScores = make(map[rune]int)
+
+func init() {
+	scoreGroups := map[int][]rune{
+		1: {'A', 'E', 'I', 'O', 'U', 'L', 'N', 'R', 'S', 'T'},
+		2: {'D', 'G'},
+		3: {'B', 'C', 'M', 'P'},
+		4: {'F', 'H', 'V', 'W', 'Y'},
+		5: {'K'},
+		8: {'J', 'X'},
+		10: {'Q', 'Z'},
+	}
+	for score, letters := range scoreGroups {
+		for _, letter := range letters {
+			letterScores[letter] = score
 		}
 	}
-	return count
+}
+
+func Score(word string) int {
+	var output int
+	for _, char := range strings.ToUpper(word) {
+		output += letterScores[char]
+	}
+	return output
 }

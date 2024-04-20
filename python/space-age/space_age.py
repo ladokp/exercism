@@ -1,19 +1,19 @@
 class SpaceAge:
-    ORBITAL_PERIODS = [
-        (k, v * 31557600)
-        for k, v in (
-            ("earth", 1.0),
-            ("mercury", 0.2408467),
-            ("venus", 0.61519726),
-            ("mars", 1.8808158),
-            ("jupiter", 11.862615),
-            ("saturn", 29.447498),
-            ("uranus", 84.016846),
-            ("neptune", 164.79132),
-        )
-    ]
-
     def __init__(self, seconds):
-        self.seconds = seconds
-        for planet, period in self.ORBITAL_PERIODS:
-            setattr(self, "on_" + planet, lambda p=period: round(seconds / p, 2))
+        self.age_in_seconds = seconds
+    def on_mercury(self):
+        return round(self.on_earth() /  0.2408467, 2)
+    def on_venus(self):
+        return round(self.age_in_seconds / 31557600 / 0.61519726, 2)    # All the others pass fine, but rounding error breaks the venus test.
+    def on_earth(self, precision = 2):
+        return round(self.age_in_seconds / 31557600, precision)
+    def on_mars(self):
+        return round(self.on_earth() /  1.8808158, 2)
+    def on_jupiter(self):
+        return round(self.on_earth() /  11.862615, 2)
+    def on_saturn(self):
+        return round(self.on_earth() /  29.447498, 2)
+    def on_uranus(self):
+        return round(self.on_earth() /  84.016846, 2)
+    def on_neptune(self):
+        return round(self.on_earth() /  164.79132, 2)

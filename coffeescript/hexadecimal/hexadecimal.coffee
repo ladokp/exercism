@@ -3,4 +3,4 @@ module.exports = class Hexadecimal
 
   toDecimal: ->
     return 0 unless @hex.match /[0-9a-fA-F]$/
-    parseInt @hex, 16
+    parseInt @hex, 16 

@@ -10,8 +10,7 @@ defmodule CommunityGarden do
   end
 
   def list_registrations(pid) do
-    state = Agent.get(pid, & &1)
-    state.plots
+    Agent.get(pid, & &1).plots
   end
 
   def register(pid, register_to) do
@@ -24,17 +23,17 @@ defmodule CommunityGarden do
 
   def release(pid, plot_id) do
     Agent.cast(pid, fn %{ plots: plots } = status ->
-        plots = Enum.filter(plots, fn %{plot_id: p} -> p != plot_id
-    end)
-    %{status | plots: plots} end)
+        plots = plots
+                |> Enum.filter(
+                    fn %{plot_id: p} -> p != plot_id end)
+        %{status | plots: plots} end)
   end
 
   def get_registration(pid, plot_id) do
      Agent.get(pid, fn %{plots: plots} -> 
         plots
         |> Enum.find(
-          {:not_found, "plot is unregistered"}, fn %{plot_id: p} -> p === plot_id
-        end)
+            {:not_found, "plot is unregistered"}, fn %{plot_id: p} -> p === plot_id end)
       end)
   end
 end

@@ -107,9 +107,18 @@ describe('dnd', function()
   describe('Character', function()
     it('creates a character with the supplied name', function()
       local names = {
-        "Alice", "Bob", "Charlie", "David",
-        "Eve", "Fred", "Ginny", "Harriet",
-        "Ileana", "Joseph", "Kincaid", "Larry"
+        "Alice",
+        "Bob",
+        "Charlie",
+        "David",
+        "Eve",
+        "Fred",
+        "Ginny",
+        "Harriet",
+        "Ileana",
+        "Joseph",
+        "Kincaid",
+        "Larry"
       }
       for _, name in ipairs(names) do
         assert.equal(name, dnd.Character:new(name).name)
@@ -173,7 +182,7 @@ describe('dnd', function()
     it('creates a character with valid hitpoints', function()
       for i = 1, 10 do
         local character = dnd.Character:new(tostring(i))
-        assert.equal(character.hitpoints, 10 + dnd.modifier(character.constitution))
+        assert.equal(10 + dnd.modifier(character.constitution), character.hitpoints)
       end
     end)
   end)

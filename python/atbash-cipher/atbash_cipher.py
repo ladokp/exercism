@@ -5,7 +5,9 @@ ATBASH_CIPHER = str.maketrans(ascii_letters, ascii_letters.lower()[::-1])
 
 def encode(plain_text):
     encoded = decode(plain_text)
-    return " ".join(encoded[index : index + 5] for index in range(0, len(encoded), 5))
+    return " ".join(
+        encoded[index : index + 5] for index in range(0, len(encoded), 5)
+    )
 
 
 def decode(ciphered_text):

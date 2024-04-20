@@ -1,29 +1,30 @@
-codons = {
-    "AUG": "Methionine",
-    "UUU": "Phenylalanine",
-    "UUC": "Phenylalanine",
-    "UUA": "Leucine",
-    "UUG": "Leucine",
-    "UCU": "Serine",
-    "UCC": "Serine",
-    "UCA": "Serine",
-    "UCG": "Serine",
-    "UAU": "Tyrosine",
-    "UAC": "Tyrosine",
-    "UGU": "Cysteine",
-    "UGC": "Cysteine",
-    "UGG": "Tryptophan",
-    "UAA": "STOP",
-    "UAG": "STOP",
-    "UGA": "STOP",
-}
+from collections.abc import Generator
 
 
-def proteins(strand):
-    protein_strand = [
-        codons[strand[index: index + 3]]
-        for index in range(0, len(strand), 3)
-    ]
-    return protein_strand[
-       : None if "STOP" not in protein_strand else protein_strand.index("STOP")
-    ]
+def generate_proteins(strand: str) -> Generator[str, None, None]:
+    """Yields proteins from RNA strand."""
+    for i in range(0, len(strand), 3):
+        current_slice = slice(i, i+3)
+        match strand[current_slice]:
+            case "AUG":
+                protein = "Methionine"
+            case "UUU" | "UUC":
+                protein = "Phenylalanine"
+            case "UUA" | "UUG":
+                protein = "Leucine"
+            case "UCU" | "UCC" | "UCA" | "UCG":
+                protein = "Serine"
+            case "UAU" | "UAC":
+                protein = "Tyrosine"
+            case "UGU" | "UGC":
+                protein = "Cysteine"
+            case "UGG":
+                protein = "Tryptophan"
+            case "UAA" | "UAG" | "UGA":
+                return
+        yield protein
+
+
+def proteins(strand: str) -> list[str]:
+    """Translates RNA sequences into proteins."""
+    return list(generate_proteins(strand))

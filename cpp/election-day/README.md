@@ -38,7 +38,7 @@ budget -= pro_computer_wheels;
 // balance is also 301;
 ```
 Reseating (changing the binding of a `reference`) is not possible.
-You cannot have an unitialized `reference`.
+You cannot have an uninitialized `reference`.
 `References` need to be initialized with an existing variable.
 
 ```cpp
@@ -52,7 +52,7 @@ savings = side_acc;
 // savings and main_acc are now -20
 // as this uses the **value** of side_acc
 savings += 20;
-// savings and main_acc are now 0, side_acc is stil -20
+// savings and main_acc are now 0, side_acc is still -20
 
 int& future_budget;
 // => compiler error, reference must be bound!
@@ -102,7 +102,7 @@ You can use an `initializer list` instead:
 
 ```cpp
 ElectionResult hamilton{"Alex", 1804};
-// => the hamilton object was intialized with the name "Alex" and 1804 votes.
+// => the hamilton object was initialized with the name "Alex" and 1804 votes.
 ```
 
 Create a function `vote_count` that will take a reference to an `ElectionResult` as an argument and will return the number of votes in the `ElectionResult`.

@@ -40,6 +40,7 @@ For example, if the allergy score is 257, your program should only report the eg
 ### Contributed to by
 
 - @edgerunner
+- @kahgoh
 - @nathanielknight
 - @parkerl
 - @tuxagon

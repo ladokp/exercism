@@ -19,14 +19,15 @@ Given an age in seconds, calculate how old someone would be on:
 So if you were told someone were 1,000,000,000 seconds old, you should
 be able to say that they're 31.69 Earth-years old.
 
-If you're wondering why Pluto didn't make the cut, go watch [this
-YouTube video](http://www.youtube.com/watch?v=Z_2gbGXzFbs).
+If you're wondering why Pluto didn't make the cut, go watch [this YouTube video][pluto-video].
 
-## Planet Type
+Note: The actual length of one complete orbit of the Earth around the sun is closer to 365.256 days (1 sidereal year).
+The Gregorian calendar has, on average, 365.2425 days.
+While not entirely accurate, 365.25 is the value used in this exercise.
+See [Year on Wikipedia][year] for more ways to measure a year.
 
-The test cases make use of a custom `Planet` type that is sent to your function.
-You will need to implement this custom type yourself.
-Implementing this new custom type as a string should suffice.
+[pluto-video]: https://www.youtube.com/watch?v=Z_2gbGXzFbs
+[year]: https://en.wikipedia.org/wiki/Year#Summary
 
 ## Source
 
@@ -51,4 +52,4 @@ Implementing this new custom type as a string should suffice.
 
 ### Based on
 
-Partially inspired by Chapter 1 in Chris Pine's online Learn to Program tutorial. - http://pine.fm/LearnToProgram/?Chapter=01
+Partially inspired by Chapter 1 in Chris Pine's online Learn to Program tutorial. - https://pine.fm/LearnToProgram/?Chapter=01

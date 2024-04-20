@@ -104,4 +104,4 @@ If you don't create a `__str__` method and you call `str()` on your class, pytho
 
 ### Based on
 
-Pairing session with Erin Drummond - https://twitter.com/ebdrummond
+Pairing session with Erin Drummond

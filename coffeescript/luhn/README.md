@@ -81,6 +81,7 @@ Sum the digits
 - @marocchino
 - @meientau
 - @rootulp
+- @meatball133
 
 ### Based on
 

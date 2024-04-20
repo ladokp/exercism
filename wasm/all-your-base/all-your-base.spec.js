@@ -9,7 +9,7 @@ beforeAll(async () => {
     const { buffer } = await compileWat(watPath);
     wasmModule = await WebAssembly.compile(buffer);
   } catch (err) {
-    console.log(`Error compiling *.wat: ${err}`);
+    console.log(`Error compiling *.wat: \n${err}`);
     process.exit(1);
   }
 });
@@ -30,6 +30,10 @@ function convert(digits = [], inputBase, outputBase) {
     inputBase,
     outputBase
   );
+
+  if (rc !== 0) {
+    return [[], rc];
+  }
 
   const outputBuffer = currentInstance.get_mem_as_i32(
     outputOffset,

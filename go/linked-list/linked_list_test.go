@@ -99,13 +99,13 @@ func checkDoublyLinkedList(t *testing.T, ll *List, expected []interface{}) {
 }
 
 // debugString prints the linked list with both node's Value, next & prev pointers.
-func (l *List) debugString() string {
+func (ll *List) debugString() string {
 	buf := bytes.NewBuffer([]byte{'{'})
-	fmt.Fprintf(buf, "First()= %p; ", l.First())
+	fmt.Fprintf(buf, "First()= %p; ", ll.First())
 
 	counter := 0
 
-	for cur := l.First(); cur != nil; cur = cur.Next() {
+	for cur := ll.First(); cur != nil; cur = cur.Next() {
 		counter++
 		if counter > 100 {
 			panic("Possible infinite loop detected and stopped. Check the .Next() implementation")
@@ -113,7 +113,7 @@ func (l *List) debugString() string {
 		fmt.Fprintf(buf, "[Prev()= %p, Value= %p (%v), Next()= %p] <-> ", cur.Prev(), cur, cur.Value, cur.Next())
 	}
 
-	fmt.Fprintf(buf, "; Last()= %p; ", l.Last())
+	fmt.Fprintf(buf, "; Last()= %p; ", ll.Last())
 
 	return buf.String()
 }

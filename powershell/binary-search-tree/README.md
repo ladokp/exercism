@@ -85,4 +85,4 @@ Return:
 
 ### Based on
 
-Josh Cheek - https://twitter.com/josh_cheek
+Josh Cheek

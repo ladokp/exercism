@@ -27,14 +27,12 @@ TEST_CASE("New alien does not share old aliens position", "[task_1]") {
     REQUIRE(alien1.y_coordinate != alien2.y_coordinate);
 }
 
-TEST_CASE("Alien is always hit", "[task_1]") {
+TEST_CASE("Alien is always hit", "[task_2]") {
     Alien alien{6, 7};
     REQUIRE(alien.hit());
 }
 
-TEST_CASE(
-    "Alien is alive while health is greater than 0 and stays dead afterwards",
-    "[task_3]") {
+TEST_CASE("Alien is alive while health is greater than 0 and stays dead afterwards", "[task_3]") {
     Alien alien{2, 54};
     REQUIRE(alien.is_alive());
     alien.hit();

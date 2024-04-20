@@ -13,12 +13,16 @@ If you get stuck on the exercise, check out `HINTS.md`, but try and solve it wit
 Elixir is a dynamically-typed language, meaning that the type of a variable is only checked at runtime. Using the match `=` operator, we can bind a value of any type to a variable name:
 
 ```elixir
-count = 1 # Bound an integer value of 1
-count = 2 # You may re-bind variables
+# Bound an integer value of 1
+count = 1
+# You may re-bind variables
+count = 2
 
-count = false # You may re-bind any type to a variable
+# You may re-bind any type to a variable
+count = false
 
-message = "Success!" # Strings can be created by enclosing characters within double quotes
+# Strings can be created by enclosing characters within double quotes
+message = "Success!"
 ```
 
 ### Modules
@@ -85,6 +89,12 @@ def add(x, y, z) do
   x + y + z
 end
 ```
+
+### Naming conventions
+
+Module names should use `PascalCase`. A module name must start with an uppercase letter `A-Z` and can contain letters `a-zA-Z`, numbers `0-9`, and underscores `_`.
+
+Variable and function names should use `snake_case`. A variable or function name must start with a lowercase letter `a-z` or an underscore `_`, can contain letters `a-zA-Z`, numbers `0-9`, and underscores `_`, and might end with a question mark `?` or an exclamation mark `!`.
 
 ### Standard library
 

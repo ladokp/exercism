@@ -1,5 +1,6 @@
 """Functions to manage a users shopping cart items."""
 
+from collections import Counter
 
 def add_item(current_cart, items_to_add):
     """Add items to shopping cart.
@@ -9,9 +10,7 @@ def add_item(current_cart, items_to_add):
     :return: dict - the updated user cart dictionary.
     """
 
-    for item in items_to_add:
-            current_cart[item] = current_cart.setdefault(item, 0) + 1
-    return current_cart
+    return Counter(current_cart) + Counter(items_to_add)
 
 
 def read_notes(notes):
@@ -21,7 +20,7 @@ def read_notes(notes):
     :return: dict - a user shopping cart dictionary.
     """
 
-    return dict.fromkeys(notes, 1)
+    return Counter(notes)
 
 
 def update_recipes(ideas, recipe_updates):
@@ -46,18 +45,18 @@ def sort_entries(cart):
     return dict(sorted(cart.items()))
 
 
-def send_to_store(cart, isle_mapping):
-    """Combine users order to isle and refrigeration information.
+def send_to_store(cart, aisle_mapping):
+    """Combine users order to aisle and refrigeration information.
 
     :param cart: dict - users shopping cart dictionary.
-    :param isle_mapping: dict - isle and refrigeration information dictionary.
+    :param aisle_mapping: dict - aisle and refrigeration information dictionary.
     :return: dict - fulfillment dictionary ready to send to store.
     """
 
-    fulfillment_dictionary = {}
-    for item, quantity in cart.items():
-        fulfillment_dictionary[item] = [quantity, *isle_mapping[item]]
-    return dict(sorted(fulfillment_dictionary.items(), reverse=True))
+    return {
+        item: [amount, *aisle_mapping[item]] 
+        for item, amount in sorted(cart.items(), reverse=True)
+    }
 
 
 def update_store_inventory(fulfillment_cart, store_inventory):
@@ -68,8 +67,10 @@ def update_store_inventory(fulfillment_cart, store_inventory):
     :return: dict - store_inventory updated.
     """
 
-    for item, item_properties in fulfillment_cart.items():
-        store_inventory[item][0] -= item_properties[0]
-        if not store_inventory[item][0]:
-            store_inventory[item][0] = "Out of Stock"
-    return store_inventory
+    return {
+        store_item: [store[0] - cart[0] 
+            if store[0] > cart[0] else "Out of Stock", *store[1:]] 
+                for store_item, store in store_inventory.items() 
+                    for cart_item, cart in fulfillment_cart.items() 
+                        if store_item == cart_item
+    }

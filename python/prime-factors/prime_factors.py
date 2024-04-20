@@ -1,12 +1,15 @@
-def factors(value):
-    factor_list = []
-    factor = 2
+"""
+Compute the prime factors of a given natural number.
+A prime number is only evenly divisible by itself and 1.
+"""
 
-    while value > 1:
-        if value % factor == 0:
-            factor_list.append(factor)
-            value /= factor
-        else:
-            factor += 1
 
-    return factor_list
+def factors(value: int) -> list[int]:
+    factors = []
+
+    while value != 1:
+        for i in range(2, value + 1):
+            if value % i == 0:
+                factors.append(i)
+                value //= i
+    return factors

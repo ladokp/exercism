@@ -161,7 +161,7 @@ records := []Record{
 }
 
 // Day1Records only returns true for records that are from day 1
-func Day1Records(Record r) bool {
+func Day1Records(r Record) bool {
   return r.Day == 1
 }
 

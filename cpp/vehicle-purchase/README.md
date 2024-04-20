@@ -10,14 +10,14 @@ If you get stuck on the exercise, check out `HINTS.md`, but try and solve it wit
 
 In C++, you can compare values using the comparison operators.
 
-| Comparison       | Operator |
-| ---------------- | -------- |
-| equal            | `==`     |
-| not equal        | `!=`     |
-| less             | `<`      |
-| less or equal    | `<=`     |
-| greater          | `>`      |
-| greater or equal | `>=`     |
+| Comparison        | Operator  |
+| ------------------| --------- |
+| equal             | `==`      |
+| not equal         | `!=`      |
+| less              | `<`       |
+| less or equal     | `<=`      |
+| greater           | `>`       |
+| greater or equal  | `>=`      |
 
 The result of these comparisons is always a boolean value:
 
@@ -33,9 +33,9 @@ The operators `==` and `!=` check whether a value is equal to another or not, re
 Here are some common examples:
 
 ```cpp
-bool eq3 == 3; // false, integer comparison
+bool eq3 = 2 == 3; // false, integer comparison
 
-bool eq4 = 2.1 != 2.2; // true, float comparison
+bool eq4 = 2.1 != 2.2; // true, float comparison 
 
 bool eq5 = "hello" == "hello"; // true, string comparison
 ```
@@ -134,6 +134,8 @@ choose_vehicle("Wuling Hongguang", "Toyota Corolla")
 choose_vehicle("Volkswagen Beetle", "Volkswagen Golf")
 // => "Volkswagen Beetle is clearly the better choice."
 ```
+
+The returned string should follow the pattern of "<CHOSEN_VEHICLE> is clearly the better choice.", where `<CHOSEN_VEHICLE>` is the option of choice from the passed arguments.
 
 ## 3. Calculate an estimation for the price of a used vehicle
 

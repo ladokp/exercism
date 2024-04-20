@@ -57,7 +57,8 @@ The four-band resistor is built up like this:
 Meaning
 
 - orange-orange-brown-green would be 330 ohms with a ±0.5% tolerance.
-- orange-orange-red would-grey would be 3300 ohms with ±0.005% tolerance.
+- orange-orange-red-grey would be 3300 ohms with ±0.05% tolerance.
+
 The difference between a four and five-band resistor is that the five-band resistor has an extra band to indicate a more precise value.
 
 | Band_1  | Band_2  | Band_3  | Band_4     | band_5    |
@@ -66,28 +67,30 @@ The difference between a four and five-band resistor is that the five-band resis
 
 Meaning
 
-- orange-orange-orange-black-green would be 330 ohms with a ±0.5% tolerance.
+- orange-orange-orange-black-green would be 333 ohms with a ±0.5% tolerance.
+- orange-red-orange-blue-violet would be 323M ohms with a ±0.10 tolerance.
+
 There are also one band resistors.
-This type of resistor only has the color black and has a value of 0.
+One band resistors only have the color black with a value of 0.
 
 This exercise is about translating the resistor band colors into a label:
 
 "... ohms ...%"
 
-So an input of "orange", "orange", "black, green" should return:
+So an input of "orange", "orange", "black", "green" should return:
 
 "33 ohms ±0.5%"
 
 When there are more than a thousand ohms, we say "kiloohms".
  That's similar to saying "kilometer" for 1000 meters, and "kilograms" for 1000 grams.
 
-So an input of "orange", "orange", "orange", grey should return:
+So an input of "orange", "orange", "orange", "grey" should return:
 
 "33 kiloohms ±0.05%"
 
 When there are more than a million ohms, we say "megaohms".
 
-So an input of "orange", "orange", "orange", "red" should return:
+So an input of "orange", "orange", "blue", "red" should return:
 
 "33 megaohms ±2%"
 

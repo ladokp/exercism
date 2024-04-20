@@ -48,7 +48,7 @@ This function will expect a DNA sequence (as a string) as input, and will output
 
 Refer to [Defining Functions][def] in the jq manual.
 
-[def]: https://stedolan.github.io/jq/manual/#DefiningFunctions
+[def]: https://jqlang.github.io/jq/manual/#DefiningFunctions
 
 ## Source
 

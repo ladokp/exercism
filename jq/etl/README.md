@@ -94,7 +94,7 @@ outputs
 ]
 ```
 
-[x_entries]: https://stedolan.github.io/jq/manual/v1.6/#to_entries,from_entries,with_entries
+[x_entries]: https://jqlang.github.io/jq/manual/v1.7/#to_entries-from_entries-with_entries
 
 ## Source
 

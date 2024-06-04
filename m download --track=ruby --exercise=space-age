@@ -1,0 +1,6293 @@
+[33mcommit b1d1557737c341651a431ff63ab55699c1bb8504[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jun 3 22:18:34 2024 +0200
+
+    javascript: ozans-playlist
+
+[33mcommit aa2071fdb56abd12fbe2f42f16b9d461354f2bb0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jun 2 19:18:38 2024 +0200
+
+    javascript: high-score-board
+
+[33mcommit 145c421f9a972a3a93187bea524c42280cfba04e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jun 1 23:00:57 2024 +0200
+
+    javascript: translation-service
+
+[33mcommit 66cbfcef458a664b9a756d19443fbaadb23d003c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri May 31 21:36:00 2024 +0200
+
+    javascript: fruit-picker
+
+[33mcommit 62eb5e208048dfc9564e27ff89194789fb10fb23[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu May 30 12:44:18 2024 +0200
+
+    javascript: coordinate-transformation
+
+[33mcommit 99ed321cb453cff0a39060fa049c18146969d4a4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 29 19:43:19 2024 +0200
+
+    sqlite: yacht
+
+[33mcommit a04fe7e34d5c33f100966e28eb56a1294532e185[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 29 19:43:06 2024 +0200
+
+    sqlite: luhn
+
+[33mcommit d2453e16bb88fd828e8e5cf8731750d687d534c0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 29 19:42:44 2024 +0200
+
+    sqlite: isogram
+
+[33mcommit fa043ca27bf8143e0a3c0716fb887ab03cfb2745[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 29 19:42:28 2024 +0200
+
+    sqlite: high-scores
+
+[33mcommit 2ceee58b882f8ebf863bff2d461261b032a1ddea[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 28 19:40:21 2024 +0200
+
+    csharp: pig-latin
+
+[33mcommit 077a9c6e1981b89dd3c0a2c6a62c7ba5413b9295[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 28 19:31:27 2024 +0200
+
+    bash: pig-latin - iteration 2
+
+[33mcommit 3c6d2b1825ad2eb643829e6ec7bd208036f79f9c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 28 19:28:38 2024 +0200
+
+    lua: pig-latin
+
+[33mcommit 43fb48cf1911d68e0575bd99ac9f195859435f26[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon May 27 21:30:15 2024 +0200
+
+    bash: pig-latin
+
+[33mcommit c6d85a09c5224cbf2fdc565a2bc1ad069b61384d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun May 26 21:59:22 2024 +0200
+
+    coffeescript: armstrong-numbers
+
+[33mcommit 3838b49c3d56d26cc3e06388be34c470aeb481e9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat May 25 19:10:17 2024 +0200
+
+    ruby: eliuds-eggs
+
+[33mcommit 3e387536a02fa5f615d55f4aed446e5df1e0ac28[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri May 24 18:48:04 2024 +0200
+
+    python: grains - iteration 3
+
+[33mcommit fb323111f3b36266bea75602b865427ffe0bb5b8[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu May 23 23:18:58 2024 +0200
+
+    python: grains - iteration 2
+
+[33mcommit d075a1115840b4ba8e52fabb3a52954ebd0d85bf[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 22 21:09:25 2024 +0200
+
+    nim: bob
+
+[33mcommit caffc0c07ea253de2c25788c16c2bebc862429c8[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 21 20:34:16 2024 +0200
+
+    tcl: dnd-character
+
+[33mcommit 109b34f158d7818b8f72d29cd46d708d25275dd9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 21 20:32:32 2024 +0200
+
+    nim: dnd-character
+
+[33mcommit 5e53346e7e60f506da5038074813678889fd2012[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 21 20:29:06 2024 +0200
+
+    unison: dnd-character
+
+[33mcommit ec87a1a75d1e97447490c952add3b4a4363b5970[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 21 15:09:27 2024 +0200
+
+    initial commit - unison
+
+[33mcommit f5ff2c92e79ba70112812917b991ebb234a4ec29[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon May 20 22:59:31 2024 +0200
+
+    javascript: two-fer
+
+[33mcommit c6fe948942ac258731d1f62010bdcc746d94d216[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun May 19 23:39:43 2024 +0200
+
+    fortran: reverse-string
+
+[33mcommit 861e53e6c1c798d6347740dc48147b7af47f7838[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat May 18 16:13:12 2024 +0200
+
+    erlang: reverse-string
+
+[33mcommit 9beea61beb934d2080d8ca7a807d54e26bd9ce37[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri May 17 12:28:01 2024 +0200
+
+    fortran: leap
+
+[33mcommit 0c6a505769b361d04235332b1ec0ad6d606aa5ec[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri May 17 12:27:49 2024 +0200
+
+    zig: leap
+
+[33mcommit 2037db4646fe2c9d4912d0178c7dd3406af6c97e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri May 17 12:27:35 2024 +0200
+
+    erlang: leap
+
+[33mcommit d0053ae1ce10fe7bffc536bad71ebb7a1c975915[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu May 16 23:40:10 2024 +0200
+
+    ocaml: reverse-string
+
+[33mcommit d5fc60271e9b2c4cc5de1c5cacb928058ebc554b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu May 16 23:37:54 2024 +0200
+
+    ocaml: leap
+
+[33mcommit 5728730755d487b4fe951d50bf73814343d455a2[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 15 21:41:11 2024 +0200
+
+    crystal: minesweeper
+
+[33mcommit 94fd756a57e0f3d94e73695b78fec4cad045c4bc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 15 21:39:00 2024 +0200
+
+    ocaml: minesweeper
+
+[33mcommit e8ad10e2d8f436440d118a9c414094fc93a4af90[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 15 21:36:34 2024 +0200
+
+    initial commit - ocaml
+
+[33mcommit 59d1b6ccf6f180a015f66e84b2026e45901a04f7[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 15 21:30:40 2024 +0200
+
+    pharo-smalltalk: minesweeper
+
+[33mcommit 6513a5fca33597a38469c177aef3cec5398dd735[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 14 11:13:13 2024 +0200
+
+    javascript: pizza-order
+
+[33mcommit 4746b5b18f421a945a554cb28e44cf55cf27de80[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon May 13 15:55:16 2024 +0200
+
+    javascript: amusement-park
+
+[33mcommit 70bfd80f715ee4dbf56f885bb95341ee4e856caa[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun May 12 20:20:02 2024 +0200
+
+    javascript: elyses-looping-enchantments
+
+[33mcommit f1dfdf31813f0bd831b091969038467f064fabd2[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun May 12 20:02:55 2024 +0200
+
+    javascript: elyses-destructured-enchantments
+
+[33mcommit 802deceead9f8b5164fa569c62c769e741dbce9f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat May 11 12:46:00 2024 +0200
+
+    javascript: elyses-analytic-enchantments
+
+[33mcommit 7cdd3817c6b1e4e1faee3fbb51f53e1021be79eb[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri May 10 21:42:51 2024 +0200
+
+    javascript: lucky-numbers
+
+[33mcommit 51117c9fc1f0c19f46f5d632206782beee413c55[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu May 9 10:36:58 2024 +0200
+
+    javascript: mixed-juices
+
+[33mcommit 72d8870d9b63f30abb1ca146ab05fcd522233bb1[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 8 22:02:20 2024 +0200
+
+    javascript: bird-watcher
+
+[33mcommit 0af85094dcae60f368a7dcb73095e765567e5f76[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 7 12:03:20 2024 +0200
+
+    javascript: zebra-puzzle
+
+[33mcommit b1ac2dab4bd6dea0dd304e78ebf8305cecf469d9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 7 12:03:01 2024 +0200
+
+    scala: zebra-puzzle
+
+[33mcommit f07b3f5d0a2142aaacd89ed21c2fb5136cb35cca[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 7 12:02:38 2024 +0200
+
+    prolog: zebra-puzzle
+
+[33mcommit 73f4c9c7e0acfcf5e7b6bafe8bb54618fa1ee87a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon May 6 21:44:26 2024 +0200
+
+    sqlite: collatz-conjecture
+
+[33mcommit 2cacf30a39122f2d4850d2136a2b5631ced58062[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun May 5 23:37:55 2024 +0200
+
+    sqlite: armstrong-numbers
+
+[33mcommit 9ae46315fb40aacb39a1bb0b557bcf0b2f149af2[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat May 4 18:39:55 2024 +0200
+
+    sqlite: meetup
+
+[33mcommit 80362acf43dc878318fd1c51a058ab03fa8c39a5[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri May 3 22:03:28 2024 +0200
+
+    sqlite: nucleotide-count
+
+[33mcommit c864a346cd1d6663b51f36dd16c260243d7a711e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu May 2 23:03:39 2024 +0200
+
+    pyret: hamming
+
+[33mcommit f6afa91bf27c684e7b31446387eee62750c53cc6[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 1 21:49:56 2024 +0200
+
+    pyret: bob
+
+[33mcommit 45e95a8c207af1bdd7b83fa604d006ede00691f1[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Apr 30 13:33:04 2024 +0200
+
+    groovy: all-your-base
+
+[33mcommit bd4cefee4f3e6e21e94a63051b3c60ad5321644a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Apr 30 13:32:38 2024 +0200
+
+    erlang: all-your-base
+
+[33mcommit 86ca70c177a21a351760f04008433d279f710b1f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Apr 30 13:32:23 2024 +0200
+
+    cpp: all-your-base
+
+[33mcommit 59c648cbe443f8045dd718afcbf844a9e06d64d5[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Apr 29 12:39:19 2024 +0200
+
+    initial commit - erlang
+
+[33mcommit 165082b625bb827956a57b0cf933d7208bac9ab3[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Apr 29 12:36:58 2024 +0200
+
+    sqlite: eliuds-eggs
+
+[33mcommit 4a6de8f81888df4d3a256547898f76f7f1ad29af[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Apr 28 20:18:05 2024 +0200
+
+    sqlite: allergies
+
+[33mcommit adcf562daf43a959c7fa462773b3e1a50bcbcd38[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Apr 27 19:22:07 2024 +0200
+
+    sqlite: bob
+
+[33mcommit abeff47c4d0092f3c5a9801198a153178cf84bd9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Apr 26 22:33:44 2024 +0200
+
+    sqlite: resistor-color-duo
+
+[33mcommit e742302165c2840d80ff160fd787f2cc3dc58118[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Apr 26 22:27:29 2024 +0200
+
+    sqlite: resistor-color
+
+[33mcommit 9db0491d28b3e93c5b63e2288129b43bd791eb19[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Apr 25 21:09:03 2024 +0200
+
+    coffeescript: high-scores
+
+[33mcommit 6f63531dd3ef80fd0f2bca54a20d32e02b023ac9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Apr 25 21:05:45 2024 +0200
+
+    coffeescript: gigasecond
+
+[33mcommit fb3f8e832fc20b4317653bebf0c99eb35260b13a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Apr 24 22:12:34 2024 +0200
+
+    pyret: reverse-string
+
+[33mcommit 80b820f95b3a208f90866bb9f614805b2d59ee7a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Apr 24 22:06:56 2024 +0200
+
+    sqlite: two-fer
+
+[33mcommit 62e2f42a1b2ca91021d615833fa2f7cb8a950ea7[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Apr 24 22:04:44 2024 +0200
+
+    sqlite: raindrops
+
+[33mcommit ebd9fbac422a0cccce14e7e89af1df7f8fc8dc8f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Apr 24 21:57:22 2024 +0200
+
+    sqlite: grains
+
+[33mcommit 2ce77bc1647e4d9b690d9b121b239197b98110da[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Apr 24 21:52:57 2024 +0200
+
+    sqlite: leap
+
+[33mcommit 28e204b263b005cf0498e56740356045d51eed42[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Apr 24 21:50:22 2024 +0200
+
+    sqlite: gigasecond
+
+[33mcommit 0a4b0e11e2cedf1f1bb3f442c2f0ab2a9b6b6ecf[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Apr 24 20:30:09 2024 +0200
+
+    sqlite: difference-of-squares
+
+[33mcommit d3a3261dbdf63d1beaa2a6b15df9f106228b99ee[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Apr 24 20:23:17 2024 +0200
+
+    sqlite: darts
+
+[33mcommit 175d1afeb99946403047c6aa46aab0659f5e0e30[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Apr 24 20:11:17 2024 +0200
+
+    initial commit - sqlite
+
+[33mcommit 4eb61cf77170fc7777f371f9b3227d26917d43db[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Apr 23 20:19:49 2024 +0200
+
+    ruby: boutique-inventory
+
+[33mcommit 9a44308aca3605896d95d7d0791f07356b9df11e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Apr 22 21:40:46 2024 +0200
+
+    ruby: bird-count
+
+[33mcommit b5987bbe4eeea7d48eda17be7da713bd5943deb6[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Apr 21 20:35:19 2024 +0200
+
+    ruby: acronym
+
+[33mcommit c63db26c224a49ce9ef984a2bbf84248eb4dda18[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Apr 20 09:51:44 2024 +0200
+
+    all: updated solutions with auxiliaire
+
+[33mcommit efd3ad49f4150ef4c70716a4038ee3755eb893fa[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Apr 20 09:38:43 2024 +0200
+
+    pyret: anagram
+
+[33mcommit 939c5b130fa67721e6d13a39a6117f1becadc4a7[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Apr 19 19:25:08 2024 +0200
+
+    pyret: allergies
+
+[33mcommit ff99742833e4bfb91f7c68c72fc5244793fc27ac[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Apr 18 16:38:42 2024 +0200
+
+    pyret: eliuds-eggs
+
+[33mcommit 485466a3b47475513826a12434fc68df59934f9a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Apr 17 22:26:19 2024 +0200
+
+    pyret: grains
+
+[33mcommit 0d6cf7543203a78e132c94bfa9a6f8b18fa2eca3[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Apr 16 19:30:35 2024 +0200
+
+    pyret: armstrong-numbers
+
+[33mcommit fed0e4a1fb411c2b09dd9b844fcd899803cbba3c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Apr 15 21:45:43 2024 +0200
+
+    pyret: darts
+
+[33mcommit 3238fae791071b69fac8923666d7fbcc54fc3c7c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Apr 14 10:39:50 2024 +0200
+
+    pyret: difference-of-squares
+
+[33mcommit 18dae6012cb58ce77ae041e190f62681f41a2886[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Apr 13 20:21:02 2024 +0200
+
+    r: difference-of-squares
+
+[33mcommit 16495c9f5c638ac5200de27b0f11343971e53444[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Apr 13 20:16:45 2024 +0200
+
+    swift: difference-of-squares
+
+[33mcommit 83d6c31b46f9f0e93c32c82498df48519fbe97e0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Apr 12 20:12:49 2024 +0200
+
+    ruby: blackjack
+
+[33mcommit e0e07291a307d5ea56689fa8dd490bed446598af[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Apr 11 22:17:49 2024 +0200
+
+    elixir: dnd-character
+
+[33mcommit e989014cad118ab3a9c1bb5e1fc0da1dd654278e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Apr 11 22:15:48 2024 +0200
+
+    elixir: bottle-song
+
+[33mcommit 1da3198c0ccb3a925e02d99376199ba69e253128[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Apr 10 18:55:39 2024 +0200
+
+    elixir: binary-search-tree
+
+[33mcommit 8f667a290705e84abe786e2aaec9f5c2ddafc581[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Apr 9 20:49:03 2024 +0200
+
+    c: scrabble-score
+
+[33mcommit e07b14fc9d3151f0fd78a26e7e0440f4c8bf81fd[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Apr 9 20:48:29 2024 +0200
+
+    scheme: leap
+
+[33mcommit b3bebc3fbc58fac63938daf17ba05daa7fcb40e1[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Apr 9 20:48:04 2024 +0200
+
+    scheme: scrabble-score
+
+[33mcommit 15122cb0a2a384b24129e28a270156312d6406fc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Apr 9 20:47:34 2024 +0200
+
+    initial commit - scheme
+
+[33mcommit 1a2919124f6e6702b691bf71be7e0a4c37d90133[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Apr 8 20:53:11 2024 +0200
+
+    elixir: binary-search
+
+[33mcommit 2b6adc9687abcf5001cd968d5309bd74ecc22091[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Apr 7 22:52:19 2024 +0200
+
+    elixir: atbash-cipher
+
+[33mcommit 3ffbb9c276cea292ae909a3bf135c47ac3ad72ce[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Apr 6 20:35:25 2024 +0200
+
+    elixir: triangle
+
+[33mcommit deb6143a0ceca19d927c5532121e1a22ddf0e091[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Apr 5 15:33:22 2024 +0200
+
+    elixir: sum-of-multiples
+
+[33mcommit b2d2ef18ce1899940bb979a0944c8c5c56f46490[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Apr 4 22:29:44 2024 +0200
+
+    elixir: secret-handshake
+
+[33mcommit 9299d0b3037c09caf1a4334dfaa60652451023f3[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Apr 3 19:07:52 2024 +0200
+
+    coffeescript: hamming
+
+[33mcommit d96a7b08749483a6aad3a6311315d41862bfea54[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Apr 2 20:08:56 2024 +0200
+
+    perl5: luhn
+
+[33mcommit 6da7aa81cdcb81c45ed2aec5466d50b210f828dd[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Apr 2 19:51:10 2024 +0200
+
+    perl5: leap
+
+[33mcommit fad16355fb23f94ff5a35649a6db249b4fcef4de[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Apr 2 19:48:55 2024 +0200
+
+    initial commit - perl5
+
+[33mcommit ed5cd4d45bd558e14cf4d322547dad3e1324871e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Apr 2 19:47:38 2024 +0200
+
+    typescript: luhn
+
+[33mcommit 2a2b482a764397e38bd81ac1e0b789c24881d63c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Apr 1 20:33:29 2024 +0200
+
+    lua: house
+
+[33mcommit 28ef71e9547b57b2d5598356230394aec3c4f32c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Mar 31 16:31:39 2024 +0200
+
+    lua: pacman-rules
+
+[33mcommit d4f7c4a29880be9dcfd25a5b84187130ac61f895[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Mar 30 19:28:05 2024 +0100
+
+    lua: cars-assemble
+
+[33mcommit a02e9bda9c03cbf82a2884a6c4a78486d53f1378[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Mar 29 22:09:55 2024 +0100
+
+    coffeescript: secret-handshake
+
+[33mcommit 448c7455037a03bf2c518ee54f3c5fb1ea2e7488[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Mar 28 20:22:05 2024 +0100
+
+    lua: lasagna
+
+[33mcommit 7d51cd1cec851a8cf8d3061db1f5774a3b85173a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Mar 27 21:13:40 2024 +0100
+
+    coffeescript: robot-simulator
+
+[33mcommit 0b9df23c4e518766355f17b720a7a68db205413e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Mar 27 21:11:37 2024 +0100
+
+    coffeescript: sieve
+
+[33mcommit 7c6e95375f342834c872b9308870ab30b51c0c22[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Mar 26 22:17:58 2024 +0100
+
+    fortran: sieve
+
+[33mcommit fc8605333cbffc96c6e8ef8211d0f267ae1bb759[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Mar 26 22:14:25 2024 +0100
+
+    zig: sieve
+
+[33mcommit 4f4670674f0e03486944a16bba83caa274f18bc5[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Mar 25 19:18:15 2024 +0100
+
+    bash: sieve
+
+[33mcommit e430e96ffe847d4d6c9caeff4cd96ba0d95196cd[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Mar 25 19:03:31 2024 +0100
+
+    initial commit - fortran
+
+[33mcommit a2f0dd2d02bc84ab0b1f02440534828e54dcd07c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Mar 25 19:02:31 2024 +0100
+
+    initial commit - zig
+
+[33mcommit 03823a0e7c2d6e6769eda2dd921597570b4d3743[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Mar 24 20:23:44 2024 +0100
+
+    pyret: acronym
+
+[33mcommit 655cb9216d9995851ea095c665a84364eb8d7642[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Mar 23 16:50:53 2024 +0100
+
+    pyret: collatz-conjecture
+
+[33mcommit bdd922246f672f614b41bf793200ee5a3ee66175[m
+Author: Patrick Kodal <patrick.kodal@dat.at>
+Date:   Fri Mar 22 13:09:16 2024 +0100
+
+    pyret: two-fer
+
+[33mcommit c25543765bbe28b9cd14a6801489071f14ff18bf[m
+Author: Patrick Kodal <patrick.kodal@dat.at>
+Date:   Thu Mar 21 08:05:18 2024 +0100
+
+    pyret: leap
+
+[33mcommit 7005ce0db587ab738b0e198a202e57f3975de810[m
+Author: Patrick Kodal <patrick.kodal@dat.at>
+Date:   Thu Mar 21 07:55:53 2024 +0100
+
+    initial commit - pyret
+
+[33mcommit dbfb011b87641f4bad42f2ab9a7d9689c2facf31[m
+Author: Patrick Kodal <patrick.kodal@dat.at>
+Date:   Wed Mar 20 21:27:43 2024 +0100
+
+    elm: reverse-string
+
+[33mcommit cbe49ba6c0a618aab1f0d94361855683c364c5eb[m
+Author: Patrick Kodal <patrick.kodal@dat.at>
+Date:   Tue Mar 19 21:15:43 2024 +0100
+
+    elm: leap
+
+[33mcommit cf28070bd870f59681935726e5f58b6f2fc0bdf0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Mar 18 20:04:27 2024 +0100
+
+    rust: allergies
+
+[33mcommit 4d33dc0ad3c0e41eec879982ff17cd63779f3d74[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Mar 18 20:02:15 2024 +0100
+
+    nim: allergies
+
+[33mcommit ba933f4c84a4d79daff54dafae7c428c5d998c36[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Mar 18 20:00:14 2024 +0100
+
+    elm: allergies
+
+[33mcommit 8972baeddab8f6d9d878ae3f2bb74774e15aac69[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Mar 18 19:56:47 2024 +0100
+
+    initial commit - elm
+
+[33mcommit 3f27f6e467a9f994eafdb9d05b8a3eedd7167775[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Mar 17 20:38:26 2024 +0100
+
+    python: eliuds-eggs - iteration 6
+
+[33mcommit 274cf40bdfc0bb2a48d5fd38dd21901b6215c444[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Mar 16 21:58:45 2024 +0100
+
+    python: acronym - iteration 4
+
+[33mcommit 3da427b20236bd9acb7a417e3c04b484f41a26bd[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Mar 15 19:50:20 2024 +0100
+
+    ruby: chess-game
+
+[33mcommit 4fc8aef611e8dfbd79248b68077b47b4cd6dfb30[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Mar 14 21:31:02 2024 +0100
+
+    python: pangram - iteration 4
+
+[33mcommit b219dd5e2d1d0c0b7491fee55046114486f963ff[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Mar 13 19:28:59 2024 +0100
+
+    ruby: dnd-character
+
+[33mcommit ea6ed56a1fcef70c1c616295d619796bc4292e7e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Mar 12 18:17:42 2024 +0100
+
+    scala: two-fer
+
+[33mcommit 37926961ebea95f5f6f0a681b96f6b6948e53f00[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Mar 11 17:53:24 2024 +0100
+
+    scala: parallel-letter-frequency
+
+[33mcommit bfa639cc09373428f60f081f1df96950469f036e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Mar 10 20:07:27 2024 +0100
+
+    java: parallel-letter-frequency
+
+[33mcommit 55ebd5edd4e1a26ade638c60a4063af7258f4610[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Mar 10 20:05:43 2024 +0100
+
+    elixir: parallel-letter-frequency
+
+[33mcommit d8836437f9ebf7740320a42c44285f2573aaa68c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Mar 10 12:06:20 2024 +0100
+
+    jq: all-your-base
+
+[33mcommit cdfbadfbc3b555ec064c82215fd278c6f7aaa960[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Mar 10 11:58:16 2024 +0100
+
+    jq: pangram
+
+[33mcommit f4f039bc421fc1ff3b37f04b1bd735e8748f4773[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Mar 10 11:57:51 2024 +0100
+
+    coffeescript: circular-buffer
+
+[33mcommit bf72a7c9385a7dd07472a9c6327d8cb444283438[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Mar 9 22:02:51 2024 +0100
+
+    elixir: space-age
+
+[33mcommit e778cad8acb9317b307dc60bf97efd7c681945fc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Mar 8 20:55:48 2024 +0100
+
+    groovy: reverse-string
+
+[33mcommit e9e9b0577080b0cf2eaa8f6cbbde3e811927bb04[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Mar 8 20:53:42 2024 +0100
+
+    c: reverse-string
+
+[33mcommit 25cececf77f014978def9912b7673fa238a20c08[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Mar 8 17:12:11 2024 +0100
+
+    scala: leap
+
+[33mcommit 05f00a560d5c37560e886836b9f074f881d6834c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Mar 8 17:10:23 2024 +0100
+
+    groovy: leap
+
+[33mcommit 612faac7927b7330ef6ff9db24d4d9267d12c70f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Mar 8 17:05:08 2024 +0100
+
+    c: leap
+
+[33mcommit a69b83db19f1ee806b16230efce3fbcea89ad5d3[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Mar 7 20:05:56 2024 +0100
+
+    scala: circular-buffer
+
+[33mcommit d9d95a3e03944890a967af3bc7f1f24fb9353972[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Mar 7 19:15:36 2024 +0100
+
+    initial commit - scala
+
+[33mcommit 998110ca31893421e874fae78cf08bf0700c702f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Mar 7 19:14:49 2024 +0100
+
+    groovy: circular-buffer
+
+[33mcommit 53c2b8b0aa90b086e0c1d153e185a947a5be8d33[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Mar 7 19:10:47 2024 +0100
+
+    initial commit - groovy
+
+[33mcommit ef07107aee6467552e664071428935f9cf7e73e7[m
+Author: Patrick Kodal <patrick.kodal@dat.at>
+Date:   Wed Mar 6 01:23:16 2024 +0100
+
+    c: circular-buffer
+
+[33mcommit 205d8755e2c8c62c9c6f11ebe98681db9634c888[m
+Author: Patrick Kodal <patrick.kodal@dat.at>
+Date:   Tue Mar 5 23:23:23 2024 +0100
+
+    initial commit - c
+
+[33mcommit d7a67091f757ace05045fd0939c96c3e4aa2290c[m
+Author: Patrick Kodal <patrick.kodal@dat.at>
+Date:   Mon Mar 4 23:24:19 2024 +0100
+
+    coffeescript: allergies
+
+[33mcommit 5a6f02c5b4ad02aa8de4a2d2afac8f12a1e54f70[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Mar 3 08:44:46 2024 +0100
+
+    elixir: run-length-encoding
+
+[33mcommit e50165045acf377d8c69dae6aee3ab0c89471bcb[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Mar 2 12:18:25 2024 +0100
+
+    elixir: scrabble-score
+
+[33mcommit 713dad78d87531a296bad22d2afb2f62db3683f6[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Mar 1 19:24:04 2024 +0100
+
+    tcl: reverse-string
+
+[33mcommit 652d1779c5009e99398b24895b3e86ac4e9f6ac1[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Mar 1 19:23:00 2024 +0100
+
+    sml: reverse-string
+
+[33mcommit 67d11395a5ce36f62eac0bd3ba1f6280b8d91b8f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 29 22:12:12 2024 +0100
+
+    swift: reverse-string
+
+[33mcommit 8cc08971c5cd0f6feef86783da0b9de3361b0124[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 29 21:59:42 2024 +0100
+
+    coffeescript: acronym
+
+[33mcommit c5e27f4fabc47e245f14a7032c5f611feba57b93[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 29 21:55:44 2024 +0100
+
+    haskell: reverse-string
+
+[33mcommit 2c9b8c252d37fce441471a0cb8e008c7d9a1b8b5[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Feb 28 20:56:56 2024 +0100
+
+    swift: leap
+
+[33mcommit 6080de2f0d985e6834f4fd692798a0fef91a618f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Feb 28 20:47:17 2024 +0100
+
+    tcl: leap
+
+[33mcommit ecfab0f5d6a4bcc94a20d12813cae37c138dcb35[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Feb 28 20:47:03 2024 +0100
+
+    haskell: leap
+
+[33mcommit 10f103db854afc768827e2cd085287a1a1ad10b4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 27 22:22:35 2024 +0100
+
+    tcl: acronym
+
+[33mcommit fb8b1e7e8de1e8cdf948e998708f9902abbe2238[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 27 22:22:17 2024 +0100
+
+    initial commit - tcl
+
+[33mcommit 500a7594cef81ef8d1e87bd2f6d6aacd1803a820[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 27 22:21:54 2024 +0100
+
+    haskell: acronym
+
+[33mcommit daaca85b53962dd8bb875f7891cab3eb24973e05[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 27 22:21:31 2024 +0100
+
+    initial commit - haskell
+
+[33mcommit 75d5bdf72a1d74d55f2e8bbca5267746773641bc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 27 22:21:04 2024 +0100
+
+    powershell: acronym
+
+[33mcommit f04fc2d17a731d9cc6532a226931063fbaf27895[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Feb 26 19:40:48 2024 +0100
+
+    jq: difference-of-squares
+
+[33mcommit e3bfc84976e27d3d6f6e4b51e6747575507adf1a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Feb 26 17:51:48 2024 +0100
+
+    coffeescript: list-ops
+
+[33mcommit 1e1a012a1bf6118173395a9cc74c9933bbdefbcb[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Feb 25 20:26:12 2024 +0100
+
+    elixir: sublist
+
+[33mcommit f7eac039f2c6910654ddad80e972649f4a44dc74[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Feb 25 00:35:14 2024 +0100
+
+    elixir: series
+
+[33mcommit 7ae9442b6bb24f8067189af0b68bd0a3d999e880[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Feb 24 20:53:52 2024 +0100
+
+    bash: list-ops
+
+[33mcommit a73b09ef7c3a7ddad4102c0e76726b70944116ca[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Feb 24 13:10:55 2024 +0100
+
+    elixir: list-ops - iteration 3
+
+[33mcommit 224da50df5ec1eae2b31a253eef1d1fda0bde263[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Feb 24 12:31:17 2024 +0100
+
+    elixir: list-ops - iteration 2
+
+[33mcommit a67085bd25099ba500f9aa957b5e137fc1278155[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Feb 23 23:20:47 2024 +0100
+
+    elixir: list-ops
+
+[33mcommit ab1e9aeae6bdf1346adb48f84372e35d0255f383[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 22 20:58:39 2024 +0100
+
+    gleam: reverse-string
+
+[33mcommit ae4116c7a7c8799bb7af7ef583a70727cb22c8d3[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Feb 21 22:38:25 2024 +0100
+
+    sml: leap
+
+[33mcommit 551b7224a523470a8ff750d55df400ae6c7f4e5f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Feb 21 22:38:09 2024 +0100
+
+    gleam: leap
+
+[33mcommit 6151d2c35f6ddd673eca345388a3423384beb762[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 20 19:50:20 2024 +0100
+
+    sml: list-ops
+
+[33mcommit dcf519d2539ef2df05fab6833c3c4f0842e0a73d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 20 19:49:23 2024 +0100
+
+    swift: list-ops
+
+[33mcommit f472fd8aa1bd020d191ce40e71288575dd29e36d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 20 19:49:05 2024 +0100
+
+    gleam: list-ops
+
+[33mcommit 42c5973e269057d046d6dde34e2886e1fcb1c09e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Feb 19 19:46:00 2024 +0100
+
+    jq: acronym
+
+[33mcommit a2affe9aa494f7828f64ccbf2173b16e7ca001bc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Feb 19 19:42:13 2024 +0100
+
+    initial commit - swift
+
+[33mcommit 3e21799385df686c35333b030c1a528ed3671dcc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Feb 19 19:39:28 2024 +0100
+
+    initial commit - sml
+
+[33mcommit 201b1797eb13cf11f3e39ef51afa13f72ffc47e1[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Feb 19 19:38:34 2024 +0100
+
+    initial commit - gleam
+
+[33mcommit 5cbc7c620d18726f2cdf11d61b6bea56da43d3c3[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Feb 18 20:48:38 2024 +0100
+
+    python: inventory-management - iteration 3
+
+[33mcommit 59c07f5c6933ed9c24a5c9be7570de7808c63b8f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Feb 18 20:35:28 2024 +0100
+
+    python: inventory-management - iteration 2
+
+[33mcommit 46fb9d54ecd182c3c13ff84ae3035f1ef4f0538b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Feb 17 22:26:16 2024 +0100
+
+    rust: roman-numerals
+
+[33mcommit c0fb2222697ec32abfeb3b39c50eb8b85b90f48e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Feb 17 19:43:46 2024 +0100
+
+    python: armstrong-numbers - iteration 3
+
+[33mcommit b39ca167165b34ad143555fa3678f58f3cd36277[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Feb 17 19:12:06 2024 +0100
+
+    ruby: roman-numerals
+
+[33mcommit f5f2291989c20acc902402e4ad1ce5648d4831d8[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Feb 17 11:50:13 2024 +0100
+
+    r: roman-numerals
+
+[33mcommit 1385bbc43a91f77826cf6b4245b07e493cedd8f9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Feb 16 20:21:54 2024 +0100
+
+    coffeescript: binary-search
+
+[33mcommit 174f883bd667606c3829c6ddf4ee8f7108615e0c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Feb 16 20:17:51 2024 +0100
+
+    coffeescript: collatz-conjecture
+
+[33mcommit 315edd0952113c19c59edbc0c8640068e33ccbc5[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 15 22:16:50 2024 +0100
+
+    crystal: raindrops
+
+[33mcommit 4f659c2908d50282382aed3c49beac2fa0057146[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 15 22:10:05 2024 +0100
+
+    crystal: reverse-string
+
+[33mcommit 0e4af680422e36684600b18520cad7212215b87a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 15 20:50:52 2024 +0100
+
+    wasm: eliuds-eggs - iteration 2
+
+[33mcommit 3d4c550bfaf1e0d963a5816aba7c07400306c881[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 15 20:49:37 2024 +0100
+
+    coffeescript: dnd-character
+
+[33mcommit e51c0595f0bde6672393d0479e0f4da570739a63[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 15 20:49:16 2024 +0100
+
+    coffeescript: eliuds-eggs
+
+[33mcommit 0d3089e43e39d82ccd6dd091adb6326b89049e67[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 15 20:48:47 2024 +0100
+
+    crystal: leap
+
+[33mcommit 8e755a2c19e61cb09bc01cc448f9bc7fc3210eb6[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 15 20:48:19 2024 +0100
+
+    csharp: leap
+
+[33mcommit 8787694e99453c1c53e9a2eedc8bbba52fc917c0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 15 20:48:05 2024 +0100
+
+    csharp: reverse-string
+
+[33mcommit 23cf0fd1342dfdd6c837cb5d37009c236d75c614[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 15 20:47:40 2024 +0100
+
+    csharp: raindrops
+
+[33mcommit 875b2d232562a61150ab5f518ef45e503c23a50f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 15 20:46:10 2024 +0100
+
+    coffeescript: pangram
+
+[33mcommit fa5a8fea255f536841efc6235a0640b08bacc443[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Feb 14 18:29:05 2024 +0100
+
+    awk: protein-translation
+
+[33mcommit a9a0f2702167f7da8b32223f4cf2e066263235b6[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 13 19:34:19 2024 +0100
+
+    csharp: roman-numerals
+
+[33mcommit 49912cb5bb94e7c889b23414a51c93275d6d0751[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 13 19:30:26 2024 +0100
+
+    cpp: roman-numerals
+
+[33mcommit 63914af61f8795db23e77cecc5cc0df97178e811[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 13 19:28:14 2024 +0100
+
+    crystal: roman-numerals
+
+[33mcommit d1f002b9bcb5b1a3cf1e2fda8977a39083375777[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 13 19:23:29 2024 +0100
+
+    csharp: protein-translation
+
+[33mcommit d66681d29f6d194d621311859b4eb04bb0ba5ba3[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 13 19:23:10 2024 +0100
+
+    initial commit - csharp
+
+[33mcommit 86a7116b6cf0a10561136807863ba0dd4ab7c3b1[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 13 19:22:53 2024 +0100
+
+    crystal: protein-translation
+
+[33mcommit af92557ca248bd046e0eea5f4979c1557d23bc9e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 13 19:22:37 2024 +0100
+
+    initial commit - crystal
+
+[33mcommit 4b30e7614d52a9d2940cde18339a7d42aa039550[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 13 19:22:08 2024 +0100
+
+    fsharp: protein-translation
+
+[33mcommit b851f5920124d4394e4c3758ffa44ec11e3f7976[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Feb 12 19:16:37 2024 +0100
+
+    powershell: roman-numerals
+
+[33mcommit 342c3d18579b59aa235480d0e5985d83fb5abb78[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Feb 12 19:16:20 2024 +0100
+
+    nim: roman-numerals
+
+[33mcommit aa4914135d1f0d408c57ab700c18c340370ce554[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Feb 11 22:09:27 2024 +0100
+
+    mips: roman-numerals
+
+[33mcommit e6eaf54f20a5f2cc8893e25a8b9b0f60d5baecea[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Feb 11 11:12:28 2024 +0100
+
+    fsharp: roman-numerals
+
+[33mcommit c46f1a61bdc79cf23951b02a6631573e1edf4f07[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Feb 10 09:43:59 2024 +0100
+
+    prolog: rna-transcription
+
+[33mcommit 28e8497c2f91f619a62044f34e830d0ed225ecf6[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Feb 9 22:10:17 2024 +0100
+
+    elixir: rotational-cipher
+
+[33mcommit d36ee9325788076ba3e7aef128c1908d5ca59764[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Feb 9 22:09:48 2024 +0100
+
+    elixir: pig-latin
+
+[33mcommit bb73e078e9125066f6915c111e44e13ab7f4548d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 8 15:45:33 2024 +0100
+
+    lua: roman-numerals
+
+[33mcommit 6e04a8c59c71962be278ad6bb8cda0e98f49f84a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 8 15:37:00 2024 +0100
+
+    javascript: roman-numerals
+
+[33mcommit 63fcf86d628e946cb32c00c5f2cd57eeaccd6bf6[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 8 15:36:36 2024 +0100
+
+    common-lisp: roman-numerals
+
+[33mcommit 0d5bf217ad22c6275cd614f14bf2a14da450b222[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 8 15:36:03 2024 +0100
+
+    bash: roman-numerals
+
+[33mcommit 6262d5eac39bf87fc17404b822d8f9aeec538bab[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Feb 7 15:24:04 2024 +0100
+
+    clojure: roman-numerals
+
+[33mcommit 5406eec57ff1211782671765a1245b8c28de9aef[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Feb 7 15:03:33 2024 +0100
+
+    awk: roman-numerals
+
+[33mcommit f6c74f0cd5a9ba294cd9357d422a206763212375[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 6 19:13:52 2024 +0100
+
+    java: roman-numerals - iteration 2
+
+[33mcommit 555a4715d3d119f1d443151600648e75f9cfa09c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 6 19:04:23 2024 +0100
+
+    java: roman-numerals
+
+[33mcommit 891fc970d3e3319e12fe2681dd2cd1560f743dfa[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Feb 5 20:53:02 2024 +0100
+
+    java: squeaky-clean - iteration 2
+
+[33mcommit 094cbf741183f9fa297e9e05cc63dd80232fcb2d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Feb 5 20:38:24 2024 +0100
+
+    elixir: eliuds-eggs - iteration 2
+
+[33mcommit d99dc37e62689d24a87a0135615c7f8d576d4bdc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Feb 5 20:35:53 2024 +0100
+
+    lua: eliuds-eggs - iteration 3
+
+[33mcommit 4b957074fd138cd9f8d02dc766089b5be3c818ea[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Feb 5 20:32:29 2024 +0100
+
+    python: eliuds-eggs - iteration 5
+
+[33mcommit 05048169b326c136fc3a3f1a8e5a94d9a5db271d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Feb 5 18:29:34 2024 +0100
+
+    pharo-smalltalk: roman-numerals
+
+[33mcommit 25b6dfdb6a944aa5d840523d4a613847062d5532[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Feb 5 18:26:31 2024 +0100
+
+    julia: roman-numerals
+
+[33mcommit 4c38cfed0455443f24d21b0b9a7512fd4f393dfb[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Feb 4 19:22:13 2024 +0100
+
+    pharo-smalltalk: raindrops
+
+[33mcommit 2b460a961ee0546d9cd118371b0461852984690e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Feb 4 19:16:23 2024 +0100
+
+    pharo-smalltalk: reverse-string
+
+[33mcommit da4f7f3385b1852b62abd5ef7b41bcc32a6aaa64[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Feb 4 19:13:54 2024 +0100
+
+    pharo-smalltalk: leap
+
+[33mcommit 49978fa88de9df52f2ada940fdb207653f90353e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Feb 4 19:02:04 2024 +0100
+
+    pharo-smalltalk: two-fer
+
+[33mcommit 5990affb3d4fa2fac180707e45a612ea16947cd8[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Feb 4 18:54:22 2024 +0100
+
+    initial commit - pharo-smalltalk
+
+[33mcommit 79043787f1055ee735acebd65690cda141decb61[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Feb 4 18:52:53 2024 +0100
+
+    elixir: roman-numerals
+
+[33mcommit e08f90206ee12521e4dd4bf162d1f5be9a43c245[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Feb 4 17:41:57 2024 +0100
+
+    ruby: port-palermo
+
+[33mcommit 2e55888a321e4969518adf119ddf8b3cdee0ed24[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Feb 3 20:28:58 2024 +0100
+
+    ruby: savings-account
+
+[33mcommit 5ba8776767e80de731ff65bb3b143ca275c68c42[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Feb 2 21:15:37 2024 +0100
+
+    ruby: resistor-color-duo
+
+[33mcommit bae873afd832ae243f7f7de73fd64fe077220624[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Feb 2 21:09:38 2024 +0100
+
+    ruby: resistor-color
+
+[33mcommit 0d3a041fd11fbb20670d1e35c1874ed1a851ac40[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Feb 2 20:56:15 2024 +0100
+
+    ruby: assembly-line
+
+[33mcommit 175580307e64ba41caa2e29c50f126668fce1e98[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Feb 2 20:39:33 2024 +0100
+
+    ruby: amusement-park-improvements
+
+[33mcommit b65ce9055903eeaf6f88b17e777bb4dc2a846502[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Feb 2 20:18:51 2024 +0100
+
+    ruby: amusement-park
+
+[33mcommit 61a1a24d88584e75a475147f22536d940b7c87e9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 1 12:48:40 2024 +0100
+
+    r: reverse-string
+
+[33mcommit 42071723d0156daea160c9dbfee2aa28e77dd206[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 1 12:47:47 2024 +0100
+
+    ruby: leap
+
+[33mcommit 77c8e72d7aac817321d004ed4e2757b832f283cd[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 1 12:46:39 2024 +0100
+
+    r: leap
+
+[33mcommit 14d3103823fb82b46fc87438945f778ae91831b0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 1 12:46:13 2024 +0100
+
+    common-lisp: leap
+
+[33mcommit 42bdb36682f6e6674462c5c71cdf247af68db0fe[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 1 12:45:20 2024 +0100
+
+    vimscript: raindrops
+
+[33mcommit 743ed9bf483fa9660c20b6e2b8657210a64ecd28[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 1 12:44:47 2024 +0100
+
+    nim: raindrops
+
+[33mcommit 64957a10f416268be7458cd44904ec55ef517b84[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 1 12:44:17 2024 +0100
+
+    julia: raindrops
+
+[33mcommit 538b18f15daeb3779ca3ecffa3048f86583c8493[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 1 12:42:33 2024 +0100
+
+    coffeescript: protein-translation - iteration 2
+
+[33mcommit 02cfac0bad028b07f010b5922e4242e402d76898[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 31 21:13:16 2024 +0100
+
+    coffeescript: protein-translation
+
+[33mcommit c615607ad2c604ebe6f8e1cf6f554722381d0f51[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 31 20:11:57 2024 +0100
+
+    coffeescript: difference-of-squares - iteration 2
+
+[33mcommit 0d9f2842bb8d212521d73aca29407ccbe5b7acc0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 31 20:10:26 2024 +0100
+
+    coffeescript: difference-of-squares
+
+[33mcommit efbe77e9f5a323967cd34b6c9447e16e972284c3[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 31 20:05:56 2024 +0100
+
+    coffeescript: space-age
+
+[33mcommit b82f26edd6fc11c3fd28e287e22857ec97fc8900[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 31 20:03:56 2024 +0100
+
+    coffeescript: roman-numerals
+
+[33mcommit 6d347af0efed03ee3dd176750360b1b2ac02a791[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 31 20:03:24 2024 +0100
+
+    go: dnd-character
+
+[33mcommit 2d0570cb12e83bc4e99ac496c2b2ba2cb26a6940[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 30 19:45:00 2024 +0100
+
+    jq: roman-numerals
+
+[33mcommit eef82b17d9ddd6cbff19e02fa33dc9b627fc3334[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 30 19:41:41 2024 +0100
+
+    python: mecha-munch-management
+
+[33mcommit 03a237926f0d048b7bcbcd6873835f50652cae2a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 30 14:58:47 2024 +0100
+
+    r: raindrops
+
+[33mcommit 64522a91ce1c60e0e99b89a1d1301d6fb8ff869a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 30 14:58:05 2024 +0100
+
+    initial commit - r
+
+[33mcommit 0a92aca360f2b46e8188479642bdc4f16547f447[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 30 14:57:31 2024 +0100
+
+    common-lisp: raindrops
+
+[33mcommit 05422e89c909adcfc5ed25d8bc55348793920e70[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 30 14:56:59 2024 +0100
+
+    ruby: raindrops
+
+[33mcommit e92690ee7b8f00588c86113564b0f8e557fc4825[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 30 14:56:27 2024 +0100
+
+    ruby: two-fer
+
+[33mcommit 17ac1fe68e29f20b1c9db1db59f3fe6669e87a0f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 30 14:55:57 2024 +0100
+
+    ruby: log-line-parser
+
+[33mcommit 46d4e860bd5d5b2a9e4e564871d8eec8d9ac1c8b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jan 29 16:24:50 2024 +0100
+
+    common-lisp: socks-and-sexprs
+
+[33mcommit a43cd8f40c4bb5b4ee70acb06e6469663512e83b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jan 28 12:48:23 2024 +0100
+
+    initial commit - common-lisp
+
+[33mcommit 6354567419c68aec3284132f6afe17a67a60a7bf[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jan 27 22:12:18 2024 +0100
+
+    ruby: reverse-string
+
+[33mcommit 77b2b35c3416d489d5ee60ef2a00b8b5e0c3656d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jan 27 22:06:08 2024 +0100
+
+    ruby: lasagna
+
+[33mcommit 914b8bf108309e989189d7aacf1b9cde2d746849[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jan 27 20:11:43 2024 +0100
+
+    initial commit - ruby
+
+[33mcommit b09a6372b7393f03811c8408099a4bcbaf6ea4b4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jan 26 23:27:39 2024 +0100
+
+    mips: raindrops
+
+[33mcommit 63d813d6092824786ca789d60f52e690e999c355[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jan 25 22:04:08 2024 +0100
+
+    java: leap - iteration 4
+
+[33mcommit 24a6201254d6ceb867ec6b5572ba103029bd9023[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 24 21:41:09 2024 +0100
+
+    lua: raindrops
+
+[33mcommit a42ad42d95ab494692815f73baadb04560494dd3[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 24 21:29:55 2024 +0100
+
+    javascript: raindrops
+
+[33mcommit bc4a6efc48f56ae5f774716e47ac64b00133442a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 24 21:21:34 2024 +0100
+
+    java: raindrops - iteration 2
+
+[33mcommit 7f54dab816de07db508e737b9319b95743216f0d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 24 21:08:55 2024 +0100
+
+    java: raindrops
+
+[33mcommit 1a0597e22361a053d96f49367e6e0da630bf0a2c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 24 20:45:19 2024 +0100
+
+    fsharp: raindrops
+
+[33mcommit 440f5a97ce4c0c9b7054722e682dc7df8175c613[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 24 20:15:07 2024 +0100
+
+    emacs-lisp: raindrops
+
+[33mcommit 3e07bcce3b467480cec80b0fe4dffb7dd03be510[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 23 19:39:16 2024 +0100
+
+    abap: raindrops
+
+[33mcommit 52ceb7d25f4435e6ea481ec88879c4a49db89d7d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 23 19:35:56 2024 +0100
+
+    clojure: raindrops
+
+[33mcommit f9c828273ce06a1390b4d638aea96ddcd48c87a0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 23 19:31:58 2024 +0100
+
+    emacs-lisp: reverse-string
+
+[33mcommit d2cce99c63567dc3c702488571f6d59ca098fdca[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 23 19:31:32 2024 +0100
+
+    prolog: reverse-string
+
+[33mcommit b1d114e0dd67083949ac4b10b9153d1019a20580[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 23 19:30:17 2024 +0100
+
+    julia: reverse-string
+
+[33mcommit 46d7ff644946b2c7e486b1e8f3c85004297990d4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jan 22 20:28:38 2024 +0100
+
+    javascript: gigasecond
+
+[33mcommit 9341150911cc623827c3010b89749b42c85a43a7[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jan 22 20:09:09 2024 +0100
+
+    nim: two-fer
+
+[33mcommit 6740a3d509091bef158be4747def6cb0cbcee144[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jan 22 19:50:04 2024 +0100
+
+    javascript: vehicle-purchase
+
+[33mcommit 0e1b1e9f4737a0a9d83164f68376c6583d8f885a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jan 22 19:15:35 2024 +0100
+
+    javascript: elyses-enchantments
+
+[33mcommit 62c09c0c03c4dbc3405d2f800627c998d944bf65[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jan 22 18:43:12 2024 +0100
+
+    javascript: poetry-club-door-policy
+
+[33mcommit 25c3603d791ca7fe825daa076049ec98ed610bf5[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jan 21 18:42:51 2024 +0100
+
+    python: reverse-string - iteration 2
+
+[33mcommit 60b902b5713c44ababb60ebed859a015337ef62d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jan 20 21:14:56 2024 +0100
+
+    javascript: freelancer-rates
+
+[33mcommit dd0f12a33ac8f411cb1bd5acedbfebb1feb6769d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jan 20 20:59:40 2024 +0100
+
+    javascript: lasagna
+
+[33mcommit e02f9ef64890216d18f67ead33a368d85f33adc8[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jan 20 09:22:39 2024 +0100
+
+    javascript: annalyns-infiltration
+
+[33mcommit 61d6863b21227adb7954e120293808d6aef57d43[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jan 19 22:17:22 2024 +0100
+
+    python: anagram - iteration 3
+
+[33mcommit 7911953c2e7d1f537f15982181eff0af61163801[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jan 19 20:39:27 2024 +0100
+
+    python: leap - iteration 5
+
+[33mcommit 7ffa299986a2463e6fd106363f226d173aeb660f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jan 18 12:21:46 2024 +0100
+
+    nim: hamming
+
+[33mcommit a6ae529460b4c159050b41c3b70f1b9a9870a36d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jan 18 12:21:15 2024 +0100
+
+    nim: reverse-string
+
+[33mcommit 9ead4cd3a9bd56bfc531e1cd716aac6cd0912009[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jan 18 12:20:48 2024 +0100
+
+    nim: leap
+
+[33mcommit 1a1dfe56004ffdaa61c01ae3f5b0b5922da882ea[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jan 18 12:20:18 2024 +0100
+
+    initial commit - nim
+
+[33mcommit 9f749942919266e391f1a00feb79578eb4b28923[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jan 18 12:19:36 2024 +0100
+
+    javascript: reverse-string
+
+[33mcommit 812f0d4568cb52224c8423fef925194a3bbcedb2[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jan 18 12:18:58 2024 +0100
+
+    javascript: leap
+
+[33mcommit 3c64e81853a0e5a2db845beedb9b4b1d86ac9483[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jan 18 12:18:09 2024 +0100
+
+    initial commit - javascript
+
+[33mcommit 13519c9d4f93eb47a2ba339449d47355b39b93fd[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 17 21:53:09 2024 +0100
+
+    clojure: reverse-string
+
+[33mcommit 9f7e27bd07a0e005ce870d120fe66b958b0af8f2[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 17 21:18:10 2024 +0100
+
+    java: difference-of-squares
+
+[33mcommit a557ebe3e4767160ab0a4944dd2e79e5ff05ebcc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 17 21:06:27 2024 +0100
+
+    java: grains
+
+[33mcommit ea4f61c7106eb17acef3e19353431c161b032175[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 17 19:03:31 2024 +0100
+
+    mips: reverse-string
+
+[33mcommit 9f69a41ee5a2b35f2e6c926af651582f511d7410[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 17 18:47:08 2024 +0100
+
+    abap: reverse-string
+
+[33mcommit 9f8de6c52cdd4e783a0f2b9a4a5c5c2582ac2e32[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 17 17:51:52 2024 +0100
+
+    abap: leap
+
+[33mcommit 80a3bc88cbbe683327e1402483f8a8ccfb7883d5[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 16 21:53:52 2024 +0100
+
+    bash: leap
+
+[33mcommit 793d95754b57de39421800747bb270a399b67159[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jan 15 10:41:56 2024 +0100
+
+    java: log-levels
+
+[33mcommit 50e665ff9c7a276934f90625cbbb041339d985e0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jan 15 10:40:52 2024 +0100
+
+    java: cars-assemble
+
+[33mcommit c5a945ec80312fcfcfa792f507648baefbb0bf83[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jan 14 21:15:45 2024 +0100
+
+    java: need-for-speed - iteration 2
+
+[33mcommit 0bf8f2dc7baaa7fda155ae2aa05f5c442fd794f9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jan 14 21:12:14 2024 +0100
+
+    java: need-for-speed
+
+[33mcommit a78f0d021e421267aa3504e9f5822c82773be3f3[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jan 14 19:14:53 2024 +0100
+
+    java: elons-toy-car
+
+[33mcommit 4662d7613679a1a2a10aeedea871ea87651b3745[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jan 13 22:29:22 2024 +0100
+
+    coffeescript: raindrops - iteration 2
+
+[33mcommit 8196fbd0feeefbc6bb182e1dff542029ee123dab[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jan 13 21:42:57 2024 +0100
+
+    python: leap - iteration 4
+
+[33mcommit fb1d283c092af0c764e4a28d6bc39a6bc8edaac6[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jan 13 13:16:27 2024 +0100
+
+    java: squeaky-clean
+
+[33mcommit fb68d9e4f7c0191b2e9a4197a1e877a4daf019b5[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jan 12 21:06:20 2024 +0100
+
+    mips: leap
+
+[33mcommit 5ee0b51389222b99725ac38e7febd65b9d8efe1a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jan 12 20:56:51 2024 +0100
+
+    mips: hello-world
+
+[33mcommit 2b1cf06019208a6f6dc3aff181398bb00ec0e781[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jan 12 20:40:03 2024 +0100
+
+    clojure: leap
+
+[33mcommit 8515cadddbf86c1f1495e463c86c7a187c5819c2[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jan 12 20:23:51 2024 +0100
+
+    java: calculator-conundrum
+
+[33mcommit 4bd6d25613baa52c40d77635ea1b87203da5587b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jan 12 20:22:35 2024 +0100
+
+    java: hamming
+
+[33mcommit 65a2c36982b79e3fe19118fabb117213fe925d97[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jan 11 15:28:29 2024 +0100
+
+    coffeescript: resistor-color-duo
+
+[33mcommit 2c5bec9c4b09a17442fde517bbd0fc2b0e92932f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jan 11 15:26:54 2024 +0100
+
+    coffeescript: raindrops
+
+[33mcommit cfc271c210d0479ced0103b3a42e301b8158118e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 10 16:40:55 2024 +0100
+
+    java: darts
+
+[33mcommit 9abff0edc20082e45f6277c53be57e1b20b96f96[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 9 20:40:14 2024 +0100
+
+    java: gigasecond
+
+[33mcommit 4fca879d99f57cf8a25b9ac20d52b3ef2801025f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 9 19:36:21 2024 +0100
+
+    coffeescript: isogram
+
+[33mcommit c50186a5c02c5236e6c872a728226d97038f7e7e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 9 16:19:03 2024 +0100
+
+    coffeescript: resistor-color
+
+[33mcommit 8aace7488f51b1852a030ca937638af1cc4ddd83[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 9 16:12:23 2024 +0100
+
+    coffeescript: reverse-string
+
+[33mcommit bc62ac9a9f558938cf6aaffef0c1579f5154dcd4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 9 16:05:47 2024 +0100
+
+    java: karls-languages
+
+[33mcommit 3629ff78ab2ecb82577d16be8dd80fccf3696f60[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 9 15:57:23 2024 +0100
+
+    python: leap - iteration 3
+
+[33mcommit ceb6f8709d4b25d4e3f6b1429da262be05e92ade[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jan 8 23:08:31 2024 +0100
+
+    java: bird-watcher
+
+[33mcommit 3af4a21b449a6c2869ceea41786e6b171a368251[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jan 8 18:18:29 2024 +0100
+
+    java: two-fer
+
+[33mcommit 53fc8fe7e13615b9a1238b5c04880dba79030d64[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jan 8 18:13:41 2024 +0100
+
+    java: annalyns-infiltration
+
+[33mcommit 4f93cae446a1ca8e8a9826c4bfcf5904d12bc415[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jan 8 18:04:01 2024 +0100
+
+    java: lasagna
+
+[33mcommit 128afcbff7e5943abbfce40e6dc765c9cbfa1c6b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jan 7 22:12:34 2024 +0100
+
+    vimscript: reverse-string
+
+[33mcommit b7b4eb9ea5dee40c003e06b8100f822288d19c22[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jan 7 22:02:22 2024 +0100
+
+    fsharp: reverse-string
+
+[33mcommit 97bf4eb2d2350c64e80036d3430cb7a45d5f2222[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jan 7 21:57:44 2024 +0100
+
+    fsharp: leap
+
+[33mcommit 19a6d6a190cdddbc657ffffabe39eeaa95ad534a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jan 7 21:46:24 2024 +0100
+
+    java: reverse-string
+
+[33mcommit b82af5d70efb8e7b8966996aff593523326bf1e7[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jan 7 21:30:46 2024 +0100
+
+    java: leap
+
+[33mcommit 57e2042266848623aaa8161219c54ae1d25973df[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jan 7 21:27:54 2024 +0100
+
+    java: hello-world
+
+[33mcommit 59a1c87e5952c8e1d40da7e84389790ce206069f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jan 6 16:21:29 2024 +0100
+
+    elixir: rna-transcription
+
+[33mcommit 5da60282620d70bb2ac783496c24613da363bbe8[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jan 6 13:50:35 2024 +0100
+
+    elixir: pangram
+
+[33mcommit d74516d979e5938193486de4f95eaa9e80c33ec9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jan 6 11:44:25 2024 +0100
+
+    elixir: nucleotide-count - iteration 3
+
+[33mcommit ea61f880023439365d54e87558af35fee8802661[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jan 6 11:29:44 2024 +0100
+
+    elixir: nucleotide-count
+
+[33mcommit 3dc76d03cc20b9248aacbc633509bb48e0c27161[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jan 5 22:31:20 2024 +0100
+
+    elixir: nth-prime
+
+[33mcommit 8987c81e1e792026556eaf598b610497f85e76aa[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jan 5 19:39:23 2024 +0100
+
+    elixir: armstrong-numbers
+
+[33mcommit 76493fa22b5352e70a49bb113d16d82348607851[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jan 4 15:29:08 2024 +0100
+
+    coffeescript: square-root
+
+[33mcommit 5c3c51fa2f0356fb3057b2f7f58baef9a3346807[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jan 4 15:28:45 2024 +0100
+
+    coffeescript: strain
+
+[33mcommit fa61d6a5bcacbd4bf6368f248c0cd24cd7bdfb9f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jan 4 15:27:51 2024 +0100
+
+    coffeescript: leap - iteration 2
+
+[33mcommit 0afbef69945ca826bfc0b28273111fec8c1c0543[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jan 4 15:25:12 2024 +0100
+
+    coffeescript: darts - iteration 2
+
+[33mcommit f31bbd3eb3c0cb1f97f1c45f42a4eca33bc2bb42[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jan 4 15:24:37 2024 +0100
+
+    coffeescript: grains - iteration 2
+
+[33mcommit 15edec0be8d3e4f0ca796f64b4823145647c6878[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 3 23:04:12 2024 +0100
+
+    coffeescript: leap
+
+[33mcommit 1fb4afb7a5ec111dccb60eaca154bece53325a8a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 3 23:02:22 2024 +0100
+
+    coffeescript: darts
+
+[33mcommit c6a67f94dc37ec40d44850bea6a52579a416b2d8[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 3 22:54:47 2024 +0100
+
+    coffeescript: grains
+
+[33mcommit f37e567e6f9be8d29f87d339d8721f0a8f8ca23a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 3 22:23:47 2024 +0100
+
+    elixir: gigasecond
+
+[33mcommit b3dfbffc3cd718bc60fedfe371e8fcbfe1881c20[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 2 19:23:01 2024 +0100
+
+    elixir: anagram
+
+[33mcommit c866e69ba31a7059e89406ef9e1e92b23dd4b3f1[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jan 1 21:35:12 2024 +0100
+
+    elixir: strain - iteration 3
+
+[33mcommit b05fc5845c6f52299e639baea222b670353c2515[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jan 1 19:43:14 2024 +0100
+
+    elixir: acronym
+
+[33mcommit 54b17f3d121e56eb894873b9226b041b3adb5ae6[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Dec 31 21:19:46 2023 +0100
+
+    elixir: strain
+
+[33mcommit 7feb3d35688d2b2c13fb1886c84b63445256efbe[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Dec 30 10:31:14 2023 +0100
+
+    elixir: log-parser
+
+[33mcommit 101639966236a7417ffa92e3244c8cecc27759e5[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Dec 30 10:28:57 2023 +0100
+
+    elixir: take-a-number-deluxe
+
+[33mcommit 66eab7e7ca4927cd3b9ebde9048ec0371301269b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Dec 29 09:33:05 2023 +0100
+
+    elixir: dancing-dots
+
+[33mcommit 379c2c68b98006ce1137a77ea80628d6e5738508[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Dec 28 10:24:47 2023 +0100
+
+    elixir: top-secret
+
+[33mcommit ed0706b3bce3cd23d21ccfca816a5e9e453441f4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Dec 27 19:32:01 2023 +0100
+
+    elixir: lucas-numbers
+
+[33mcommit 6569b291c37f9c6b99ed3c1c4bf11206443f2fac[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Dec 26 18:18:04 2023 +0100
+
+    elixir: rpn-calculator-inspection
+
+[33mcommit 9e70422347363e0db5a7c241f09de09534460545[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Dec 26 08:54:07 2023 +0100
+
+    elixir: stack-underflow
+
+[33mcommit 4aec3784ff400664c1156b7cc897146fb3a44d35[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Dec 24 11:23:23 2023 +0100
+
+    elixir: new-passport
+
+[33mcommit 20383440ef153e26267447c6f628e2664cbc7a01[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Dec 20 18:12:56 2023 +0100
+
+    elixir: rpn-calculator
+
+[33mcommit 9ae9089b16b726ca691a12ca530c68d7bfc42ac3[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Dec 19 19:48:35 2023 +0100
+
+    elixir: need-for-speed
+
+[33mcommit 46c7c93bb5303187c15f5082dbbb77d4ae5e17f0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Dec 18 22:50:45 2023 +0100
+
+    elixir: grains
+
+[33mcommit e0ebc723a499351b01f7ac4d993d4ca5845e944b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Dec 18 19:19:40 2023 +0100
+
+    python: pop-count - iteration 4
+
+[33mcommit bd609b1969644dfeb0df49973969515c04e2ce1e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Dec 18 19:08:24 2023 +0100
+
+    elixir: captains-log
+
+[33mcommit 204b59b964dbf4da2f8f64cd82b185eba1108fc6[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Dec 17 22:05:22 2023 +0100
+
+    elixir: bread-and-potions
+
+[33mcommit fb0a08e77afd267495c4b8216f43ee85eebb6b1c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Dec 16 06:39:51 2023 +0100
+
+    elixir: etl
+
+[33mcommit d97cacce2b8bffbb48e360b3f085674fd0975ba0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Dec 15 06:55:28 2023 +0100
+
+    elixir: all-your-base
+
+[33mcommit d6f26071b1dc362fa7b27d1cae30669ec51f7cf5[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Dec 14 20:03:42 2023 +0100
+
+    elixir: raindrops
+
+[33mcommit f795516c70d31565aa2784bccd577c2b7eda5d0c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Dec 13 20:46:15 2023 +0100
+
+    elixir: community-garden
+
+[33mcommit 451bba14f0e24ed5de9c15fa263b943e29b29196[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Dec 13 20:45:39 2023 +0100
+
+    elixir: boutique-suggestions
+
+[33mcommit 2951080b887854f96d23e8e1f341dffe5f680230[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Dec 12 18:21:55 2023 +0100
+
+    elixir: paint-by-number
+
+[33mcommit fa7015dd36aea476293f1a2bb0c5329ef12f4a4f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Dec 12 06:24:26 2023 +0100
+
+    elixir: file-sniffer - iteration 3
+
+[33mcommit 8c9c6de680ec978cd109cd223c0c6b1deac1449f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Dec 11 18:10:12 2023 +0100
+
+    lua: space-age
+
+[33mcommit b623be53483cfc7500d1b7553a87c4d762d4fac0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Dec 10 21:23:38 2023 +0100
+
+    lua: high-scores
+
+[33mcommit f4500aa98364d1efb7beddf8eefaf54a3fde98e7[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Dec 9 21:05:25 2023 +0100
+
+    vimscript: collatz-conjecture
+
+[33mcommit 85c897d505a672203892ea5a8ca441c452877055[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Dec 9 20:51:59 2023 +0100
+
+    vimscript: darts
+
+[33mcommit 503998c2b3ecefbb85293e0e1fe8eb335843db78[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Dec 9 20:46:47 2023 +0100
+
+    vimscript: difference-of-squares
+
+[33mcommit 5c8821f577993d1ff5142ae8caa5619db7d71c9b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Dec 9 20:41:02 2023 +0100
+
+    vimscript: leap
+
+[33mcommit e0fd8908edf06aa1ad56095c5256bd7b5347948f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Dec 9 20:34:52 2023 +0100
+
+    vimscript: grains
+
+[33mcommit c9ae2097d20ea831a770c2d87aecef69d8762ddd[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Dec 9 20:24:07 2023 +0100
+
+    initial commit - vimscript
+
+[33mcommit 721a5d9ea446e177cb4a94efd2dc29cb9e241c38[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Dec 9 13:44:43 2023 +0100
+
+    rust: sum-of-multiples
+
+[33mcommit bcd17ba81e2bf5390b5e90d30490d3965b052dba[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Dec 8 21:25:39 2023 +0100
+
+    rust: raindrops
+
+[33mcommit 8819b5720dda46f6a85d5ec88ed135117a3c6cf8[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Dec 7 19:51:01 2023 +0100
+
+    rust: leap
+
+[33mcommit 2e38b9e4350154ea61d5532152d58016210cf6c0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Dec 7 19:48:11 2023 +0100
+
+    rust: grains
+
+[33mcommit a1c020cfb94863d3f3486880b9b7509e0f7f5794[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Dec 7 19:27:46 2023 +0100
+
+    rust: difference-of-squares
+
+[33mcommit 238d37954c3846933b35eb14a78d4063c286d7c1[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Dec 6 20:32:54 2023 +0100
+
+    rust: gigasecond
+
+[33mcommit 3e76f5ff46ccd69c34ff07de97db5de69006e4e4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Dec 6 18:26:43 2023 +0100
+
+    rust: reverse-string
+
+[33mcommit 3ed3ee4946f41392690060619e40d1ce81eb0477[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Dec 5 20:10:06 2023 +0100
+
+    go: difference-of-squares - iteration 2
+
+[33mcommit de018b4120cfa33f453840fd3acfd8ca59c76e83[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Dec 4 20:13:45 2023 +0100
+
+    python: rna-transcription - iteration 3
+
+[33mcommit 00ebed56ae8ac1fa4d26e9fd82bbdfaea886dfa6[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Dec 2 06:46:59 2023 +0100
+
+    lua: sum-of-multiples
+
+[33mcommit 7194ce311b8704e957ddebc864708a4e7c986a93[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Dec 1 17:12:46 2023 +0100
+
+    lua: resistor-color - iteration 2
+
+[33mcommit 9ebdff37905c887b0ba2e660afa362bed9419792[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Dec 1 17:10:18 2023 +0100
+
+    lua: resistor-color-duo
+
+[33mcommit 1a7b1d7308ba472e32f0133bee8ca94eb731fc0f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Nov 30 07:46:20 2023 +0100
+
+    python: card-games - iteration 3
+
+[33mcommit 09104e9d98a0a9cddcc99fc14dc3d250fffa809b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Nov 29 10:29:11 2023 +0100
+
+    go: sorting-room - iteration 2
+
+[33mcommit 576834cf26a8d104903217de89720588b4a2df8c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Nov 28 22:31:32 2023 +0100
+
+    wasm: circular-buffer - iteration 2
+
+[33mcommit e3fd28a8c25a0d295ca0564cae0b37af57846eaa[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Nov 28 18:56:25 2023 +0100
+
+    python: secret-handshake - iteration 2
+
+[33mcommit 0344ffe903e6045cf0fb092f4cccaf7cc69224f0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Nov 28 18:26:37 2023 +0100
+
+    go: nucleotide-count - iteration 3
+
+[33mcommit ee1e43bb31992f194c92bee71bdc3e192dc712a5[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Nov 28 18:23:33 2023 +0100
+
+    go: nucleotide-count - iteration 2
+
+[33mcommit 197f43a6473c2c3d0e7f25725db3184dc1bf0814[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Nov 28 15:28:55 2023 +0100
+
+    lua: square-root
+
+[33mcommit d8005500965055be344d73f1dece511b31480e12[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Nov 28 15:27:16 2023 +0100
+
+    lua: resistor-color
+
+[33mcommit 72b25b88467c605d884183e10dd1b34269471b13[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Nov 27 17:49:07 2023 +0100
+
+    lua: two-fer
+
+[33mcommit d7fb48b9a5aa015e7e536c14daef5c1fe19a6281[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Nov 27 17:45:59 2023 +0100
+
+    lua: collatz-conjecture
+
+[33mcommit 6398a4cd9b71f8a4a8570bea2bf10ae37ab1ee86[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Nov 27 17:38:16 2023 +0100
+
+    wasm: sieve
+
+[33mcommit 338f8ab62b84b810c25c772bf74e4ca3c0cd02e4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Nov 26 10:59:13 2023 +0100
+
+    go: hamming - iteration 3
+
+[33mcommit 235e749e57706597fb8b0538aeee24113e05842f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Nov 25 07:43:13 2023 +0100
+
+    lua: reverse-string
+
+[33mcommit 71c5d06ea00f3bf8fa976c678b6a863f92fd702a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Nov 24 20:11:11 2023 +0100
+
+    lua: leap
+
+[33mcommit 1d1487c92b5aee19b1bfc90706a69ac1d00ee6ac[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Nov 24 20:05:56 2023 +0100
+
+    lua: difference-of-squares
+
+[33mcommit 5671a8f2ddc5157bfa807b977e09fa6f2881dab7[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Nov 24 13:47:10 2023 +0100
+
+    python: raindrops - iteration 4
+
+[33mcommit 703521b74b37a573fef44f7aa210b8c9c1485872[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Nov 23 18:20:52 2023 +0100
+
+    lua: darts
+
+[33mcommit 717a9b01ce6c3fd92da139f322b62e435733a66d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Nov 22 22:03:27 2023 +0100
+
+    lua: grains
+
+[33mcommit 9fd6740567745108b6432638e39912520c7c9529[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Nov 21 19:11:17 2023 +0100
+
+    lua: pop-count - iteration 2
+
+[33mcommit 5168d1939f060ac7ca32de1c4163496456ffdffb[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Nov 20 19:44:33 2023 +0100
+
+    powershell: resistor-color-expert
+
+[33mcommit e9a20cdb20c48e34a3afa3477a9736d962d2def0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Nov 19 20:02:06 2023 +0100
+
+    python: bob - iteration 2
+
+[33mcommit 792c2ea674b64978b30e5242fe5698da3a3daba6[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Nov 18 20:11:09 2023 +0100
+
+    lua: nth-prime
+
+[33mcommit fc2754bde95f4a4922b229b0a6952593886da09a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Nov 18 20:07:19 2023 +0100
+
+    lua: binary-search
+
+[33mcommit ac2128f1f13379a0b63f8bfaa154c64b8dd828f7[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Nov 18 20:03:28 2023 +0100
+
+    lua: armstrong-numbers
+
+[33mcommit e24b96c3be6932aa39ad711ecf6c91015329817e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Nov 17 20:08:14 2023 +0100
+
+    go: hamming - iteration 2
+
+[33mcommit edfc95bcd0462f65eff4c1b4bdf0089e2c2eabb5[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Nov 16 21:11:30 2023 +0100
+
+    lua: pop-count
+
+[33mcommit 1d863d0c083ea6220dabd5e3961c302adb682530[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Nov 15 19:37:25 2023 +0100
+
+    typescript: wordy
+
+[33mcommit 1b5654774ae44ae933398ec04a3b86e6d5dac55d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Nov 14 20:32:01 2023 +0100
+
+    typescript: simple-cipher
+
+[33mcommit 9303720ac52b4a0e4b4e4bf6ca7a70e2c2762dea[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Nov 13 22:57:34 2023 +0100
+
+    lua: hamming
+
+[33mcommit f0213b4d4ea7737a6813b78521a9b7d684860899[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Nov 13 22:54:26 2023 +0100
+
+    lua: flatten-array
+
+[33mcommit 43e7d6bca19d348c1bca8e359dcc32d72cb9de78[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Nov 13 22:50:29 2023 +0100
+
+    lua: run-length-encoding
+
+[33mcommit 42e97ef43335740921fd6fa55e8175ae2b5efa16[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Nov 13 22:41:39 2023 +0100
+
+    lua: queen-attack
+
+[33mcommit 7b01b1f03e495f39e3feb1c0921e5ed77f93553e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Nov 13 22:39:43 2023 +0100
+
+    lua: all-your-base
+
+[33mcommit 5c813dd4ad76a816491b74f4b2cee666b3496f96[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Nov 13 22:33:34 2023 +0100
+
+    lua: dnd-character
+
+[33mcommit 41eea3e41fc85dd1582a74454d5e387ba301af27[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Nov 13 22:29:53 2023 +0100
+
+    initial commit - lua
+
+[33mcommit 19b6a808d03ea6780a177565b6edb19b5ab0663e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Nov 13 18:33:04 2023 +0100
+
+    go: chessboard - iteration 3
+
+[33mcommit edce2469ac87e66bb5f33c313fd9c73d32bf6666[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Nov 13 17:43:16 2023 +0100
+
+    abap: two-fer
+
+[33mcommit 6481a233bdccb023453ed05abe333743ad5674cf[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Nov 13 17:39:37 2023 +0100
+
+    abap: scrabble-score
+
+[33mcommit 323ea422c49018df81195be39d301a7a047cd46b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Nov 13 17:37:28 2023 +0100
+
+    abap: itab-nesting
+
+[33mcommit ca7243916af19472ab691d8f4fc343805b18298f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Nov 12 19:02:17 2023 +0100
+
+    wasm: pangram
+
+[33mcommit b7fc2403c6d8b8479e9197d8af93e42ea404016a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Nov 12 10:47:50 2023 +0100
+
+    wasm: raindrops
+
+[33mcommit 1903767f2cb3b63ffbf2b00161047ca2e0f6df9a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Nov 11 19:30:29 2023 +0100
+
+    typescript: knapsack
+
+[33mcommit 7f1aa8e08719fda3edc6016fc17b024f48dc4151[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Nov 11 00:40:47 2023 +0100
+
+    wasm: rna-transcription
+
+[33mcommit 97caec84ee618084e7948956ad9061cadcb3ca2f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Nov 11 00:30:02 2023 +0100
+
+    wasm: armstrong-numbers
+
+[33mcommit 2b8dedb58cc2961fd09320baf188961df1208a60[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Nov 10 15:46:28 2023 +0100
+
+    typescript: atbash-cipher
+
+[33mcommit 50005f559b4159e7a0825823da6f132c5f2ef915[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Nov 10 15:41:34 2023 +0100
+
+    wasm: circular-buffer
+
+[33mcommit adcf4466a7cbb469761f91fc610849fe393b6046[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Nov 9 19:41:06 2023 +0100
+
+    typescript: rational-numbers
+
+[33mcommit 361f30cea3f75a503c3e231ff32979bfe6ab64e5[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Nov 9 00:50:06 2023 +0100
+
+    wasm: triangle
+
+[33mcommit 2ddcf85daf2df8c9daf390122254255008153324[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Nov 8 20:36:00 2023 +0100
+
+    wasm: acronym
+
+[33mcommit 26d68c1e14a755bf802b38334907c7b32e38c2cc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Nov 7 17:51:16 2023 +0100
+
+    wasm: bank-account
+
+[33mcommit 2357ec7ff4002e0609366f6b67a9727762eb616b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Nov 6 18:57:04 2023 +0100
+
+    wasm: binary-search
+
+[33mcommit 3d1aa28234c02ee192dd788f704b812d61b62cbb[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Nov 5 21:17:40 2023 +0100
+
+    powershell: micro-blog
+
+[33mcommit 6c4f5969710b7947dd96adb2c8a328ab77131ca3[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Nov 5 19:13:05 2023 +0100
+
+    wasm: two-fer
+
+[33mcommit 2094ae41788148c64fab4222b3ec065b353c3f98[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Nov 4 07:59:46 2023 +0100
+
+    wasm: reverse-string
+
+[33mcommit 52bed5e8640be3712258180d7797847346586659[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Nov 3 20:41:28 2023 +0100
+
+    wasm: all-your-base
+
+[33mcommit 4d846cae3bc82af0ee231ec7ee6f01775f96fee5[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Nov 3 20:25:09 2023 +0100
+
+    general: exclude users directory from git
+
+[33mcommit 3cebbfd0d38786a43a43ffc963a61f952cfb6c0e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Nov 3 18:28:07 2023 +0100
+
+    wasm: leap
+
+[33mcommit 6d2ba451fe015dc9c8564a02919955338672efe8[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Nov 3 18:22:24 2023 +0100
+
+    wasm: rotational-cipher
+
+[33mcommit 2dfe9322b8202d827fcf451a2bd17c07b9a51cce[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Nov 3 18:16:46 2023 +0100
+
+    wasm: pop-count
+
+[33mcommit 07b204ecaaf15e89233a863b0767a4cba75fd08f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Nov 2 19:25:35 2023 +0100
+
+    wasm: hamming
+
+[33mcommit d05b14e66992a5dd64ac4a539c80f1842c14e897[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Nov 2 19:22:53 2023 +0100
+
+    wasm: nucleotide-count
+
+[33mcommit 6d75dd28ce9bf5d33fe99fcc368a7bbbc0e59983[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Nov 2 19:18:41 2023 +0100
+
+    wasm: resistor-color
+
+[33mcommit 86aca327fa2a6a9f849b4c95b8eddb99ab1ee30e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Nov 1 15:39:22 2023 +0100
+
+    python: leap - iteration 2
+
+[33mcommit b53a4f1c1ea262fb8fd207453e71747e3eda8e0a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Oct 31 19:44:33 2023 +0100
+
+    python: plane-tickets - iteration 5
+
+[33mcommit 005b7e7290265dbc7402a23dd50fe131b7ecc89c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Oct 31 19:43:26 2023 +0100
+
+    python: plane-tickets - iteration 4
+
+[33mcommit f8726079bd192403bccb33d1ffb5d885ec6044d5[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Oct 31 15:38:04 2023 +0100
+
+    python: plane-tickets - iteration 2
+
+[33mcommit 54352f385322c5ecedadfc0842efad419228c719[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Oct 31 15:33:13 2023 +0100
+
+    python: plane-tickets
+
+[33mcommit d0e544de28f18f90d1dda289795d596cb9494917[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Oct 31 15:03:11 2023 +0100
+
+    wasm: difference-of-squares
+
+[33mcommit f1cf00db1f523d3f97cc4acef6f8de6545be4948[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Oct 31 14:58:11 2023 +0100
+
+    wasm: grains
+
+[33mcommit b31326ee75d084f4d890f443680f94d24d872fad[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Oct 31 14:55:26 2023 +0100
+
+    wasm: square-root
+
+[33mcommit c89c2c8291b70f8f4cea152694f8c5b959baa30f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Oct 31 14:53:43 2023 +0100
+
+    wasm: collatz-conjecture
+
+[33mcommit 1558f06aec4e89bdead870e54b973dd2aa8c0013[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Oct 31 14:50:35 2023 +0100
+
+    wasm: darts
+
+[33mcommit bf07ea3994792c314c8f2f1c66456cce5f3a5f19[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Oct 30 19:48:13 2023 +0100
+
+    python: collatz-conjecture - iteration 3
+
+[33mcommit d7c767e6df1bd1eef08c62bd5a4e57d2348ca1a9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Oct 30 19:45:38 2023 +0100
+
+    python: collatz-conjecture - iteration 2
+
+[33mcommit 3bf8e9cf73b00aed65ababd452728132dac3feea[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Oct 30 19:42:38 2023 +0100
+
+    python: luhn - iteration 2
+
+[33mcommit 0e302522c63b2ab99cda9593895ed4089e66b19e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Oct 29 21:41:09 2023 +0100
+
+    jq: zebra-puzzle
+
+[33mcommit c413b9525e9330d5b5cf53f038f993e8e5143174[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Oct 29 21:37:55 2023 +0100
+
+    jq: forth
+
+[33mcommit 7aa472c9fdec84c3037167a014ce85f8ccbc5bb3[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Oct 29 20:17:57 2023 +0100
+
+    coffeescript: binary-search-tree
+
+[33mcommit db5eec6cb2f3f14e5df04d0d0b4d8eabedafb686[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Oct 29 20:11:46 2023 +0100
+
+    coffeescript: atbash-cipher
+
+[33mcommit dacb5b45f087df901c512ae328e1a0117d7e5685[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Oct 29 18:43:46 2023 +0100
+
+    coffeescript: wordy
+
+[33mcommit 56341a65052ea5342a920ef715fdad68bfd709b1[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Oct 29 18:00:17 2023 +0100
+
+    coffeescript: nth-prime
+
+[33mcommit 721c97a173476c77ce10a3f7d08844638ca46bd2[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Oct 28 20:13:19 2023 +0200
+
+    elixir: pop-count
+
+[33mcommit ceda5e92f8d6c1d9e68afd69726ccaafa4779510[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Oct 27 19:55:29 2023 +0200
+
+    coffeescript: word-count
+
+[33mcommit 987f21eb33fe5ee9bf09933f31fa896a6772711a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Oct 26 18:38:17 2023 +0200
+
+    coffeescript: trinary
+
+[33mcommit 4f7cdd3ec8f055ddfde95783cb91f116ce72a9a1[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Oct 25 20:17:39 2023 +0200
+
+    python: pop-count - iteration 2
+
+[33mcommit 01065f9daf3304cc8d3846af73225a86b416e5fc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Oct 24 21:22:26 2023 +0200
+
+    initial commit - wasm
+
+[33mcommit 2244959ed4edc3cfc6b1e9dda7659994e1529a56[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Oct 24 20:30:24 2023 +0200
+
+    python: list-ops - iteration 4
+
+[33mcommit c234407448cc10d849c40984099ed0aab24b4f4a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Oct 24 15:57:12 2023 +0200
+
+    jq: two-bucket
+
+[33mcommit af6b960ed13c2dbd63f120b73be1f53d3cc6516f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Oct 23 21:10:49 2023 +0200
+
+    jq: knapsack
+
+[33mcommit e2f6f4df166f4db6eea04aa004cd92e0cf21afb1[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Oct 23 20:36:13 2023 +0200
+
+    jq: satellite
+
+[33mcommit ecd2d041dc779d86be808bcfe7561e29b8d51148[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Oct 22 20:44:15 2023 +0200
+
+    typescript: triangle
+
+[33mcommit 237258f78876c7273e160b822705c79229564f36[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Oct 22 20:20:30 2023 +0200
+
+    jq: nth-prime
+
+[33mcommit deecb5a40fca4e311a99cb8e7ea5564f3b2c64b8[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Oct 22 20:13:30 2023 +0200
+
+    jq: meetup
+
+[33mcommit 8d1bd1f6c63d6db856c4eccd5b3406bb1d76537c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Oct 21 11:30:49 2023 +0200
+
+    jq: luhn
+
+[33mcommit 6732b8e154b11a3f81dce6d7c4c0bb6192d80e21[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Oct 20 19:24:16 2023 +0200
+
+    jq: pop-count
+
+[33mcommit 010d1ea956d60892e7906be4200bf54b12f497aa[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Oct 19 15:43:50 2023 +0200
+
+    python: pop-count
+
+[33mcommit c9637a17f649a2135e218637794251404f12d82a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Oct 18 14:38:52 2023 +0200
+
+    coffeescript: linked-list - iteration 5
+
+[33mcommit 2478dc0c5fc9e94a68912a49825972b6c0137019[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Oct 17 16:22:23 2023 +0200
+
+    coffeescript: linked-list - iteration 3
+
+[33mcommit 1aeb1f80e163ad946599f95de62ef5ad3e6d1299[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Oct 17 16:01:18 2023 +0200
+
+    coffeescript: linked-list - iteration 2
+
+[33mcommit 9f468456480f8e2308baaf04c65b2cd67c829ecd[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Oct 16 20:36:00 2023 +0200
+
+    coffeescript: linked-list
+
+[33mcommit 9c667002367dd9e7773ba2c75854823b8401f1a9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Oct 15 08:22:11 2023 +0200
+
+    coffeescript: scrabble-score - iteration 2
+
+[33mcommit a5347ac07aa2f39228740adcdd0d7678e88f4a8d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Oct 14 19:28:25 2023 +0200
+
+    jq: series
+
+[33mcommit 0383c1d5ed979855c96df30ed72b62f678567001[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Oct 13 15:13:26 2023 +0200
+
+    jq: flatten-array
+
+[33mcommit 56203a2bb06821de5b51eade527ecec0dd7a1db2[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Oct 12 21:24:14 2023 +0200
+
+    coffeescript: phone-number
+
+[33mcommit 11b66b1bc9bfbb7b93c70cda124e35f3fedd4df0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Oct 11 21:05:07 2023 +0200
+
+    coffeescript: hexadecimal
+
+[33mcommit 5738937381b2fb94c751e9f32fb9ed04c4b6c0ca[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Oct 10 16:47:17 2023 +0200
+
+    coffeescript: pascals-triangle
+
+[33mcommit f0b12b2c037f4745ac06fe6803ceb2066bc6d3cb[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Oct 9 22:58:36 2023 +0200
+
+    coffeescript: palindrome-products
+
+[33mcommit 267dcf95635641dbefe47aeea6d9e2f68352516c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Oct 9 18:52:57 2023 +0200
+
+    coffeescript: bottle-song
+
+[33mcommit a7bc8edf944e147c56eed609b7f65bc94e86c69c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Oct 8 20:38:16 2023 +0200
+
+    python: triangle - iteration 2
+
+[33mcommit b0f1f052470fa794750e4743125be64380bb3939[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Oct 8 14:44:48 2023 +0200
+
+    go: welcome-to-tech-palace - iteration 2
+
+[33mcommit 7c67a06385dc11c2640db832d66e2a228b8a9577[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Oct 8 13:03:29 2023 +0200
+
+    go: rna-transcription - iteration 3
+
+[33mcommit 75ebb22e1e82a6d068334c038bdcd8e34f8d668b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Oct 8 11:34:45 2023 +0200
+
+    python: resistor-color - iteration 2
+
+[33mcommit 329f678968222d5b1fe1a0781aad1bf9ec3993a1[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Oct 8 09:16:36 2023 +0200
+
+    go: rna-transcription - iteration 2
+
+[33mcommit 30a0d06ddff05366aba1bb973099eba275a68fd9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Oct 7 21:47:43 2023 +0200
+
+    coffeescript: accumulate
+
+[33mcommit eb50dde14a4584f3fde51660a10018ef66c4025c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Oct 6 15:16:00 2023 +0200
+
+    coffeescript: bob - iteration 3
+
+[33mcommit 26a34a10174380c552885351b1a4c2cd6166187f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Oct 4 17:00:23 2023 +0200
+
+    powershell: flatten-array
+
+[33mcommit 01663d1e167c7aa8009aaf2d6a3f077c549d232e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Oct 3 20:39:02 2023 +0200
+
+    powershell: strain
+
+[33mcommit 8b79c9bdf119c12f4d0585598614121ed8e2b11e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Oct 2 18:17:29 2023 +0200
+
+    powershell: circular-buffer
+
+[33mcommit 9cf41cfd79a4198947a506d7b1d2d1d988a97a0b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Oct 2 18:09:14 2023 +0200
+
+    powershell: matrix
+
+[33mcommit d0ce924f03c16775e3149e709703cbf6c2087fbb[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Oct 2 18:06:29 2023 +0200
+
+    powershell: binary-search-tree
+
+[33mcommit b3dc85ebbf7bfe266f070e9183604b2672af6f36[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Oct 1 22:06:03 2023 +0200
+
+    powershell: simple-cipher
+
+[33mcommit eebb8aa39a28b43fcb798252ba7dfcf0a47af68f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Sep 30 21:14:37 2023 +0200
+
+    go: connect
+
+[33mcommit 18794f47fb8a93d36eeb66e7b68d56abd2ee2545[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Sep 30 21:12:20 2023 +0200
+
+    go: forth
+
+[33mcommit 9e9e759539d17172e8dc3241a49764b4d21ea296[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Sep 30 21:10:47 2023 +0200
+
+    go: book-store
+
+[33mcommit b534571c840a895a25f57428b88aea0676ef3ce3[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Sep 30 21:08:12 2023 +0200
+
+    go: react
+
+[33mcommit bd4f5c7f3688f65394d7082fb170f5a234d5e403[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Sep 30 20:59:53 2023 +0200
+
+    go: ocr-numbers
+
+[33mcommit 5753c5748aac6a275af1131929ea5f287e1c1e25[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Sep 30 20:56:11 2023 +0200
+
+    go: say
+
+[33mcommit 61ca038f6676af281f8aae0a4b03ca90bbc65db9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Sep 30 20:52:54 2023 +0200
+
+    go: pov
+
+[33mcommit 6f83117aead7b7b186902bd395aa06c95b834d79[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Sep 30 20:48:47 2023 +0200
+
+    go: zebra-puzzle
+
+[33mcommit bca7f37a3e1708842ba5ea65a31c28e88dd6965a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Sep 29 17:58:08 2023 +0200
+
+    go: robot-simulator
+
+[33mcommit 9e5bed16572948290a38bcee4f02fcb191f51648[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Sep 29 17:48:10 2023 +0200
+
+    go: palindrome-products
+
+[33mcommit 0b9d5fce6d4cbd88b7ab446cab158d3c5b74f4ac[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Sep 28 22:17:19 2023 +0200
+
+    go: alphametics
+
+[33mcommit a3716c61c99e6550b1f63dab37b18a253093eae9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Sep 27 21:01:18 2023 +0200
+
+    go: change
+
+[33mcommit a99e29f234a4e8cef609b35ed176fbe8b2a13d9c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Sep 27 20:23:58 2023 +0200
+
+    go: poker
+
+[33mcommit e8becf3c6035101f43a49ceaaa6fb12d1eb002c3[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Sep 26 20:26:31 2023 +0200
+
+    go: bowling
+
+[33mcommit 79e083252d37c1ba49914c7d7ad6e47a0c95be06[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Sep 26 20:11:19 2023 +0200
+
+    go: two-bucket
+
+[33mcommit 74b9dba1d448e5aa590e9bcec0b4e399e44e73c7[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Sep 25 19:54:31 2023 +0200
+
+    go: dominoes
+
+[33mcommit 0eed5407b9c97e6682868e179983630590c126c1[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Sep 24 20:54:00 2023 +0200
+
+    go: state-of-tic-tac-toe
+
+[33mcommit ae49e36f037909e7e051abb41883db54b43d4490[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Sep 23 17:14:47 2023 +0200
+
+    go: ledger
+
+[33mcommit ec6673b49f6b97d6b72c225b955ee266324ac17e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Sep 22 20:31:10 2023 +0200
+
+    go: grade-school - iteration 2
+
+[33mcommit 4542368c53f11b285ab7632b5185616c6a5a33fe[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Sep 22 20:20:00 2023 +0200
+
+    go: grade-school
+
+[33mcommit 8fa5583b778d17754f0d3ecfcd089c362a2e6f77[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Sep 21 22:01:54 2023 +0200
+
+    go: variable-length-quantity
+
+[33mcommit e8e4a4f7aa48ca7035cec486709ef624a689e70f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Sep 20 21:33:54 2023 +0200
+
+    go: rectangles
+
+[33mcommit 1893e88c1ad92bb757eec13692de441fe2d418d5[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Sep 19 21:10:45 2023 +0200
+
+    go: rail-fence-cipher
+
+[33mcommit acac2430ef1a210ba0db6f08ba10a2a6ee5f673b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Sep 18 21:31:42 2023 +0200
+
+    go: binary-search-tree
+
+[33mcommit ac4d172d2d7d4f057883761145c939e6df7f7f46[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Sep 17 17:19:16 2023 +0200
+
+    go: matching-brackets
+
+[33mcommit b578dfa2375ffa422a3e714bfed6057a5a1fe99b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Sep 17 17:12:01 2023 +0200
+
+    go: paasio
+
+[33mcommit 8c3dd91e16479430c1e56494598ead701f2a8919[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Sep 16 12:06:24 2023 +0200
+
+    go: circular-buffer
+
+[33mcommit 29a19c406659697228e14ea1639e61dbaf026493[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Sep 16 11:58:36 2023 +0200
+
+    go: transpose - iteration 2
+
+[33mcommit 25462063a10353e68270adea0ec0b4f2a49822de[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Sep 16 11:55:42 2023 +0200
+
+    go: transpose
+
+[33mcommit 4816b9e2f32e667ea7fe427bc48b3b229e9e1ea2[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Sep 15 20:44:24 2023 +0200
+
+    go: saddle-points
+
+[33mcommit 86f048393d8d56272f00baa8d2ae4d06b1e1ef33[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Sep 14 17:45:57 2023 +0200
+
+    go: minesweeper
+
+[33mcommit 4b7157fbb7e721aaf564cff10151d0dc6d68ffaa[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Sep 13 20:47:26 2023 +0200
+
+    go: error-handling
+
+[33mcommit d644170bd1abed3a72b821b1c7b5806c459fac9b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Sep 12 20:45:30 2023 +0200
+
+    go: strain - iteration 2
+
+[33mcommit 2c12df5d7944836160bc2db81ac6b51cadbfdd48[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Sep 12 20:30:13 2023 +0200
+
+    go: simple-linked-list
+
+[33mcommit 6a5ee374f896f6a5e7de51e7f179de99e1baa37e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Sep 12 20:26:36 2023 +0200
+
+    go: word-search
+
+[33mcommit 339ed65566d763214227c97c8008725314663f8f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Sep 11 21:03:05 2023 +0200
+
+    python: gigasecond - iteration 4
+
+[33mcommit 4433e4a99a035f79cdce4bee6a2a88002809eb4e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Sep 11 20:58:32 2023 +0200
+
+    python: food-chain - iteration 2
+
+[33mcommit eeba4338aa880da71ac364f094021fb8bb8f0130[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Sep 11 20:50:56 2023 +0200
+
+    python: etl - iteration 2
+
+[33mcommit afd6a98b111e426e41ac44fada1febe31be26b9e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Sep 10 21:24:00 2023 +0200
+
+    python: armstrong-numbers - iteration 2
+
+[33mcommit d002247b3465fd4b76b4a9ddb66da1673efe9414[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Sep 9 18:49:02 2023 +0200
+
+    python: transpose - iteration 4
+
+[33mcommit b2f964a02dad31ae1e30dd4ab24c44171577744e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Sep 9 18:46:46 2023 +0200
+
+    python: transpose - iteration 3
+
+[33mcommit fece57982c0f16a7e68e8852487cc889e789354a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Sep 8 22:50:36 2023 +0200
+
+    go: markdown
+
+[33mcommit d284eb8e9703ba240d1353cd5d9ef7d5bc6a2bcd[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Sep 7 20:38:25 2023 +0200
+
+    go: diffie-hellman
+
+[33mcommit e6026078bb43a1179f03433066ce2dd32ea4cf9b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Sep 6 22:03:01 2023 +0200
+
+    go: spiral-matrix
+
+[33mcommit 4038eaf1a9a9bff22851b22d090778bc29a1c263[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Sep 6 20:27:11 2023 +0200
+
+    go: house
+
+[33mcommit d41eeb5f4b491b4248b6ff0ba89f986be97ce992[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Sep 5 19:58:28 2023 +0200
+
+    go: food-chain - iteration 3
+
+[33mcommit ebf225fb968f1d8c4f51cada1f323f411d71e151[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Sep 5 19:56:42 2023 +0200
+
+    go: food-chain - iteration 2
+
+[33mcommit d9b0b57b3f8987db4c0545f89468fa371130014e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Sep 5 19:43:13 2023 +0200
+
+    go: food-chain
+
+[33mcommit 4d715ee203ea13fd3bebe6ec88dbf96459c66e12[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Sep 4 21:02:05 2023 +0200
+
+    go: yacht
+
+[33mcommit 400e091d258d91221cc18446f52ef4f4501e0716[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Sep 3 19:36:50 2023 +0200
+
+    go: gross-store - iteration 2
+
+[33mcommit 27c1059b64d843d6afaed0f5e1d466b28a35059b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Sep 2 21:55:30 2023 +0200
+
+    go: blackjack - iteration 3
+
+[33mcommit a8c5038ca0890a8349c8ff001ba3a027d6c9e379[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Sep 1 22:36:57 2023 +0200
+
+    awk: series
+
+[33mcommit eb0bc61259336600624af9c25d89a5252708e453[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Sep 1 22:32:08 2023 +0200
+
+    awk: luhn
+
+[33mcommit 12956e09c0eeb5e45f807e8bdc5ce7c65571528f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Aug 31 12:04:08 2023 +0200
+
+    awk: bob
+
+[33mcommit 62432d2b5c9179c510ef2e815d5c4da9c21d348c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Aug 31 12:03:37 2023 +0200
+
+    awk: leap
+
+[33mcommit 4f90cee34e684dbe87fe4eb459ffa743ec773025[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Aug 30 22:56:01 2023 +0200
+
+    awk: raindrops
+
+[33mcommit 1acf49b25b24d55ea7ede591a8574760c8f97478[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 22:12:47 2023 +0200
+
+    awk: reverse-string
+
+[33mcommit 6b21d51b4afb0b6a38cb12d9e3aed1095e6b376e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 22:00:46 2023 +0200
+
+    awk: two-fer
+
+[33mcommit 7eb1159f270069b26e4981662630ec56c2ca20a6[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 21:54:10 2023 +0200
+
+    initial commit - awk
+
+[33mcommit 7fe0341530509698fa889ef8bcb74ccb804d7a64[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 20:45:47 2023 +0200
+
+    powershell: accumulate - iteration 2
+
+[33mcommit a8dfb60d20aa8ea31e50a08dc04c8b175738b48f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 20:43:48 2023 +0200
+
+    powershell: protein-translation - iteration 2
+
+[33mcommit 03fca3c7d242242bbc7ff764aae27d625e5f4cdc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 20:41:41 2023 +0200
+
+    powershell: series - iteration 2
+
+[33mcommit cae0e96a9cd0bd33106a2f5b68e0a4e8c0243d3a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 20:39:06 2023 +0200
+
+    powershell: etl - iteration 2
+
+[33mcommit e57ca1db04cdd853b2f3206085a9dbedf1098c91[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 20:36:02 2023 +0200
+
+    powershell: space-age - iteration 2
+
+[33mcommit 6aa7ceb216b02515b65008a37162bac3cdcc8af6[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 20:34:27 2023 +0200
+
+    powershell: triangle - iteration 2
+
+[33mcommit 7320eca1b86b96c9369259885c0e6ee404e7d3d3[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 20:31:36 2023 +0200
+
+    powershell: isogram - iteration 2
+
+[33mcommit 7d9d113b63981ec539b9b2841654e9e21e4378c0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 20:29:55 2023 +0200
+
+    powershell: binary-search - iteration 2
+
+[33mcommit ec01da5789abbf3755122c64fc0c2512ba76c19c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 20:27:19 2023 +0200
+
+    powershell: two-fer - iteration 2
+
+[33mcommit 16ad39000fc7bb9f0499516bd00ca9afbdaac23c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 20:26:28 2023 +0200
+
+    powershell: anagram - iteration 2
+
+[33mcommit 0feea22c57901b3c9389c0e5774b2300155879e5[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 20:22:54 2023 +0200
+
+    powershell: rna-transcription - iteration 2
+
+[33mcommit 59e2f86ef38af1568bbbb6950317b47807104e8d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 20:20:43 2023 +0200
+
+    powershell: darts - iteration 2
+
+[33mcommit 32043a016e69f84eaeb92081e5487293312e6dc0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 20:18:46 2023 +0200
+
+    powershell: pangram - iteration 2
+
+[33mcommit 2b6ca569beb848a698a4e017dd05c56364c6f567[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 20:13:32 2023 +0200
+
+    powershell: leap - iteration 2
+
+[33mcommit 300e9087d26d64fb34f630767b6e8ae369e10780[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 20:12:39 2023 +0200
+
+    powershell: hamming - iteration 2
+
+[33mcommit 826a931ef64d9742f6b5c66b3cfceb565761554a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 20:08:27 2023 +0200
+
+    powershell: raindrops - iteration 2
+
+[33mcommit 57ddbd7442dcd688c1713c12fe774f7c051a3dd8[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 20:06:48 2023 +0200
+
+    powershell: sum-of-multiples - iteration 2
+
+[33mcommit 4eaa0fb7e4ee5d1066e8049bcfe1697c4c462740[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 20:01:38 2023 +0200
+
+    powershell: collatz-conjecture - iteration 2
+
+[33mcommit 015aa631d3bb77fffdbc434f3895a3b5252374db[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 19:59:07 2023 +0200
+
+    powershell: bob - iteration 2
+
+[33mcommit 4544c2201c256e4e812a979db64b5fbfa6c4540e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 29 07:37:54 2023 +0200
+
+    powershell: reverse-string - iteration 2
+
+[33mcommit bee214469e80a0f431dccd8c1fe33223186d4fb4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Aug 28 20:34:37 2023 +0200
+
+    powershell: clock
+
+[33mcommit 0f82a7a10556e8711659836b0d6ae97df58a1ffc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Aug 28 20:08:41 2023 +0200
+
+    go: grep
+
+[33mcommit fbd63e74b3ad98cbd4e1be875fdbfb8740c01e47[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Aug 27 21:48:44 2023 +0200
+
+    go: allergies - iteration 5
+
+[33mcommit 5078e7708bb833638c035a069ff04e224ec86d72[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Aug 26 15:14:21 2023 +0200
+
+    go: diamond
+
+[33mcommit 2b99e51cabac450f3590205aad92b0bd186a2120[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Aug 26 12:43:45 2023 +0200
+
+    go: pig-latin
+
+[33mcommit 92d35c5bdf9cbe4c259219881ded89948fba369a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Aug 26 07:53:14 2023 +0200
+
+    typescript: linked-list
+
+[33mcommit 8d5c3ae27e49d3b46c0a3265178ea82cc92f9024[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Aug 25 21:58:42 2023 +0200
+
+    typescript: secret-handshake - iteration 4
+
+[33mcommit 3ab4763644183cd1cae6379b3f65824ea7bcf1ec[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Aug 25 18:51:37 2023 +0200
+
+    typescript: binary-search - iteration 3
+
+[33mcommit c251494831efe3284ab42723205f97599a1388c6[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Aug 25 18:48:48 2023 +0200
+
+    typescript: binary-search - iteration 2
+
+[33mcommit 5a01d5113f6c169f6e03ef87dea40725cc696335[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Aug 25 18:41:55 2023 +0200
+
+    typescript: binary-search
+
+[33mcommit 42f16e406510e14e097d816dd0446281c24d7d74[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Aug 24 21:06:59 2023 +0200
+
+    typescript: secret-handshake - iteration 3
+
+[33mcommit 99d0a38dd405cb8dd43a83a1de53382c99ec1c32[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Aug 24 21:01:14 2023 +0200
+
+    typescript: secret-handshake - iteration 2
+
+[33mcommit 265cd6d3263d8fe3a0131262cbd214d28f25354d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Aug 24 20:56:28 2023 +0200
+
+    typescript: secret-handshake
+
+[33mcommit 2f354f7d10a90ff79ffc65b52ba38e258984f423[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Aug 23 21:27:52 2023 +0200
+
+    typescript: robot-name - iteration 3
+
+[33mcommit 5ce2c33766541c067ce6424e842b80203bf3d555[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Aug 23 21:16:00 2023 +0200
+
+    typescript: robot-name
+
+[33mcommit 6e941cdcdb660ed4768cee30de0140d760a70647[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 22 21:24:49 2023 +0200
+
+    typescript: grade-school
+
+[33mcommit 832a21b639ca07fd20a356e2456f6773f2b89fbc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Aug 21 21:06:29 2023 +0200
+
+    typescript: clock
+
+[33mcommit 5d4a3c4f5163b3e83aabe0ecd1e7538b30a5daa7[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Aug 20 20:56:01 2023 +0200
+
+    abap: itab-combination
+
+[33mcommit 7d25dd33dfd39570ab0cc706f4c142cf76e190e4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Aug 19 14:53:14 2023 +0200
+
+    abap: itab-aggregation
+
+[33mcommit b0381fea63c78e0c9075bc69760615bb904aaf33[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Aug 18 21:58:39 2023 +0200
+
+    go: queen-attack
+
+[33mcommit 742ef38ba0c70eb4d619fbcf73f618f39f4f546a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Aug 17 17:21:00 2023 +0200
+
+    go: pythagorean-triplet
+
+[33mcommit 52aeb7fa7f25f531b488f24877d3c605a66f9c2e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Aug 16 21:32:11 2023 +0200
+
+    powershell: space-age
+
+[33mcommit 497343e3b014f4552ae97c5b10ec22111008d91d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 15 22:12:08 2023 +0200
+
+    powershell: square-root
+
+[33mcommit a242ca818b25c156c6ad10e6cd0ecb05032384c4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Aug 14 16:21:40 2023 +0200
+
+    abap: itab-basics
+
+[33mcommit 4fed610dee1863afb5ab8dd27851b47bb444b6bd[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Aug 13 22:23:06 2023 +0200
+
+    initial commit - abap
+
+[33mcommit 8b677cb2dd7e7dae36664875bf8b6a7ee51e0f6d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Aug 12 12:21:17 2023 +0200
+
+    typescript: matrix - iteration 2
+
+[33mcommit a11b3cdd2c75cd79352623e9fbc9197c134a826c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Aug 12 12:16:36 2023 +0200
+
+    typescript: matrix
+
+[33mcommit 63f85c4a731022b9d3f9888048e751eec5fff881[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Aug 11 17:52:58 2023 +0200
+
+    typescript: raindrops
+
+[33mcommit 31f8d20bdcf39d4bb037a688c5404b4a272701ac[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Aug 11 17:39:33 2023 +0200
+
+    typescript: collatz-conjecture
+
+[33mcommit 76a3ed8f102ffcd638b71662bfad018887279eca[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Aug 10 20:53:46 2023 +0200
+
+    typescript: hamming
+
+[33mcommit d6bbd5909f1a2af72c5b404ae79c540aad562074[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Aug 9 19:46:23 2023 +0200
+
+    typescript: proverb
+
+[33mcommit 32a5be5bf6a3bcc9f235d1e875fd8ae1cd207fe1[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 8 19:29:20 2023 +0200
+
+    powershell: queen-attack
+
+[33mcommit 1dd4a98d9d4c892f21dab7c0ea6001deb55730c0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Aug 7 16:17:39 2023 +0200
+
+    typescript: sum-of-multiples - iteration 2
+
+[33mcommit a742bf35011326e2c482b32d05e3421740ea3aab[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Aug 6 22:15:27 2023 +0200
+
+    typescript: sum-of-multiples
+
+[33mcommit 73b954115d527329187f6528bc3d6fc5ff6586ae[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Aug 5 05:47:44 2023 +0200
+
+    typescript: grains
+
+[33mcommit 8fc28aec3d245cb8b2050b2b9caf6d5d3282cf6a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Aug 4 22:28:12 2023 +0200
+
+    typescript: reverse-string
+
+[33mcommit cce8fb94445fd008d42faa6c304fd8df7eb60d91[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Aug 4 22:22:04 2023 +0200
+
+    typescript: gigasecond
+
+[33mcommit 840eccb7edeb57e2ee15abe92dd0fb1ebf36795c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Aug 3 16:13:32 2023 +0200
+
+    powershell: accumulate
+
+[33mcommit b976b6aef11d2814e236594807e7f7be35d72273[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Aug 2 22:42:36 2023 +0200
+
+    powershell: proverb
+
+[33mcommit e19d4041f1e35cf71f1a9a6b88f4c3e424dfb251[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 1 05:40:50 2023 +0200
+
+    typescript: phone-number
+
+[33mcommit c3623fc1db767f4a32d724230b57a99499555e9d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Aug 1 05:37:32 2023 +0200
+
+    coffeescript: scrabble-score
+
+[33mcommit 675a65708aa710bfc34b3256deff4e0954e172ee[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jul 31 21:13:36 2023 +0200
+
+    coffeescript: clock
+
+[33mcommit 1e4e65f6f76b310718d2e592371e94f358566dfd[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jul 31 21:11:04 2023 +0200
+
+    coffeescript: triangle
+
+[33mcommit 93debfd24aa655b0d22a4507a134f35bd130269f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jul 31 21:08:49 2023 +0200
+
+    coffeescript: rna-transcription
+
+[33mcommit 354a3f1d92c7ef773ef075e23fcb5ea2f6c7f29d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jul 31 21:07:37 2023 +0200
+
+    coffeescript: nucleotide-count
+
+[33mcommit 75f1f0366c219a5393db315832901f7e0f7d85d8[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jul 31 21:05:49 2023 +0200
+
+    coffeescript: two-fer
+
+[33mcommit c2e344fc41f1cddf0a971b74f286eec12f8865ca[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jul 30 21:23:31 2023 +0200
+
+    powershell: protein-translation
+
+[33mcommit 3010e5d74da9ee1031f70d9061649a4585ce6578[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jul 29 22:30:23 2023 +0200
+
+    powershell: series
+
+[33mcommit 0fefd8097324f6ae08b5791e8accca4266c909c3[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jul 28 21:58:33 2023 +0200
+
+    powershell: triangle
+
+[33mcommit dc05b6a7cc47d865e5850e01edc807d1dc80112d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jul 27 16:40:49 2023 +0200
+
+    powershell: grains
+
+[33mcommit d74e84f1e7fb5cdd0b194c10f79ad345bb3abfd5[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jul 26 22:26:49 2023 +0200
+
+    powershell: difference-of-squares
+
+[33mcommit 51cbd2a78c010b218a8ea6000c275a3dba85e861[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jul 25 18:13:59 2023 +0200
+
+    powershell: etl
+
+[33mcommit 7bf1d136124cb5570a74c5d1dd874da8469d4992[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jul 24 21:24:29 2023 +0200
+
+    powershell: armstrong-numbers
+
+[33mcommit 4a54221d430b85bcdefa0d05a8edfcd9a0bbe22f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jul 23 22:17:31 2023 +0200
+
+    powershell: collatz-conjecture
+
+[33mcommit 34510a2bcd088b2624eb5f3d86a877db092d445a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jul 22 23:24:17 2023 +0200
+
+    powershell: isogram
+
+[33mcommit c01886b483fc85d14ed7f6c1c7219c88c6b2bf08[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jul 21 22:59:55 2023 +0200
+
+    powershell: pangram
+
+[33mcommit ad453e11374066f340ea3faea106b7db5be1bf89[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jul 20 21:23:36 2023 +0200
+
+    powershell: rna-transcription
+
+[33mcommit 3757471f0a81af3d5e8353a287631b500e335051[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jul 19 22:30:45 2023 +0200
+
+    powershell: anagram
+
+[33mcommit f1e813873ce58b2641df95ac9a5108f5f4f41623[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jul 18 20:37:27 2023 +0200
+
+    powershell: binary-search
+
+[33mcommit 0a132c52c90685b911881bb67b3ada4c3dd881bf[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jul 18 20:27:18 2023 +0200
+
+    powershell: hamming
+
+[33mcommit 09cd57050fbb6de39da6aa3fcc2ff1fe1c8bf9fa[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jul 18 18:16:39 2023 +0200
+
+    powershell: nucleotide-count
+
+[33mcommit 07290af51dcbb6b029c517dd1352439381e195b9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jul 18 17:56:52 2023 +0200
+
+    powershell: gigasecond
+
+[33mcommit a5229e92e0468284736c5b2c27a8f30fdb08cfad[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jul 18 17:53:38 2023 +0200
+
+    powershell: sum-of-multiples
+
+[33mcommit 6882fc766c494eef274dc54f07e7da1c873d694e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jul 18 17:35:25 2023 +0200
+
+    powershell: resistor-color-duo
+
+[33mcommit dcf9522e2b9c2744d9a678a8c5a80aa75791d8f2[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jul 18 17:31:36 2023 +0200
+
+    powershell: resistor-color
+
+[33mcommit eb13bdc2045c6b2a11b36709b49facba4693f7bb[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jul 18 16:37:03 2023 +0200
+
+    powershell: bob
+
+[33mcommit 0ae6d7d14bc61634ff74fa9415f2019d57ac18ca[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jul 17 23:14:47 2023 +0200
+
+    powershell: darts
+
+[33mcommit d8a65d2109d14e307aedf9c64fef97bc277b8c88[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jul 17 22:59:44 2023 +0200
+
+    powershell: raindrops
+
+[33mcommit f57ebb3578a3a96aef1683714bb2e13c2bad6599[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jul 17 22:49:12 2023 +0200
+
+    powershell: leap
+
+[33mcommit 8ac800016dd316cb80bb22ac3b0a44f218260efc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jul 17 22:45:56 2023 +0200
+
+    powershell: reverse-string
+
+[33mcommit 643468f1ce2b48773dca1809c34181c82959dbdc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jul 17 22:37:31 2023 +0200
+
+    powershell: two-fer
+
+[33mcommit 3e1ccad228e2edd33a4428c86ede40ec2d3e8bfa[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jul 17 22:34:39 2023 +0200
+
+    initial commit - powershell
+
+[33mcommit c1e53dbbb07799e570b56e7cf014750e84a7c467[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jul 17 21:49:05 2023 +0200
+
+    cpp: queen-attack
+
+[33mcommit 5bad7862855ba70b122346e76e13dbdb8ef5637f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jul 16 11:10:04 2023 +0200
+
+    cpp: collatz-conjecture
+
+[33mcommit 5329fdaf3952348abbf8268f2f2ca3c271058f72[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jul 15 13:26:05 2023 +0200
+
+    cpp: darts - iteration 2
+
+[33mcommit 8541cb71d679b75e3a1a52df55b7a77ae8537245[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jul 15 13:21:19 2023 +0200
+
+    cpp: darts
+
+[33mcommit 407f41e867a03cee439fd681b721b4a5448ab80a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jul 14 20:49:42 2023 +0200
+
+    cpp: difference-of-squares
+
+[33mcommit 59fbeb892285b2f350557d01764e14758a4fbfc0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jul 13 21:41:37 2023 +0200
+
+    cpp: election-day
+
+[33mcommit 8697cc1a8c5e778cd9444d7fa86b8d1d1e412e96[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jul 12 22:08:22 2023 +0200
+
+    cpp: ellens-alien-game
+
+[33mcommit 2a978e2832696406e92d3d5f84df27e9a0ca3fc1[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jul 12 21:47:01 2023 +0200
+
+    cpp: making-the-grade
+
+[33mcommit 996a04e23702a452b2d09c1bce3267e6d82544ca[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jul 11 22:14:54 2023 +0200
+
+    coffeescript: queen-attack - iteration 2
+
+[33mcommit c7ba904da3525bb1c455498b78ebbc4a84e1db11[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jul 11 22:04:31 2023 +0200
+
+    coffeescript: anagram - iteration 3
+
+[33mcommit bc18acf49dd1bd68bb2b7934259fdbe4fd5cc1cc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jul 11 22:03:47 2023 +0200
+
+    coffeescript: anagram - iteration 2
+
+[33mcommit 15c636030dacc9759dde3678ede78584f59fdb01[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jul 10 23:48:05 2023 +0200
+
+    cpp: interest-is-interesting
+
+[33mcommit 4dbd5e47c7772910bfdef8935b2c68296eaf1a71[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jul 9 11:51:19 2023 +0200
+
+    cpp: two-fer
+
+[33mcommit 2ae9bd0952c342c9dac722bdd3e6a251407f41bd[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jul 8 23:42:34 2023 +0200
+
+    cpp: vehicle-purchase
+
+[33mcommit 7634df48e7a429bee384c545608d21b15fb515ef[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jul 8 19:48:21 2023 +0200
+
+    cpp: freelancer-rates
+
+[33mcommit 21e8bd83b93b7936b402244ed053054136bfbfd4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jul 7 21:48:35 2023 +0200
+
+    cpp: log-levels
+
+[33mcommit 0e60bdabdddb6d531f9373a3b80daa7f9cee5aed[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jul 6 23:27:36 2023 +0200
+
+    cpp: pacman-rules
+
+[33mcommit 0a3408241db0d5cddadc5fba3d373832d3f88086[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jul 5 22:25:39 2023 +0200
+
+    cpp: last-will
+
+[33mcommit 285c48ac78787e58874b46f9a2a66f6d1607f914[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jul 4 12:12:13 2023 +0200
+
+    cpp: lasagna
+
+[33mcommit e6dca3a88c6c1676043ab5c0014053ca23141d76[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jul 4 12:06:43 2023 +0200
+
+    cpp: armstrong-numbers
+
+[33mcommit 739c437e63b8e45ee5aaafac69015501f44dc07b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jul 3 22:11:21 2023 +0200
+
+    cpp: high-scores
+
+[33mcommit e01285865f49b6d62dd52850117d41d0dded785b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jul 2 21:54:53 2023 +0200
+
+    cpp: bob
+
+[33mcommit 9144a43faa129ad0616b9a9035d1fab5fd584c81[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jul 1 23:29:13 2023 +0200
+
+    cpp: allergies
+
+[33mcommit 1bede400a8e5327d2ee3dc340b4e37377f7c32ad[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jun 30 23:40:53 2023 +0200
+
+    cpp: raindrops
+
+[33mcommit a4933199c34e97b5be323bc29f9324898c967887[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jun 30 23:39:35 2023 +0200
+
+    cpp: pangram
+
+[33mcommit a86e7e826216792851b88c817e32416e05f5a6e6[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jun 30 23:34:06 2023 +0200
+
+    cpp: grains
+
+[33mcommit dc273a94d4e66c91731b665a006b6a433fe31509[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jun 30 23:32:16 2023 +0200
+
+    cpp: triangle
+
+[33mcommit c890f95327bd7a786b5ba5d9a50f0bf474144aa8[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jun 30 23:29:32 2023 +0200
+
+    cpp: space-age
+
+[33mcommit baa9fdb0975e660f2ee7c4c5f22f168b63e9ea93[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jun 29 21:40:01 2023 +0200
+
+    go: perfect-numbers
+
+[33mcommit 59792ff5f70ebac27a64ff351810f80ae3331f9f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jun 28 22:15:28 2023 +0200
+
+    go: allergies - iteration 4
+
+[33mcommit 5662157e9c88891277504c58993ac2aa8f209024[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jun 28 21:27:06 2023 +0200
+
+    go: allergies
+
+[33mcommit 9b7da35c755fd50f2e0785757cffc3a9e870f36b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jun 27 21:31:20 2023 +0200
+
+    go: run-length-encoding
+
+[33mcommit 807c707e691c00764e0334bf485fc90f20735877[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jun 27 20:13:03 2023 +0200
+
+    go: bank-account
+
+[33mcommit e3cdca8c2bba3661673835ac21680a8f94223369[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jun 27 19:59:46 2023 +0200
+
+    go: matrix
+
+[33mcommit 5885b8a03adfe572330621cf419a67ccb61a765b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jun 27 19:01:17 2023 +0200
+
+    jq: atbash-cipher
+
+[33mcommit 9317765b9f86ed91458d78d7d06561c3daeed457[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jun 26 22:10:11 2023 +0200
+
+    go: the-farm - iteration 4
+
+[33mcommit bb7e779c13641934494caf92e0ac042d9c6ed5b5[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jun 25 23:01:13 2023 +0200
+
+    python: acronym - iteration 3
+
+[33mcommit c1beb1a23a3d92e5be981e6af42874a27242985d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jun 24 22:55:36 2023 +0200
+
+    go: scale-generator
+
+[33mcommit f7fd9f63fb254a6c39ca2191ad2dae4ba508e469[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jun 23 22:09:10 2023 +0200
+
+    go: custom-set - iteration 4
+
+[33mcommit b320521aedf1ece9dd573118ca9765771e2c2666[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jun 23 21:51:41 2023 +0200
+
+    go: custom-set
+
+[33mcommit 3e3840e75d7781c6781bc961e99d3cd5fbb54d2d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jun 23 18:39:25 2023 +0200
+
+    go: animal-magic - iteration 2
+
+[33mcommit 4ea37802e7d012c8a4fe48e2290bade636bb7a1c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jun 23 18:35:40 2023 +0200
+
+    go: all-your-base
+
+[33mcommit f40d59a33e2dbc317182103f4966eab38eb03b8a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jun 23 18:24:20 2023 +0200
+
+    go: flatten-array
+
+[33mcommit 5c60cd12abf6fcf6546ca85335eb02ad59e216c8[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jun 23 09:59:22 2023 +0200
+
+    cpp: reverse-string
+
+[33mcommit db2b07bf9961c510b4e89d383a09dd2a8c56ad25[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jun 22 09:47:00 2023 +0200
+
+    cpp: leap
+
+[33mcommit e623ce5ecf582a9af5f91ba8da023af5b661354a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jun 21 22:01:31 2023 +0200
+
+    initial commit - cpp
+
+[33mcommit 21b5771b261cff667f87d6c7404a8e0938c8c368[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jun 20 23:02:03 2023 +0200
+
+    typescript: bob
+
+[33mcommit b10de36a735c122f6a5ee28274f4f6004ca7358b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jun 19 23:01:19 2023 +0200
+
+    go: meetup
+
+[33mcommit 4faef4bdb4d9e8957ab0527d8a885f5b0c5565cb[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jun 18 09:02:28 2023 +0200
+
+    typescript: difference-of-squares
+
+[33mcommit 055c0a04e5b75c6fb00dcd24c1bb30517ebecfc9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jun 17 22:36:24 2023 +0200
+
+    go: crypto-square
+
+[33mcommit 4b1485348739d53d0f34f2d045d6b3d0ed03a4fa[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jun 17 16:57:03 2023 +0200
+
+    go: kindergarten-garden
+
+[33mcommit a8fc32f6dd96e9af537818198da1179a14371d0f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jun 17 13:42:22 2023 +0200
+
+    go: wordy
+
+[33mcommit 00106d9c417f66e4df2156dcfa3198bcfa8cdc17[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jun 16 21:30:57 2023 +0200
+
+    typescript: pangram
+
+[33mcommit e6b985583a8792adce828e77dd17f0e4d98ee7ee[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jun 15 23:42:50 2023 +0200
+
+    python: resistor-color-expert - iteration 2
+
+[33mcommit b6c652cc01931e783f5585adf9ca66563372e60c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jun 15 23:29:54 2023 +0200
+
+    python: resistor-color-expert
+
+[33mcommit 5ba40888608d6bbfd616a21b79ff73feb35ef94d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jun 15 23:05:08 2023 +0200
+
+    typescript: darts
+
+[33mcommit a651d5dfa0534b24fb0cb35f75ef0151904f012a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jun 15 22:59:44 2023 +0200
+
+    typescript: dnd-character
+
+[33mcommit 72e7bab76c30160ec730c78d7703df2707df4fc1[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jun 14 22:04:34 2023 +0200
+
+    typescript: space-age
+
+[33mcommit 5b32f6c3a5117e9a936fa79fb28657b932172f33[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jun 14 21:33:37 2023 +0200
+
+    typescript: rna-transcription
+
+[33mcommit 97457a22ea111e1c174a8506c1c3620f5ef2cc43[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jun 13 22:27:39 2023 +0200
+
+    typescript: resistor-color
+
+[33mcommit cf5a2656a8f65280fe3fea20331993af2b7149f7[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jun 13 22:24:49 2023 +0200
+
+    typescript: resistor-color-trio
+
+[33mcommit 63399bc2e2af419039cc2f4fb2b1a96ea3159326[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jun 13 22:12:09 2023 +0200
+
+    typescript: resistor-color-duo
+
+[33mcommit eae5871313c12db010b0121ea08b90b131e51150[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jun 13 21:50:46 2023 +0200
+
+    typescript: leap
+
+[33mcommit bd5fb864098f6ea87ecad28946a09a8eb7ea2fe1[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jun 13 21:44:55 2023 +0200
+
+    typescript: two-fer
+
+[33mcommit 9b817881de0dcfb0d5b046527c1ea719f1e97fbc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jun 13 21:41:22 2023 +0200
+
+    initial commit - typescript
+
+[33mcommit a2ba4b643e7b077943dc887a9786f7b6ecc07882[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jun 13 21:40:45 2023 +0200
+
+    jq: sieve
+
+[33mcommit 3515c7dd7b955a51420d0e075bccf5aa00d7f166[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jun 13 17:58:30 2023 +0200
+
+    jq: square-root
+
+[33mcommit 38074f1e16b5914627662ed1dfbaa777277885dd[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jun 13 17:54:06 2023 +0200
+
+    jq: beer-song
+
+[33mcommit 3fb9926827ae88354558201b9c99d85b1d1c3290[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jun 11 21:43:11 2023 +0200
+
+    elixir: file-sniffer - iteration 2
+
+[33mcommit e4ee0d44dedaacfecf2dd1cfede114806c4cb5a7[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jun 11 21:27:33 2023 +0200
+
+    jq: protein-translation
+
+[33mcommit 8938bcfa51fb82b7c78e3307d45d08f5c5e2edaf[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jun 10 20:35:44 2023 +0200
+
+    jq: transpose
+
+[33mcommit e63e0366058a8f052cb9017ba031eb24004d7bd2[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jun 10 15:26:58 2023 +0200
+
+    jq: anagram
+
+[33mcommit 0e355d94fc03fa6f2db035a7366186f0bd6768f6[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jun 9 22:23:39 2023 +0200
+
+    python: transpose - iteration 2
+
+[33mcommit 8d74e988e45ab1c22b3603889c0633350d23d2e0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jun 8 20:27:27 2023 +0200
+
+    jq: run-length-encoding
+
+[33mcommit cbf85eb18a3f3d915af25a3b4c8bac84ccdc2094[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jun 7 22:11:40 2023 +0200
+
+    jq: proverb
+
+[33mcommit a73265cc5b51a61bf631f5bce3789ebdb5daf4b8[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jun 7 21:33:27 2023 +0200
+
+    jq: gigasecond
+
+[33mcommit ab8347d89f99c8af7adfefa8968573a3d49f3b0b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jun 7 21:22:37 2023 +0200
+
+    jq: etl
+
+[33mcommit ff85cc93128f79e5fb0f592cf69b8036bc88d333[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jun 7 21:00:14 2023 +0200
+
+    jq: isogram
+
+[33mcommit 79d1c591e3b65c7e78cac9ebdbc767d359080ab0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jun 7 20:45:42 2023 +0200
+
+    jq: scrabble-score
+
+[33mcommit 3a20e74705191f3b0c2aec2679d2c4fb0fc32c43[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jun 7 20:28:32 2023 +0200
+
+    jq: space-age
+
+[33mcommit aa5bbfbf28c35cce07385bf6cf22c02b2b14b516[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jun 6 22:03:23 2023 +0200
+
+    jq: nucleotide-count
+
+[33mcommit 42fe13b9dc380ef7e5c6af5f6259739cace1af41[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jun 6 21:51:58 2023 +0200
+
+    jq: bob
+
+[33mcommit 25d239f3c2cf1bc0a04376db722afbf000439fff[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jun 6 21:37:37 2023 +0200
+
+    jq: collatz-conjecture
+
+[33mcommit 16c7520d3ea8d7d489d5d0f848e1fa3d9b56d597[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jun 6 20:01:23 2023 +0200
+
+    jq: hamming
+
+[33mcommit 93c9d77221ad54bb756d6179adcdcc88134fb960[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jun 6 19:49:05 2023 +0200
+
+    jq: resistor-color-duo
+
+[33mcommit 91387ca7f21fc38a75cfa43a54b64968e10761bd[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jun 6 19:32:19 2023 +0200
+
+    jq: resistor-color
+
+[33mcommit 23455113c22b337c4b42c23f1ec3703e3e815d38[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jun 5 21:31:41 2023 +0200
+
+    go: complex-numbers
+
+[33mcommit 3bcf4f577489d10270368069512ca9b723f26962[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jun 5 21:00:29 2023 +0200
+
+    jq: rna-transcription
+
+[33mcommit cff350036d13f532ba92f7bacd9fcb675a451f3c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jun 5 20:40:37 2023 +0200
+
+    python: alphametics - iteration 2
+
+[33mcommit 3f49b5e40207842377865fb00c04d343cd2dd0d3[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jun 5 20:23:04 2023 +0200
+
+    jq: regular-chatbot
+
+[33mcommit 31cb3be3ec18f46f43742080cc55ba850002a294[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jun 5 20:19:30 2023 +0200
+
+    jq: grade-stats
+
+[33mcommit 9d3aeb4de372b0d578d856ab8718a22399ea7c6f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jun 5 19:49:47 2023 +0200
+
+    jq: recursive-functions
+
+[33mcommit d2612468489f8f689b589af8f8683d91f3cb764d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jun 5 19:49:21 2023 +0200
+
+    jq: remote-control-car
+
+[33mcommit 25da1eefab0641141eebcf9f26547b4db252d0ad[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jun 5 19:48:59 2023 +0200
+
+    jq: vehicle-purchase
+
+[33mcommit 01cb8d989007be15c11e3b8f05b42d35be4ea6f1[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jun 5 19:48:39 2023 +0200
+
+    jq: lasagna
+
+[33mcommit cd3df509ff7af37d9a3ac3c70e761573f9650089[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jun 5 19:48:25 2023 +0200
+
+    jq: high-score-board
+
+[33mcommit eb17c72ce9a9f15e8695504eda5a626d414b1621[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jun 5 19:42:21 2023 +0200
+
+    elixir: resistor-color-trio - iteration 2
+
+[33mcommit 1ba20bab3f898a72005705b9dcd24904b8cc6646[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jun 4 21:07:01 2023 +0200
+
+    jq: raindrops
+
+[33mcommit 32a2f5192eca29051efcdb6ec659290a7f952efe[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jun 4 20:44:16 2023 +0200
+
+    jq: bird-count
+
+[33mcommit 4b4d89bd4df5ad59f37a01176d606a4e4b817549[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jun 4 15:52:03 2023 +0200
+
+    jq: reverse-string
+
+[33mcommit 4e681441f53d135a677a7f8a2b5207dea5fc387b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jun 4 15:48:10 2023 +0200
+
+    jq: two-fer
+
+[33mcommit fea4b578fc864a711e520aa4d92fc4763df4f84e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jun 4 15:39:51 2023 +0200
+
+    jq: log-line-parser
+
+[33mcommit a22c463ab0fd48511b4ff47ffbe620ca01fa1b82[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jun 3 13:33:23 2023 +0200
+
+    emacs-lisp: robot-name
+
+[33mcommit 55c5b0cf4ad6ead7f2bcb35f97548d68f2af9a13[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jun 3 13:29:27 2023 +0200
+
+    emacs-lisp: matching-brackets
+
+[33mcommit 631a512919aed3b4e279ac156dfef1836cec3aa3[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jun 2 21:51:45 2023 +0200
+
+    initial commit - jq
+
+[33mcommit c627225267706192753988d737f843fd587d1839[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Jun 1 21:53:12 2023 +0200
+
+    emacs-lisp: difference-of-squares
+
+[33mcommit 6a4e470c3e0709d9683438b093a4d57c5ebdc5d8[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 31 21:00:00 2023 +0200
+
+    clojure: annalyns-infiltration
+
+[33mcommit dc5687f23b0789d2e5aa1271d2988a004ea3f8e6[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 31 16:36:58 2023 +0200
+
+    coffeescript: queen-attack
+
+[33mcommit 2264ed561499ad6704070587c37800aec9ef8fb8[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 31 16:31:31 2023 +0200
+
+    initial commit - emacs-lisp
+
+[33mcommit 3000d82041c245a6d5b100eef62cfb4d7638960f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 31 12:12:51 2023 +0200
+
+    go: list-ops
+
+[33mcommit 3c44c69df9d9e243ed696293aee1d6bc7dbb2ebd[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 31 11:55:38 2023 +0200
+
+    go: acronym
+
+[33mcommit 833505483a32b556bfbea37014a8516b137e99dc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 31 08:56:57 2023 +0200
+
+    go: sublist
+
+[33mcommit fefec64c94bd368554b23bf481bb007059330793[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 31 08:40:24 2023 +0200
+
+    go: series
+
+[33mcommit 801c56ad4cf015c9deb5e6894cd06af239b650f7[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 30 23:28:41 2023 +0200
+
+    go: prime-factors - iteration 4
+
+[33mcommit d2c1b2a47509585a9409490771749b8f46d26c06[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 30 22:56:41 2023 +0200
+
+    go: prime-factors - iteration 2
+
+[33mcommit 137a9a641b6952333033a27ebc1d024d7a729ca8[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 30 22:34:05 2023 +0200
+
+    go: prime-factors
+
+[33mcommit dbbe9ae62f9811e933f17e1f12ecce23bcbbb851[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 30 22:15:02 2023 +0200
+
+    go: phone-number
+
+[33mcommit 3246cd427702a248e18f8bc9df94bf07c3f7e6cb[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 30 09:49:54 2023 +0200
+
+    go: simple-cipher
+
+[33mcommit 606c23728854f90a320dee31c4b8d31ce101b942[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon May 29 22:24:26 2023 +0200
+
+    go: anagram - iteration 2
+
+[33mcommit c7d4ac50725bf5ac8a6331f241137691e056f338[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun May 28 23:58:17 2023 +0200
+
+    go: bottle-song - iteration 2
+
+[33mcommit 6aee46158214bb44fc0c8d9eb562879e505af1a7[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat May 27 22:06:32 2023 +0200
+
+    go: bottle-song
+
+[33mcommit 84b8f6a99587e837056518f7e0b4bc623edc40d4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri May 26 20:43:17 2023 +0200
+
+    go: atbash-cipher - iteration 4
+
+[33mcommit 7f7d5711ba6445722a2dda2c0b7be64183b9615e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri May 26 18:55:49 2023 +0200
+
+    go: atbash-cipher - iteration 3
+
+[33mcommit ed7e8ebe04b40c3f509d347dafdc9128782fbb5e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri May 26 18:27:17 2023 +0200
+
+    go: atbash-cipher - iteration 2
+
+[33mcommit 484b73fab4cb2713190581df0597a72ceb245f1a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu May 25 15:09:55 2023 +0200
+
+    go: atbash-cipher
+
+[33mcommit 5cff4641c4526a9a3274fdb2856a0ff52a61b0c9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 24 10:40:09 2023 +0200
+
+    go: armstrong-numbers - iteration 4
+
+[33mcommit fc57d4e1dd4c5b3f5a4dd98883898c4599df2a5c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 23 06:37:05 2023 +0200
+
+    go: sum-of-multiples
+
+[33mcommit a56deaa92b6354e18469e0c40103b8e72921ad42[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon May 22 23:30:15 2023 +0200
+
+    go: armstrong-numbers - iteration 3
+
+[33mcommit bab01e722054f007c98c8ca5491c2c7027b9dd80[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon May 22 11:17:50 2023 +0200
+
+    go: armstrong-numbers
+
+[33mcommit 92621a081a7ce1726431d1f2d1f401c0535b7f30[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon May 22 10:24:11 2023 +0200
+
+    go: nth-prime
+
+[33mcommit b9e2a17d557844fa7e6ece07b27447eda596a3e9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun May 21 21:58:01 2023 +0200
+
+    go: largest-series-product
+
+[33mcommit 3ed0d9010895e4d7e733a3137afbd74bc2023511[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun May 21 14:31:09 2023 +0200
+
+    go: word-count
+
+[33mcommit 7a5b1609ec4f034e7e89a5b0dd00841f902aae46[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun May 21 14:20:06 2023 +0200
+
+    go: anagram
+
+[33mcommit 9851f7981cbaeb4e0096cad1415c6c6fa6008f2d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat May 20 16:50:20 2023 +0200
+
+    go: protein-translation
+
+[33mcommit 0c604b8902da722152fa7a42d2a8fdbc537160e6[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri May 19 17:05:47 2023 +0200
+
+    go: pascals-triangle
+
+[33mcommit 1a415c68b67c0805e2bde016ffbe3e9a4b180b70[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu May 18 11:02:08 2023 +0200
+
+    go: proverb
+
+[33mcommit 58938d83eab6d7cfc2ac56954fcf3528439a7856[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu May 18 10:45:04 2023 +0200
+
+    go: rotational-cipher
+
+[33mcommit 153f73a2d6184a19ddba6ca51a411d5e431109bb[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 17 22:19:24 2023 +0200
+
+    go: isbn-verifier
+
+[33mcommit 70da1eb2d76c8f1feacc1638bcbadb8d844bc3b4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 17 21:42:46 2023 +0200
+
+    go: roman-numerals
+
+[33mcommit c5121cb05bdce328086f9b03079aa9c428bf8314[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 17 21:21:36 2023 +0200
+
+    go: etl
+
+[33mcommit 09fb5d63f53819753e97ac260d6df7d02cb60b9a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 17 21:11:23 2023 +0200
+
+    go: darts
+
+[33mcommit 953aac4dc4e87d87b935dc6a5eb84ab96f815156[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 17 21:06:21 2023 +0200
+
+    go: strain
+
+[33mcommit 6ff7ff3800f6e1fe62ff794127e2d7b383260064[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 17 20:51:19 2023 +0200
+
+    go: nucleotide-count
+
+[33mcommit bafc9b6a2bc16b02147b1341f701e495e226f40a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 16 18:57:23 2023 +0200
+
+    python: pov
+
+[33mcommit d4915c9cf0c3462a0d6435bbcc4fc2d74ee77619[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 16 18:53:04 2023 +0200
+
+    python: rest-api
+
+[33mcommit 93e2321efae9b5034c51fdf2d8e35c8d5d83a75f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 16 18:45:29 2023 +0200
+
+    python: paasio
+
+[33mcommit 3e7ddeea645ca95bcc51163334db7c0e55e15fa4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 16 18:38:54 2023 +0200
+
+    python: sgf-parsing
+
+[33mcommit d050d49e78afd70bbec78bf3a8d5000c26a2fda7[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 16 18:33:25 2023 +0200
+
+    python: satellite
+
+[33mcommit 55702079909e99a6f59527da78fea7c802854404[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 16 18:26:44 2023 +0200
+
+    python: dominoes
+
+[33mcommit 2f7fb4d6a469620895d7dd28db8032670bc20c22[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 16 18:19:18 2023 +0200
+
+    python: book-store
+
+[33mcommit 5201ee8f58ea16cb6a03cc9e99af7034d93a4f40[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 16 18:07:29 2023 +0200
+
+    python: two-bucket
+
+[33mcommit eaf093145e7a6459c7dd569fa17a1bdfc67b443a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 16 18:00:10 2023 +0200
+
+    python: zipper
+
+[33mcommit e2f23988f4093bbe786a1f693da64d9c27703b5f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon May 15 21:58:29 2023 +0200
+
+    python: react
+
+[33mcommit 52a60818d7db1e142429aa34151c7f8c9d5d2307[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon May 15 21:44:59 2023 +0200
+
+    python: alphametics
+
+[33mcommit fcbb98738ed13b632e2ba1d61f7ddedc237db499[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon May 15 21:26:46 2023 +0200
+
+    python: bank-account
+
+[33mcommit ff77e6f19953817f9714ee91514f5e6897602a1f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon May 15 21:19:30 2023 +0200
+
+    python: word-search
+
+[33mcommit 315808f3e34ba142e9c0c7f746eca9228e8883d9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon May 15 20:43:46 2023 +0200
+
+    python: affine-cipher
+
+[33mcommit 9bd1bd65a37ff22768469cce7f8a8adf30082cc3[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon May 15 20:32:19 2023 +0200
+
+    python: binary-search-tree
+
+[33mcommit 58b7a12d025e6d3d555194b808bd0a1cb4963f59[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon May 15 20:12:11 2023 +0200
+
+    python: zebra-puzzle - iteration 2
+
+[33mcommit 72e73574e219c5a9a77bebc7a4bde6815304f811[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon May 15 20:05:29 2023 +0200
+
+    python: zebra-puzzle
+
+[33mcommit 2fd475b8dfdbcc7f077175cfcf613dc64f19099d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon May 15 19:51:42 2023 +0200
+
+    python: dot-dsl
+
+[33mcommit c9b6ec9906452d43a792831d917210aebfdff848[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon May 15 14:54:38 2023 +0200
+
+    python: bowling
+
+[33mcommit 86674b9d3014790512f9e4c2e6b7605b96cb8c96[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun May 14 22:44:37 2023 +0200
+
+    python: list-ops - iteration 3
+
+[33mcommit 91253fbc88f832d3c73d345d689f818c93e11c31[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun May 14 19:47:31 2023 +0200
+
+    python: custom-set - iteration 5
+
+[33mcommit c847103ee492ebfb565eabcec243fa214f872309[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun May 14 11:49:32 2023 +0200
+
+    python: custom-set - iteration 4
+
+[33mcommit e7fcb1677b5a0183912f384ac66096e0da551c9f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat May 13 23:15:23 2023 +0200
+
+    python: custom-set - iteration 3
+
+[33mcommit a0abc492ee627e324bd8af0393edda0e6435e615[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat May 13 00:15:26 2023 +0200
+
+    python: custom-set
+
+[33mcommit c908285c9c8f0411b97ed06791d0f61c5e726dc4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri May 12 11:59:07 2023 +0200
+
+    python: forth
+
+[33mcommit 44d176ae5f0f5d4e41ef4f06927e7948209a4265[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu May 11 21:36:15 2023 +0200
+
+    python: rational-numbers
+
+[33mcommit c97cf6bb29088459dd81e9bfcaa3e67bec276391[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 10 22:27:28 2023 +0200
+
+    python: scale-generator
+
+[33mcommit 9d48425e61e672acfc0c954071aec7c6c1a919b4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 9 20:21:45 2023 +0200
+
+    python: hangman
+
+[33mcommit 69a4a89ee478e642db902be965d99cc60940d7c9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun May 7 22:27:44 2023 +0200
+
+    python: go-counting
+
+[33mcommit bcee8b0b28aa6e8e292c65b156d104101694a3ce[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat May 6 17:21:34 2023 +0200
+
+    python: variable-length-quantity
+
+[33mcommit aaa43b043ff639a34cca7dde1aaa2a594531a302[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat May 6 17:05:32 2023 +0200
+
+    python: knapsack
+
+[33mcommit 18b3365a0ae333efce9c82bedf67a04e1db3d7ec[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri May 5 22:55:58 2023 +0200
+
+    python: ledger
+
+[33mcommit f78db0fa80a97ee3fbb110cc316260b8ac2418bd[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri May 5 21:30:44 2023 +0200
+
+    python: complex-numbers
+
+[33mcommit 635380bdf7139769889d887e1b0ae1c53fe4818e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri May 5 18:46:56 2023 +0200
+
+    python: change
+
+[33mcommit fe0061671d5e300c8453e43e224287f04a66ee95[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri May 5 18:22:45 2023 +0200
+
+    python: palindrome-products
+
+[33mcommit da14399c986af0a4afafafd46775866422e6a456[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri May 5 18:21:54 2023 +0200
+
+    python: food-chain
+
+[33mcommit 4bbab0a013664492bc86068eebd7bc93f28c9b16[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 3 14:09:27 2023 +0200
+
+    prolog: roman-numerals
+
+[33mcommit 2bf40cb531eedc5ac8e08eddfe092f179ee03ebd[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 3 14:07:22 2023 +0200
+
+    prolog: raindrops
+
+[33mcommit 363988a0d4bc5df433c7085454579a8758444a07[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 3 14:04:42 2023 +0200
+
+    prolog: acronym
+
+[33mcommit e20fb70e03ecfeab3d9a8c1af37c3be8f406e8f4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 3 14:00:18 2023 +0200
+
+    python: all-your-base
+
+[33mcommit 4dbdaace757218535e113d318169705eb6d3c907[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed May 3 13:59:31 2023 +0200
+
+    prolog: space-age
+
+[33mcommit e91a973cc9e4bce06a2bc2b7cdee2b52800e71e2[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 2 20:59:58 2023 +0200
+
+    prolog: binary
+
+[33mcommit c490789cec2eaa155410ffa0a6458c50bca08fcb[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 2 20:50:19 2023 +0200
+
+    prolog: leap
+
+[33mcommit 383b5d17743a0bd0872586108dc08e2ebfb7f994[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 2 20:13:39 2023 +0200
+
+    prolog: isogram
+
+[33mcommit ac561fd2f38a5dbc296ffba5fb8c30d5e1d9934e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue May 2 20:13:24 2023 +0200
+
+    prolog: triangle
+
+[33mcommit 90bb38a05a783b3a350905763868884d1474482f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon May 1 20:29:41 2023 +0200
+
+    prolog: queen-attack
+
+[33mcommit 5222286646adf952452553f14157a51c31491a1a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Apr 30 20:43:28 2023 +0200
+
+    python: tournament
+
+[33mcommit 84833e64af2129bc78ec38b094b83b7abbfac0dd[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Apr 30 17:16:06 2023 +0200
+
+    python: linked-list - iteration 3
+
+[33mcommit 2afd4565fed84435c6ae851bbcf93fb08a322ee9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Apr 30 16:56:21 2023 +0200
+
+    python: killer-sudoku-helper
+
+[33mcommit 5ffab265564642deeb2471c5794f45f3ec18c990[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Apr 29 21:03:29 2023 +0200
+
+    elixir: bob
+
+[33mcommit 785a086debabaa4c22cc069c6fc31837968333d8[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Apr 29 21:00:25 2023 +0200
+
+    julia: bob
+
+[33mcommit 3e2822533e4d35358e64b797de8e9f93dce4fdba[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Apr 29 00:54:13 2023 +0200
+
+    go: bob
+
+[33mcommit 42df57bc01d6be7b3fd5b63d6837ef2bed48d1ee[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Apr 28 20:21:45 2023 +0200
+
+    go: reverse-string
+
+[33mcommit d12a4753585bfb5c461308da6af43c71af2aa1f8[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Apr 27 22:07:27 2023 +0200
+
+    python: linked-list - iteration 2
+
+[33mcommit 6f1159a7f2c45a5d7c0996468decf37180ade311[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Apr 26 20:48:30 2023 +0200
+
+    python: rail-fence-cipher
+
+[33mcommit 3480e6212041a72cab1d91ab0bb9dc0f381bf18b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Apr 26 20:19:56 2023 +0200
+
+    python: linked-list
+
+[33mcommit 46e332b807aa84899106e0af7b33cd2175e165dd[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Apr 23 20:37:36 2023 +0200
+
+    python: spiral-matrix
+
+[33mcommit 8bcf4fdf12f2349939d5dd90bddc59492bd41b24[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Apr 22 23:43:58 2023 +0200
+
+    python: meetup
+
+[33mcommit e65d44537335ded2875f1e5bf444c619dfd1401b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Apr 21 21:14:16 2023 +0200
+
+    python: minesweeper
+
+[33mcommit fbeb345f47e1d37d75dae493e720831870d7c5ff[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Apr 21 20:59:33 2023 +0200
+
+    python: grep
+
+[33mcommit 95140fe9f362334a215fcd3c92f8d9b6ee4d7682[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Apr 20 23:05:55 2023 +0200
+
+    python: pascals-triangle
+
+[33mcommit 05cefe484ddf5ec76b9789f5493d53a025171b82[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Apr 20 22:47:13 2023 +0200
+
+    python: pythagorean-triplet
+
+[33mcommit 6d0a7b8b3273bdd72c2d5e85916d4e660e312924[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Apr 19 21:33:41 2023 +0200
+
+    initial commit - prolog
+
+[33mcommit eba668d1c4636d71527eeba92bedc43a0edda45d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Apr 19 21:24:35 2023 +0200
+
+    python: connect
+
+[33mcommit 72d68f4c96108bb2613129cb3967ad2e8400152f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Apr 19 21:08:59 2023 +0200
+
+    python: diffie-hellman
+
+[33mcommit e7d39b33a611375645a48b39ffcdd1fc073ea47f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Apr 18 23:19:02 2023 +0200
+
+    python: ocr-numbers
+
+[33mcommit df76fe8c071e2ab9a6767461267361d7b8bf78a9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Apr 16 20:49:03 2023 +0200
+
+    python: tree-building
+
+[33mcommit ee9dc3a0f56308e4c331d504dff8d938cdace592[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Apr 15 12:07:46 2023 +0200
+
+    python: simple-linked-list
+
+[33mcommit a22844d782899b79eae56a380d0a8620c5a62d78[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Apr 14 19:50:33 2023 +0200
+
+    python: clock
+
+[33mcommit 142c0797e06596cbd23f6da8a07c2a91f462454c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Apr 14 19:26:18 2023 +0200
+
+    python: circular-buffer
+
+[33mcommit 54d9380ce593956a3d5669821d050c9af0677aa0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Apr 12 20:44:18 2023 +0200
+
+    python: grade-school
+
+[33mcommit e3d793056835e223b4bce2742a91bd5515105472[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Apr 11 20:00:18 2023 +0200
+
+    python: rectangles
+
+[33mcommit f448b29909d175649f296b347fb1c3a20148141e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Apr 11 19:57:16 2023 +0200
+
+    python: robot-simulator
+
+[33mcommit f9ff1c54aa3caf050f7bd13c7ca536ff72592bdb[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Apr 11 19:40:26 2023 +0200
+
+    python: kindergarten-garden
+
+[33mcommit d7384bf7ae24099d81c6a8257b68cd74fd6e8509[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Apr 10 22:03:52 2023 +0200
+
+    python: poker
+
+[33mcommit 9eebc2fe7ea922f1ac64db213f887c988abe6235[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Apr 9 19:12:50 2023 +0200
+
+    python: crypto-square
+
+[33mcommit 9920defda6a65ae55e9d4e5066731160d427d596[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Apr 9 12:28:45 2023 +0200
+
+    python: sieve
+
+[33mcommit 03419a93e76fdc19889f4e2f82540f675378a7e2[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Apr 8 12:21:53 2023 +0200
+
+    python: bottle-song
+
+[33mcommit fcf3be81055b69164b17e374fedcc8aca071cf02[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Apr 7 22:07:34 2023 +0200
+
+    python: high-scores
+
+[33mcommit 9510a80d0fdf492446f4f6ffaccc9c174e278a73[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Apr 6 22:15:29 2023 +0200
+
+    python: allergies
+
+[33mcommit 0e650410ea7f8fbe23be9e03eef8875121aa0700[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Apr 6 21:59:43 2023 +0200
+
+    python: matrix
+
+[33mcommit 0cd06583bf5198c4e27452c8fcf9b314f1a22502[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Apr 4 20:57:23 2023 +0200
+
+    python: roman-numerals
+
+[33mcommit 0333f66de97f8d9ac7fde519e101d1bcf23cbcf4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Apr 4 20:53:27 2023 +0200
+
+    python: dnd-character
+
+[33mcommit bb5bed131c186faee85be0a8d9f76160e61be0f2[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Apr 4 20:39:14 2023 +0200
+
+    python: prime-factors
+
+[33mcommit 98e9e6b1f770cba13cdd5796f1e3e5654ab2a378[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Apr 3 21:11:07 2023 +0200
+
+    python: run-length-encoding
+
+[33mcommit 2dc589f877cbebc65a1358ce1621cb65d2f287b7[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Apr 3 21:01:11 2023 +0200
+
+    python: queen-attack
+
+[33mcommit 3d46282f7c3129edc3b83a9924b91b3a25b15fe3[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Apr 2 19:04:00 2023 +0200
+
+    julia: difference-of-squares
+
+[33mcommit 52ce8d27b8210b895f9fdc0d5f6a231fd2dc9cf5[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Apr 2 19:02:16 2023 +0200
+
+    julia: rotational-cipher
+
+[33mcommit 724ed1476291f9da77d9f0f21219936b2ca8d23e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Apr 2 18:59:38 2023 +0200
+
+    julia: pangram
+
+[33mcommit be7f9627920c7e96b5a618ac0a1294ac25faaad0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Apr 2 18:57:27 2023 +0200
+
+    julia: nucleotide-count
+
+[33mcommit a0b364c66d4a889d2007569cacd1a45e15caa611[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Apr 2 18:55:19 2023 +0200
+
+    julia: leap
+
+[33mcommit 409296b6d593b4c0406724f8fea5cca98d6781de[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Apr 2 18:47:35 2023 +0200
+
+    initial commit - julia
+
+[33mcommit 2949d6da19a14d2acc207dc494461084bd169019[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Apr 1 23:07:09 2023 +0200
+
+    python: saddle-points
+
+[33mcommit 082b9e0b0cb16672e1e36d1078e487afe71a0db0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Apr 1 23:00:36 2023 +0200
+
+    python: largest-series-product
+
+[33mcommit 585b8bd7d3b94929f2c41c47f33cec214212142e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Mar 31 21:08:57 2023 +0200
+
+    go: space-age
+
+[33mcommit a1017ae075bcd5e79456d5d800d83bfe0edcbf87[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Mar 30 22:42:11 2023 +0200
+
+    go: gigasecond
+
+[33mcommit 6ec2dc74412451ff404b7de102030e60f7781047[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Mar 29 22:11:56 2023 +0200
+
+    go: collatz-conjecture
+
+[33mcommit 1c6d151f67a32d274e5cd41ec1caa46671e662f1[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Mar 28 20:57:53 2023 +0200
+
+    go: sieve
+
+[33mcommit a27a2daf1fc29a9119e762c3da1850b4ee4dcb80[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Mar 28 20:44:38 2023 +0200
+
+    go: secret-handshake
+
+[33mcommit 76149820ff38d5fb0159adafd126006687a98c58[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Mar 28 20:23:49 2023 +0200
+
+    go: binary-search
+
+[33mcommit 6708fe40a9f51fdfe0eb89a232de49ac3cf2e56e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Mar 28 20:20:23 2023 +0200
+
+    go: linked-list
+
+[33mcommit f68819d936ddd1231bcd94e2f126240e04d41731[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Mar 27 21:37:22 2023 +0200
+
+    elixir: protein-translation
+
+[33mcommit c024d240e5cc786a31a1b880087569a5093edaec[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Mar 27 21:23:48 2023 +0200
+
+    elixir: yacht
+
+[33mcommit 1e8e6675da9cfc518e10b3751ef2c2415c7a8b9c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Mar 27 21:15:49 2023 +0200
+
+    elixir: robot-simulator
+
+[33mcommit 47e57e52a1545b40ea9e1a18d2bbda6b982652a1[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Mar 26 18:02:59 2023 +0200
+
+    python: say
+
+[33mcommit 98a2f17127c1100125977871b74a79c7377f8fbb[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Mar 26 17:46:53 2023 +0200
+
+    python: matching-brackets
+
+[33mcommit b4dc588ebe36c213f07200af684c9ec209e85aa7[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Mar 25 23:14:20 2023 +0100
+
+    python: phone-number
+
+[33mcommit 98c29c786b9730ea97fa9ec032e2470307afe2c7[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Mar 24 19:37:26 2023 +0100
+
+    python: series
+
+[33mcommit da1d619538941c805cc175487fd552acb47dc012[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Mar 23 22:44:16 2023 +0100
+
+    python: twelve-days
+
+[33mcommit 3d4fb73769c2b0d370c7cd24eba01df76e04bc6c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Mar 22 20:47:58 2023 +0100
+
+    python: nth-prime
+
+[33mcommit ff4c70182650151fd18a2303189a3bca8de34880[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Mar 22 19:41:40 2023 +0100
+
+    python: diamond
+
+[33mcommit e57fda628b1dc43e359b4b5abe4114edc8761c64[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Mar 22 19:36:04 2023 +0100
+
+    python: yacht
+
+[33mcommit afce1b0824ba447913948b6f4465be919a8b5158[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Mar 21 22:46:16 2023 +0100
+
+    python: robot-name
+
+[33mcommit bee09cb5646e1b2eb1d6b77ac1f40d02ed9e3d1c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Mar 21 22:34:57 2023 +0100
+
+    python: word-count
+
+[33mcommit 47a15284e743b7fe6e01f530ac574f09e97814e9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Mar 20 22:13:15 2023 +0100
+
+    python: proverb
+
+[33mcommit 977f0ac0e9beb6de7e4d28a4efc9bd7bcf156a56[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Mar 20 21:55:52 2023 +0100
+
+    python: scrabble-score
+
+[33mcommit c0e05f3eed737fc3154868051ef950b837b03f91[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Mar 20 21:45:25 2023 +0100
+
+    python: protein-translation
+
+[33mcommit 4e4909fab098573e118b79d7e3c0bbd9bfc469ef[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Mar 20 21:20:21 2023 +0100
+
+    python: pig-latin
+
+[33mcommit b061c2ddb72b48c25aaa1a8172cab3854bb89279[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Mar 19 22:39:31 2023 +0100
+
+    python: atbash-cipher
+
+[33mcommit 96f8beec7bd128fa1fa23c3d59b0f12b692db8c5[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Mar 18 20:14:50 2023 +0100
+
+    python: list-ops
+
+[33mcommit acaaf5f9022c5c0cfd9bb791c73b389f86a28c0b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Mar 11 11:05:26 2023 +0100
+
+    python: resistor-color-trio
+
+[33mcommit 5ce34113ccd4adbfdf3ec12fd665f19440b3b5d4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Mar 8 20:37:56 2023 +0100
+
+    python: transpose
+
+[33mcommit d3fda4257dba60b62011712dc29b9ad3c4721b75[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Mar 7 20:38:02 2023 +0100
+
+    python: acronym
+
+[33mcommit 33405a9e5388fda54d87ab4c67a9f6dfb137b81e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Mar 6 21:48:11 2023 +0100
+
+    python: binary-search
+
+[33mcommit 9bfd7cd9f1d106a4be59883a1519781823a5597e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Mar 6 21:00:31 2023 +0100
+
+    rust: health-statistics
+
+[33mcommit f82f17c3eb92e69024b78395c871724b9ab7cbea[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Mar 6 20:58:23 2023 +0100
+
+    rust: resistor-color
+
+[33mcommit 9447b63e9554643b5fa96e7878e1b72cf0d12c61[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Mar 5 21:46:52 2023 +0100
+
+    rust: semi-structured-logs
+
+[33mcommit 35cf0c97f41fc8d84a5cd882a5c3bb2b2793cc59[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Mar 4 23:52:05 2023 +0100
+
+    go: pangram
+
+[33mcommit 0854989da79f46de1068619590845403e825fe8f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Mar 4 23:42:32 2023 +0100
+
+    elixir: remote_control_car
+
+[33mcommit 27308a60215b41b0f245f8642ea61992e6691890[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Mar 4 23:42:17 2023 +0100
+
+    elixir: chessboard
+
+[33mcommit 16c13219f9edd54ea570db2b4d1f59d5ec719819[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Mar 4 22:50:01 2023 +0100
+
+    elixir: newsletter
+
+[33mcommit 313db6a67a3f8e802a491cc02bdeb064f7f413fd[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Mar 4 12:53:29 2023 +0100
+
+    rust: assembly-line
+
+[33mcommit dd1c055332e2aaf0951a444074a0b13cd35399ac[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Mar 3 20:22:51 2023 +0100
+
+    rust: lucians-luscious-lasagna
+
+[33mcommit 162c46a97a0aa8a52848933662e68e6b2b28dfa4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Mar 3 20:14:22 2023 +0100
+
+    initial commit - rust
+
+[33mcommit 4bb333f0088a75c1cc9955fde19d93dbd1c731cc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Mar 2 22:18:59 2023 +0100
+
+    go: rna-transcription
+
+[33mcommit 2b9e75ce576672bd62e03992251a0d73158db706[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Mar 2 22:07:59 2023 +0100
+
+    go: triangle
+
+[33mcommit 6ca2c590f1d9920cc109fc1545d14ee158caa9ab[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Mar 1 12:10:18 2023 +0100
+
+    go: resistor-color-trio
+
+[33mcommit 4dff79165542fb9f215dfd6935aaad8b67358f96[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Mar 1 12:09:47 2023 +0100
+
+    go: resistor-color-duo
+
+[33mcommit 8ead41c93eaf33e2d2c6a5b6617ffd80088e734b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Mar 1 12:08:53 2023 +0100
+
+    go: resistor-color
+
+[33mcommit 2b0b31f132fd99adafe8faddf94b6ad54a0a3839[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Feb 26 12:58:57 2023 +0100
+
+    python: wordy
+
+[33mcommit 7e1274126efd3127bdae02c815ba737e901b2710[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Feb 26 12:39:09 2023 +0100
+
+    python: house
+
+[33mcommit 25ae8afd05c7aed349795ce820d1a258cdcc783e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Feb 25 00:18:06 2023 +0100
+
+    python: luhn
+
+[33mcommit dd3e888d159119027fa571d3136c8e9371ed7d7a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Feb 24 23:58:36 2023 +0100
+
+    python: triangle
+
+[33mcommit fffbedb071b87d57a94398da75c7efb2f06d729f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 23 22:22:37 2023 +0100
+
+    python: sublist
+
+[33mcommit 20c2d0f590e7b9246db98f88c9bc370df526ac56[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 23 22:15:50 2023 +0100
+
+    python: rotational-cipher
+
+[33mcommit 40cc15cc3269cce27c15b35ed21e025a5ad25954[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 23 22:07:59 2023 +0100
+
+    python: secret-handshake
+
+[33mcommit ef6a8c8ed59155dbd867b679477375cccd91fa8d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 23 21:40:11 2023 +0100
+
+    python: collatz-conjecture
+
+[33mcommit 290d2b895c08a3cdfa5d4a5b852e7beddcbd7f7a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 23 21:32:47 2023 +0100
+
+    python: space-age
+
+[33mcommit 5e9807e8bcfbdb2477bd972bbf7c758b58537856[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 23 21:26:59 2023 +0100
+
+    python: isbn-verifier
+
+[33mcommit a026b4814cb1a626d3982e001d30ab36e8e1cadc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Feb 22 22:01:31 2023 +0100
+
+    python: perfect-numbers
+
+[33mcommit d7f185d1acd809cb30da5e144d3854bfba8400fc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Feb 22 21:54:24 2023 +0100
+
+    python: gigasecond
+
+[33mcommit cfa1f9fef36a4dd1f2fcc6c33dae13f5d064c882[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Feb 22 21:49:24 2023 +0100
+
+    python: flatten-array
+
+[33mcommit 50de8f0571eedd71a1dc2a4f381f333326fb4afc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Feb 22 20:57:49 2023 +0100
+
+    python: difference-of-squares
+
+[33mcommit d47d1775dd621989675f76509952e3479d8aa910[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Feb 22 20:52:21 2023 +0100
+
+    python: anagram
+
+[33mcommit bb84a69021daca4ad8af26e71479a58f2b0f5e57[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Feb 22 20:40:51 2023 +0100
+
+    python: sum-of-multiples
+
+[33mcommit 86effefe107629d71d575d9571d9bf1081683c7d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Feb 22 20:26:02 2023 +0100
+
+    python: simple-cipher
+
+[33mcommit dd6cac303f04d42678b416244fdf625cb737deb4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 21 21:44:03 2023 +0100
+
+    python: raindrops
+
+[33mcommit 794870d8e5fa1b5277bdf3342a3e003572d2d18d[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 21 21:33:17 2023 +0100
+
+    python: darts
+
+[33mcommit 54a3b3a0b3d693421d750e21c94b2d92a3e3f82a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 21 21:07:49 2023 +0100
+
+    python: etl
+
+[33mcommit 0a06d1b004596d0a8fb12f2f2d804ccbe33b41ef[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 21 20:58:39 2023 +0100
+
+    python: armstrong-numbers
+
+[33mcommit a080283354c8256898e053af866744a0ffa03ddc[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 21 20:50:15 2023 +0100
+
+    python: rna-transcription
+
+[33mcommit eab2666d2afa73b69f4e5071809669b7faf01a41[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 21 20:43:08 2023 +0100
+
+    python: bob
+
+[33mcommit 54c99e1b216173a1dcb73c2a9904ab3317c36be7[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 21 20:33:23 2023 +0100
+
+    python: hamming
+
+[33mcommit 7b998553d9e7ad610b373463ad3025f5cb8f27ca[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Feb 19 21:26:56 2023 +0100
+
+    python: ellens-alien-game
+
+[33mcommit 4b76e2cdeac67921d951456a784fc007080767f0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Feb 19 21:18:48 2023 +0100
+
+    python: cater-waiter
+
+[33mcommit 1fc3bc2718a519abf66103943a27935bcd520b36[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Feb 19 20:31:44 2023 +0100
+
+    python: locomotive-engineer
+
+[33mcommit 3db831b01e8445d1b19798d7261c51be3bf87333[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Feb 19 20:01:52 2023 +0100
+
+    python: inventory-management
+
+[33mcommit a46d47ceb17eb5844c8967b841b2f5335992d362[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Feb 18 20:07:37 2023 +0100
+
+    python: tisbury-treasure-hunt
+
+[33mcommit 976cea840edd5a312cdc390a4723b5c94201f18a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Feb 18 18:24:16 2023 +0100
+
+    python: making-the-grade
+
+[33mcommit 6c9686c6b0630e34036c0d064a1794e3e995d166[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Feb 18 18:02:40 2023 +0100
+
+    python: chaitanas-colossal-coaster
+
+[33mcommit 87405ee45695b7aa30835f447b324f39d8258b57[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Feb 18 17:29:01 2023 +0100
+
+    python: card-games
+
+[33mcommit cc1eec0336893575018745004c9c6a5c5da83cf4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Feb 17 23:35:31 2023 +0100
+
+    python: little-sisters-vocab
+
+[33mcommit dd0180ed31ae158ef1607c563e56f90eac5bf882[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Feb 17 23:17:41 2023 +0100
+
+    python: little-sisters-essay
+
+[33mcommit f9d037c256b002657a8128971f2efdc94860bc9b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Feb 17 23:09:40 2023 +0100
+
+    python: black-jack
+
+[33mcommit 12f69f577b03aa127436cbe4444e4bd6017d1ad6[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Feb 17 22:10:27 2023 +0100
+
+    python: meltdown-mitigation
+
+[33mcommit e98c20b2d1b576d837cc08a56ee23dd10c8c1715[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 16 21:22:42 2023 +0100
+
+    python: grains
+
+[33mcommit 0a4963f316b30b6e7f59f5bfd05cdcaf45126715[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 16 21:11:33 2023 +0100
+
+    python: isogram
+
+[33mcommit 2ab92e64895a49527e67afb538552561cad3147f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 16 20:50:40 2023 +0100
+
+    python: resistor-color-duo
+
+[33mcommit eb2b2322aecaa04e721b56529dc83fbab6e6e899[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 16 20:38:54 2023 +0100
+
+    python: resistor-color
+
+[33mcommit 4b31f3a9c6cd5ae9834705e3325925540cad6f9e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 16 20:00:06 2023 +0100
+
+    python: pangram
+
+[33mcommit c6a697ee63e6b2a757e54cb425b3dd327d1deded[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Feb 15 20:33:27 2023 +0100
+
+    python: markdown
+
+[33mcommit c09d81241efa1bb2bc986b168af061ed2eba28c4[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 14 20:13:57 2023 +0100
+
+    python: square-root
+
+[33mcommit be33d38d19279e8cfe212313622e8697ba1d8848[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Feb 14 20:03:09 2023 +0100
+
+    python: currency-exchange
+
+[33mcommit 273e74de3119c93414e79ec5d7b75564205a41aa[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Feb 13 21:01:01 2023 +0100
+
+    python: leap
+
+[33mcommit 77dd3b557359774d641dc93b283550ef1a838997[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Feb 13 20:55:36 2023 +0100
+
+    python: two-fer
+
+[33mcommit 9bda3c03facfc112e172424eb18a600d1eb45eba[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Feb 13 20:51:06 2023 +0100
+
+    python: reverse-string
+
+[33mcommit d7f3e2f99f5237a9f14cdb04cd5a938f49b9729a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Feb 13 20:49:34 2023 +0100
+
+    python: ghost-gobble-arcade-game
+
+[33mcommit 96e2e13e49b3507eced3bfa0f85cba3fe67bf1c9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Feb 13 20:40:04 2023 +0100
+
+    python: guidos-gorgeous-lasagna
+
+[33mcommit ac2d56196b1c252cc54ebcf0664ade057fb7a494[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Feb 13 20:26:45 2023 +0100
+
+    initial commit - python
+
+[33mcommit 6b9c9cbb78d3d474d0369d23e4796949b53762f9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Feb 12 21:24:48 2023 +0100
+
+    clojure: interest-is-interesting
+
+[33mcommit 7260aa22011afe1a2cd7c8a3308a803f7b850848[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Feb 12 21:04:51 2023 +0100
+
+    clojure: cars-assemble
+
+[33mcommit 6fb0bcb2e5aa104d7234f3422a4da0d1e506e2eb[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Feb 11 11:25:22 2023 +0100
+
+    clojure: bird-watcher
+
+[33mcommit a2ffcbaacc6cb6e0fb8d6c4cf63dce1d64f7ba7e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Feb 10 23:21:50 2023 +0100
+
+    clojure: tracks-on-tracks-on-tracks
+
+[33mcommit 914ae4ebd42470cb113269027e091483c76cb42a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Feb 10 22:58:21 2023 +0100
+
+    clojure: lucians-luscious-lasagna
+
+[33mcommit 7a92969e0a132e32019bf5c96ba2e9c4cf34349c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Feb 10 22:53:13 2023 +0100
+
+    initial commit - clojure
+
+[33mcommit b27c9794555608c8311eb1aca7d6e8a15618b5ae[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 9 21:54:03 2023 +0100
+
+    f#: gigasecond
+
+[33mcommit df42186ff821b242d8a838e8ff86c222289f0cc2[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Feb 5 21:33:03 2023 +0100
+
+    f#: booking-up-for-beauty
+
+[33mcommit 30f31f05f5f48bf949ba050f78ee9b79f09ed483[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Feb 4 22:16:53 2023 +0100
+
+    f#: two-fer
+
+[33mcommit 31a956f610095d0504a225670af5c6c567ee14e3[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Feb 4 22:04:13 2023 +0100
+
+    f#: cars-assemble
+
+[33mcommit 0629d5d610a608efc8e1b00fc60c2f80a96ad641[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Feb 4 21:47:05 2023 +0100
+
+    f#: log-levels
+
+[33mcommit 532cd31540ba3dd05bc3518771ff7dc6f5d1758b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Feb 4 21:22:32 2023 +0100
+
+    f#: annalyns-infiltration
+
+[33mcommit e4d9ae6d62278b6e010a85d94a61b9ef1184954b[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Feb 4 20:50:22 2023 +0100
+
+    f#: lucians-luscious-lasagna
+
+[33mcommit 6905c41e7a013e57391d779d4f726a9b2d76881c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Feb 4 20:16:24 2023 +0100
+
+    initial commit - f#
+
+[33mcommit 1b27169c23a4a1fc48759ffc6abe835c2594b536[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 2 23:00:58 2023 +0100
+
+    elixir: two-fer
+
+[33mcommit f0ebd36892a99645e47f66c02a54f832ac5a15fe[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 2 22:46:08 2023 +0100
+
+    elixir: hamming
+
+[33mcommit 732158f677798df3e510763954c2fc54eba8b027[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 2 22:02:40 2023 +0100
+
+    elixir: file-sniffer
+
+[33mcommit e7ce006288d4b2bc0b949f4c91cd3e169ec63227[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Thu Feb 2 21:53:34 2023 +0100
+
+    elixir: boutique-inventory
+
+[33mcommit 2ee503119f3794449acf23bf90b3904b3f21f0f6[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Feb 1 22:46:52 2023 +0100
+
+    elixir: basketball-website
+
+[33mcommit 103a506e7b290100ae1cc29e02f8a8ffc6f969e0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 31 22:48:35 2023 +0100
+
+    elixir: library-fees
+
+[33mcommit 5be6de0eede7b64401d5687e64b7572b8ae1efe5[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jan 29 21:20:09 2023 +0100
+
+    go: airport-robot
+
+[33mcommit 19fc9f4b96001c0aeb3d0ae686dfd8b49f961b4c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jan 27 21:18:30 2023 +0100
+
+    elixir: dna-encoding
+
+[33mcommit 218214ee03e384bd1989585b48afc1f62ebf4729[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 25 20:24:23 2023 +0100
+
+    elixir: wine-cellar
+
+[33mcommit cf7414f87d79d62d3f5044ec99e4cb09f76c3b80[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 24 22:08:28 2023 +0100
+
+    elixir: take-a-number
+
+[33mcommit 8c450b6f7462c9abacb154766cd53b92745c0cf9[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 24 20:54:28 2023 +0100
+
+    elixir: resistor-color-trio
+
+[33mcommit 16f25c418393545b48d49c4016fa0d4d100dd2e0[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 24 20:25:21 2023 +0100
+
+    elixir: resistor-color-duo
+
+[33mcommit a1244243fe40995085c8844c3988a3dce6a70f6f[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jan 23 22:13:42 2023 +0100
+
+    elixir: rpg-character-sheet
+
+[33mcommit 3ebb43e6549ef7306679afa5974c52c7232dc929[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jan 23 21:11:33 2023 +0100
+
+    elixir: resistor-color
+
+[33mcommit aabd60e427e7d60b73ffd26c87fde7fd622b047a[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sun Jan 22 21:16:53 2023 +0100
+
+    elixir: collatz-conjecture
+
+[33mcommit 80aaacf20454f95d9f292eea32de4c8df894ff9c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jan 21 22:08:32 2023 +0100
+
+    elixir: german-sysadmin
+
+[33mcommit 7be49e79cf2b183d8804af55d9202ad09167e156[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jan 20 23:00:26 2023 +0100
+
+    elixir: city-office
+
+[33mcommit 22aea69ff5466c1b7592c5b85f4c9ae3daf40628[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Tue Jan 17 21:37:49 2023 +0100
+
+    elixir: high-score
+
+[33mcommit 5ac8b957db825dfff517fcdc4ffad2b5d9a5a856[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jan 16 22:51:52 2023 +0100
+
+    elixir: name_badge
+
+[33mcommit f750e434e71bc6e0b7c36e8ef41a8697257a2958[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Mon Jan 16 21:21:24 2023 +0100
+
+    elixir: bird-count
+
+[33mcommit b9637329c6a0b94c17cc2f7f82ad76a4f3147811[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jan 14 23:05:49 2023 +0100
+
+    elixir: high-school-sweetheart
+
+[33mcommit 1730f994551854e30f5400e13aaa1b2774fea9b2[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jan 14 21:11:11 2023 +0100
+
+    elixir: kitchen-calculator
+
+[33mcommit 9106d0aec440143a61d93153a8be3fa78c9d5b41[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jan 14 18:30:57 2023 +0100
+
+    initial commit - go
+
+[33mcommit 9952b83ccd147b209134960aeab64d90f9c436c6[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jan 14 17:06:11 2023 +0100
+
+    ignore and remove .exercism folders
+
+[33mcommit 4bcd08b73719dbcddc0fe2cdfe538e51d423dc64[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jan 14 17:02:26 2023 +0100
+
+    initial commit - coffeescript
+
+[33mcommit ddc2316d426fceec9ae131de7fb9a7692828fb0c[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Sat Jan 14 16:45:51 2023 +0100
+
+    bash: reverse-string
+
+[33mcommit f01e5d4ba611ecef827f87898868b16afcc267be[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Fri Jan 13 21:37:50 2023 +0100
+
+    bash: hamming
+
+[33mcommit 0820882dd6ce9c8d847d6e77aec9bb0e6886dc0e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 11 22:12:35 2023 +0100
+
+    initial commit - bash
+
+[33mcommit 1c8a39ea616cf7f0810f0975dd0aa49c65d50e7e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 11 22:02:52 2023 +0100
+
+    elixir: leap
+
+[33mcommit 1e4ed7021aadc57c554254e245fc4a975b1e0d6e[m
+Author: Patrick Kodal <patrick@kodal.dev>
+Date:   Wed Jan 11 21:51:00 2023 +0100
+
+    initial commit - exercism

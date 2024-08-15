@@ -40,7 +40,7 @@ class RaceTrack {
         this.distance = distance;
     }
 
-    public boolean tryFinishTrack(NeedForSpeed car) {
+    public boolean canFinishRace(NeedForSpeed car) {
         return car.maximalDistance() >= distance;
     }
 }

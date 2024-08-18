@@ -1,85 +1,85 @@
-"""Functions for tracking poker hands and assorted card tasks.
+"""Functions for managing poker hands and performing various card-related tasks.
 
 Python list documentation: https://docs.python.org/3/tutorial/datastructures.html
 """
 
 
 def get_rounds(number):
-    """Create a list containing the current and next two round numbers.
+    """Generate a list of the current round number and the next two rounds.
 
-    :param number: int - current round number.
-    :return: list - current round and the two that follow.
+    :param number: int - the current round number.
+    :return: list - a list containing the current round number and the next two round numbers.
     """
 
     return list(range(number, number + 3))
 
 
 def concatenate_rounds(rounds_1, rounds_2):
-    """Concatenate two lists of round numbers.
+    """Combine two lists of round numbers into one.
 
-    :param rounds_1: list - first rounds played.
-    :param rounds_2: list - second set of rounds played.
-    :return: list - all rounds played.
+    :param rounds_1: list - the first list of rounds played.
+    :param rounds_2: list - the second list of rounds played.
+    :return: list - a single list containing all rounds played from both input lists.
     """
 
     return [*rounds_1, *rounds_2]
 
 
 def list_contains_round(rounds, number):
-    """Check if the list of rounds contains the specified number.
+    """Determine if a specific round number is in the list of rounds played.
 
-    :param rounds: list - rounds played.
-    :param number: int - round number.
-    :return: bool - was the round played?
+    :param rounds: list - the list of rounds played.
+    :param number: int - the round number to check.
+    :return: bool - True if the round number is in the list, False otherwise.
     """
 
     return number in rounds
 
 
 def card_average(hand):
-    """Calculate and returns the average card value from the list.
+    """Calculate the average value of the cards in a hand.
 
-    :param hand: list - cards in hand.
-    :return: float - average value of the cards in the hand.
+    :param hand: list - the list of card values in hand.
+    :return: float - the average value of the cards.
     """
 
     return sum(hand) / len(hand)
 
 
 def approx_average_is_average(hand):
-    """Return if an average is using (first + last index values ) OR ('middle' card) == calculated average.
+    """Check if the average of the hand is approximately equal to either the average of the first and last card or the middle card.
 
-    :param hand: list - cards in hand.
-    :return: bool - does one of the approximate averages equal the `true average`?
+    :param hand: list - the list of card values in hand.
+    :return: bool - True if either the average of the first and last card or the middle card equals the actual average, False otherwise.
     """
 
-    return card_average(hand) in [
+    return card_average(hand) in (
         (hand[0] + hand[-1]) / 2,
         float(hand[len(hand) // 2]),
-    ]
+    )
 
 
 def average_even_is_average_odd(hand):
-    """Return if the (average of even indexed card values) == (average of odd indexed card values).
+    """Check if the average of the cards at even indices equals the average of the cards at odd indices.
 
-    :param hand: list - cards in hand.
-    :return: bool - are even and odd averages equal?
+    :param hand: list - the list of card values in hand.
+    :return: bool - True if the averages of the even-indexed and odd-indexed cards are equal, False otherwise.
     """
 
     return card_average(
-        [card for index, card in enumerate(hand) if index % 2]
+        tuple(card for index, card in enumerate(hand) if index % 2)
     ) == card_average(
-        [card for index, card in enumerate(hand) if not index % 2]
+        tuple(card for index, card in enumerate(hand) if not index % 2)
     )
 
 
 def maybe_double_last(hand):
-    """Multiply a Jack card value in the last index position by 2.
+    """Double the value of the last card if it is a Jack (value of 11).
 
-    :param hand: list - cards in hand.
-    :return: list - hand with Jacks (if present) value doubled.
+    :param hand: list - the list of card values in hand.
+    :return: list - the hand with the last card's value doubled if it is a Jack.
     """
 
-    if (last := hand[-1]) == 11:
-        hand[-1] = last * 2
+    if (hand[-1]) == 11:
+        hand[-1] = 22
     return hand

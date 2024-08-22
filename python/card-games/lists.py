@@ -54,7 +54,7 @@ def approx_average_is_average(hand):
     """
 
     return card_average(hand) in (
-        (hand[0] + hand[-1]) / 2,
+        card_average((hand[0], hand[-1])),
         float(hand[len(hand) // 2]),
     )
 
@@ -66,11 +66,7 @@ def average_even_is_average_odd(hand):
     :return: bool - True if the averages of the even-indexed and odd-indexed cards are equal, False otherwise.
     """
 
-    return card_average(
-        tuple(card for index, card in enumerate(hand) if index % 2)
-    ) == card_average(
-        tuple(card for index, card in enumerate(hand) if not index % 2)
-    )
+    return card_average(hand[::2]) == card_average(hand[1::2])
 
 
 def maybe_double_last(hand):
@@ -81,5 +77,5 @@ def maybe_double_last(hand):
     """
 
     if (hand[-1]) == 11:
-        hand[-1] = 22
+        hand[-1] *= 2
     return hand

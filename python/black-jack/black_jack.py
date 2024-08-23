@@ -16,11 +16,11 @@ def value_of_card(card, ace_value=1):
     2.  'A' (ace card) = 1
     3.  '2' - '10' = numerical value.
     """
-
-    if card in "JQK":
-        return 10
-    if card in "A":
-        return ace_value
+    match card:
+        case "J" | "Q" | "K":
+            return 10
+        case "A":
+            return ace_value
     return int(card)
 
 
@@ -35,8 +35,9 @@ def higher_card(card_one, card_two):
     2.  'A' (ace card) = 1
     3.  '2' - '10' = numerical value.
     """
-
-    card_one_value, card_two_value = value_of_card(card_one), value_of_card(card_two)
+    card_one_value, card_two_value = value_of_card(card_one), value_of_card(
+        card_two
+    )
     if card_one_value == card_two_value:
         return card_one, card_two
     return card_one if card_one_value > card_two_value else card_two
@@ -53,7 +54,6 @@ def value_of_ace(card_one, card_two):
     2.  'A' (ace card) = 11 (if already in hand)
     3.  '2' - '10' = numerical value.
     """
-
     cards_value = value_of_card(card_one) + value_of_card(card_two)
     if card_one != "A" and card_two != "A" and cards_value <= 10:
         return 11
@@ -71,7 +71,6 @@ def is_blackjack(card_one, card_two):
     2.  'A' (ace card) = 11 (if already in hand)
     3.  '2' - '10' = numerical value.
     """
-
     return value_of_card(card_one, 11) + value_of_card(card_two, 11) == 21
 
 
@@ -82,15 +81,14 @@ def can_split_pairs(card_one, card_two):
     :param card_two: str - second card dealt in hand.  See below for values.
     :return: bool - can the hand be split into two pairs? (i.e. cards are of the same value).
     """
-
     return value_of_card(card_one) == value_of_card(card_two)
 
 
 def can_double_down(card_one, card_two):
     """Determine if a blackjack player can place a double down bet.
 
-    :param card_one, card_two: str - first and second cards in hand.
+    :param card_one: str - first card in hand.
+    :param card_two: str - second card in hand.
     :return: bool - can the hand can be doubled down? (i.e. totals 9, 10 or 11 points).
     """
-
     return value_of_card(card_one) + value_of_card(card_two) in range(9, 12)

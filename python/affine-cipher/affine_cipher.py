@@ -5,18 +5,21 @@ TO_REMOVE = (" ", ".", ",")
 
 
 def hcf_check(x, y):
+    """Calculate the highest common factor (HCF) of two integers x and y using recursion."""
     if y == 0:
         return x
     return hcf_check(y, x % y)
 
 
 def mmi(a):
+    """Find the modular multiplicative inverse of integer a under modulo 26."""
     for x in range(1, 26):
         if (a * x) % 26 == 1:
             return x
 
 
 def encode(plain_text, a, b):
+    """Encode the given plain_text using the affine cipher formula defined by keys a and b."""
     if hcf_check(26, a) != 1:
         raise ValueError("a and m must be coprime.")
     for character in TO_REMOVE:
@@ -36,6 +39,7 @@ def encode(plain_text, a, b):
 
 
 def decode(ciphered_text, a, b):
+    """Decode the given ciphered_text using the affine cipher formula defined by keys a and b."""
     if hcf_check(26, a) != 1:
         raise ValueError("a and m must be coprime.")
     ciphered_text = ciphered_text.replace(" ", "")

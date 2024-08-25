@@ -1,6 +1,5 @@
 """Functions for compiling dishes and ingredients for a catering company."""
 
-
 from sets_categories_data import (
     VEGAN,
     VEGETARIAN,
@@ -22,7 +21,6 @@ def clean_ingredients(dish_name, dish_ingredients):
     This function should return a `tuple` with the name of the dish as the first item,
     followed by the de-duped `set` of ingredients as the second item.
     """
-
     return dish_name, set(dish_ingredients)
 
 
@@ -37,7 +35,6 @@ def check_drinks(drink_name, drink_ingredients):
     name followed by "Cocktail" (includes alcohol).
 
     """
-
     first_character = "M"
     if set(drink_ingredients) & ALCOHOLS:
         first_character = "C"
@@ -56,9 +53,8 @@ def categorize_dish(dish_name, dish_ingredients):
     All dishes will "fit" into one of the categories imported from `sets_categories_data.py`
 
     """
-
-    categories = [VEGAN, VEGETARIAN, PALEO, KETO, OMNIVORE]
-    categories_text = ["VEGAN", "VEGETARIAN", "PALEO", "KETO", "OMNIVORE"]
+    categories = (VEGAN, VEGETARIAN, PALEO, KETO, OMNIVORE)
+    categories_text = ("VEGAN", "VEGETARIAN", "PALEO", "KETO", "OMNIVORE")
     for index, category in enumerate(categories):
         if not set(dish_ingredients) - category:
             return f"{dish_name}: {categories_text[index]}"
@@ -75,7 +71,6 @@ def tag_special_ingredients(dish):
     For the purposes of this exercise, all allergens or special ingredients that need to be tracked are in the
     SPECIAL_INGREDIENTS constant imported from `sets_categories_data.py`.
     """
-
     return dish[0], set(dish[1]) & SPECIAL_INGREDIENTS
 
 
@@ -87,7 +82,6 @@ def compile_ingredients(dishes):
 
     This function should return a `set` of all ingredients from all listed dishes.
     """
-
     return_set = set()
     for dish in dishes:
         return_set = return_set | dish
@@ -104,7 +98,6 @@ def separate_appetizers(dishes, appetizers):
     The function should return the list of dish names with appetizer names removed.
     Either list could contain duplicates and may require de-duping.
     """
-
     return list(set(dishes) - set(appetizers))
 
 
@@ -122,7 +115,6 @@ def singleton_ingredients(dishes, intersection):
 
     The function should return a `set` of ingredients that only appear in a single dish.
     """
-
     all_ingredients = set()
     for ingredients in dishes:
         all_ingredients = all_ingredients ^ ingredients

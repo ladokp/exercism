@@ -1,3 +1,29 @@
+def even(number):
+    """
+    Calculate the number of steps for an even number in the Collatz sequence.
+
+    Parameters:
+    number (int): A positive even integer to process.
+
+    Returns:
+    int: The result of steps for the even number.
+    """
+    return steps(number // 2)
+
+
+def uneven(number):
+    """
+    Calculate the number of steps for an odd number in the Collatz sequence.
+
+    Parameters:
+    number (int): A positive odd integer to process.
+
+    Returns:
+    int: The result of steps for the odd number.
+    """
+    return steps(3 * number + 1)
+
+
 def steps(number):
     """
     Calculate the number of steps required to reduce the given positive integer
@@ -23,4 +49,4 @@ def steps(number):
     if number == 1:
         return 0
 
-    return 1 + (steps(3 * number + 1) if number & 1 else steps(number // 2))
+    return (uneven(number) if number & 1 else even(number)) + 1

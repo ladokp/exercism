@@ -1,5 +1,15 @@
-def prime(number):
-    """get nth prime."""
+def prime(number: int) -> int:
+    """Get the nth prime number.
+
+    Args:
+        number (int): The position of the prime number to retrieve.
+
+    Raises:
+        ValueError: If number is less than 1.
+
+    Returns:
+        int: The nth prime number.
+    """
     if number < 1:
         raise ValueError("there is no zeroth prime")
     count = 2

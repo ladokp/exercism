@@ -1,30 +1,32 @@
 """
-This module provides a thread-safe implementation of a bank account with
-basic operations such as opening, closing, depositing, and withdrawing funds.
+This module provides a thread-safe implementation of a bank account that
+supports basic operations such as opening, closing, depositing, and withdrawing
+funds while ensuring proper synchronization for concurrent access.
 """
 
 import threading
 
 
 class BankAccount:
-    """A class representing a bank account that supports basic operations such as
-    opening, closing, depositing, and withdrawing funds. The account is thread-safe
-    using a mutex to manage concurrent access."""
+    """A class representing a bank account that supports basic operations, including
+    opening, closing, depositing, and withdrawing funds. This class ensures thread-safety
+    through the use of a mutex, which manages concurrent access to the account balance.
+    """
 
     def __init__(self):
-        """Initialize a new bank account."""
+        """Initialize a new bank account with an initial closed status and a zero balance."""
         self.is_open = False
         self.balance = 0
         self.mutex = threading.Lock()
 
     def get_balance(self):
-        """Get the current balance of the bank account.
+        """Retrieve the current balance of the bank account.
 
         Raises:
             ValueError: If the account is not open.
 
         Returns:
-            int: The current balance.
+            int: The current balance of the bank account.
         """
         with self.mutex:
             if not self.is_open:
@@ -32,7 +34,7 @@ class BankAccount:
             return self.balance
 
     def open(self):
-        """Open the bank account.
+        """Open the bank account, allowing deposits and withdrawals.
 
         Raises:
             ValueError: If the account is already open.
@@ -49,7 +51,7 @@ class BankAccount:
             amount (int): The amount to deposit.
 
         Raises:
-            ValueError: If the account is not open or amount is less than or equal to 0.
+            ValueError: If the account is not open or if the amount is less than or equal to 0.
         """
         with self.mutex:
             if not self.is_open:
@@ -65,8 +67,8 @@ class BankAccount:
             amount (int): The amount to withdraw.
 
         Raises:
-            ValueError: If the account is not open, amount is less than or equal to 0,
-                        or amount is greater than the balance.
+            ValueError: If the account is not open, if the amount is less than or equal to 0,
+                        or if the amount exceeds the available balance.
         """
         with self.mutex:
             if not self.is_open:
@@ -78,7 +80,7 @@ class BankAccount:
             self.balance -= amount
 
     def close(self):
-        """Close the bank account.
+        """Close the bank account, preventing further transactions.
 
         Raises:
             ValueError: If the account is not open.

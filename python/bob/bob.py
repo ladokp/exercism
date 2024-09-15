@@ -1,4 +1,13 @@
-def response(hey_bob):
+def response(hey_bob: str) -> str:
+    """
+    Determines the appropriate response to a given input.
+
+    Args:
+        hey_bob (str): The input string to evaluate.
+
+    Returns:
+        str: The response based on the input characteristics.
+    """
     is_empty = not (hey_bob := hey_bob.strip())
     is_question = not is_empty and hey_bob.endswith("?")
     is_yelling = not is_empty and hey_bob.isupper()

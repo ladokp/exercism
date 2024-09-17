@@ -1,10 +1,20 @@
 class BowlingGame:
-    def __init__(self):
-        self.throws = []
-        self.frame = 20
-        self.bonus_frame = 0
+    def __init__(self) -> None:
+        """Initialize the BowlingGame with an empty list of throws, 20 frames, and 0 bonus frames."""
+        self.throws: list[int] = []
+        self.frame: int = 20
+        self.bonus_frame: int = 0
 
-    def roll(self, pins):
+    def roll(self, pins: int) -> None:
+        """Record a roll with the number of pins knocked down.
+
+        Args:
+            pins (int): The number of pins knocked down in this roll.
+
+        Raises:
+            ValueError: If the number of pins is not between 0 and 10.
+            ValueError: If the conditions for a valid frame are not met.
+        """
         if pins > 10 or pins < 0:
             raise ValueError("Pins should be inbetween 0 and 10")
         self.throws.append(pins)
@@ -33,10 +43,18 @@ class BowlingGame:
         if self.frame < 0:
             raise ValueError("Game has already ended")
 
-    def score(self):
+    def score(self) -> int:
+        """Calculate the total score for the game.
+
+        Returns:
+            int: The total score for the game.
+
+        Raises:
+            ValueError: If the game state is invalid for scoring.
+        """
         if not 10 < len(self.throws) < 22 or self.bonus_frame != 0:
             raise ValueError("Invalid Game")
-        point = 0
+        point: int = 0
         for index, _ in enumerate(self.throws):
             if self.throws[index] == 10:
                 self.frame += 2

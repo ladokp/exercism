@@ -1,15 +1,15 @@
-"""This module contains a class for the Connect Game, allowing two players to compete 
+"""This module provides a class for the Connect Game, enabling two players to compete
 on a board and determining the winner based on connected symbols."""
 
 
 class ConnectGame:
-    """A class to represent the Connect Game.
+    """A class representing the Connect Game.
 
     Attributes:
         player1 (str): The symbol for player 1 (default is "O").
         player2 (str): The symbol for player 2 (default is "X").
         board (tuple): A tuple of tuples representing the game board.
-        neighbours (list): A list of tuples representing the possible neighboring positions.
+        neighbours (tuple): A tuple of tuples indicating possible neighboring positions.
     """
 
     def __init__(
@@ -31,7 +31,7 @@ class ConnectGame:
         )
 
     def get_winner(self) -> str:
-        """Checks for the winner of the game.
+        """Determines the winner of the game.
 
         Returns:
             str: The symbol of the winning player or an empty string if there is no winner.
@@ -46,7 +46,7 @@ class ConnectGame:
         """Checks if the specified player has connected their stones.
 
         Args:
-            player (str): The symbol of the player to check for connections.
+            player (str): The symbol of the player for whom to check connections.
 
         Returns:
             bool: True if the player has connected their stones, False otherwise.

@@ -1,13 +1,15 @@
 $slug=Split-Path $PSScriptRoot -Leaf
-$cobolcheck = "$PSScriptRoot\bin\cobolcheck.exe"
+$cobolcheck = Join-Path -Path "${HOME}" "cobolcheck" "cobolcheck.exe"
 $cobolcheckCmd = Get-Command "cobolcheck.exe" -ErrorAction SilentlyContinue
 
 if ($cobolcheckCmd) {
   $cobolcheck = $cobolcheckCmd.Path
   Write-Output "Found cobolcheck, using $cobolcheck"
 } elseif (![System.IO.File]::Exists("$cobolcheck")){
+  $fetchCobolcheckPath = Join-Path -Path "${PSScriptRoot}" "bin" "fetch-cobolcheck.ps1"
+  echo $fetchCobolcheckPath
   Write-Output "Cobolcheck not found. Trying to fetch it."
-  & "$PSScriptRoot\bin\fetch-cobolcheck.ps1"
+  & "${fetchCobolcheckPath}"
 }
 
 Write-Output "Run cobolcheck."

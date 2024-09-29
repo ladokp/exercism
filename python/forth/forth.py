@@ -1,3 +1,7 @@
+"""
+Module for stack-based operations and evaluation.
+"""
+
 import inspect
 from itertools import chain
 import string
@@ -15,11 +19,24 @@ OPERATIONS = {
 
 
 class StackUnderflowError(Exception):
+    """
+    Exception raised for stack underflow errors.
+    """
+
     def __init__(self):
         super().__init__("Insufficient number of items in stack")
 
 
 def is_number(elem):
+    """
+    Check if the given element is a number.
+
+    Args:
+        elem (str): The element to check.
+
+    Returns:
+        bool: True if the element is a number, False otherwise.
+    """
     return elem and (
         set(elem) < set(string.digits)
         or (elem[0] == "-" and is_number(elem[1:]))
@@ -27,6 +44,17 @@ def is_number(elem):
 
 
 def apply(stack, elem):
+    """
+    Apply an operation or push a number onto the stack.
+
+    Args:
+        stack (list): The current stack.
+        elem (str): The element to apply or push.
+
+    Raises:
+        ValueError: If the operation is undefined.
+        StackUnderflowError: If there are not enough items on the stack for the operation.
+    """
     if is_number(elem):
         stack.append(int(elem))
     elif elem in OPERATIONS:
@@ -41,10 +69,34 @@ def apply(stack, elem):
 
 
 def substitute(custom, elems):
+    """
+    Substitute custom operations in the elements list.
+
+    Args:
+        custom (dict): Custom operations dictionary.
+        elems (list): List of elements to perform substitution on.
+
+    Returns:
+        list: The list with substituted custom operations.
+    """
     return list(chain(*(custom[x] if x in custom else [x] for x in elems)))
 
 
 def evaluate(input_data):
+    """
+    Evaluate the input data using stack-based operations.
+
+    Args:
+        input_data (iterable): Iterable containing lines of input data.
+
+    Returns:
+        list: The resulting stack after evaluation.
+
+    Raises:
+        ValueError: If an illegal operation is encountered.
+        ZeroDivisionError: If a division by zero occurs.
+        StackUnderflowError: If there are not enough items on the stack for an operation.
+    """
     stack, custom = [], {}
     try:
         for line in input_data:

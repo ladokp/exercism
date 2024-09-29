@@ -1,7 +1,16 @@
-from typing import List, NamedTuple
+"""
+This module generates verses for the song "I Know an Old Lady Who Swallowed a Fly."
+It defines the Animal named tuple and provides functions to generate verses and recite the song.
+"""
+
+from typing import NamedTuple
 
 
 class Animal(NamedTuple):
+    """
+    A class to represent an animal with a kind and a rhyme.
+    """
+
     kind: str
     rhyme: str
 
@@ -19,6 +28,15 @@ ANIMALS = (
 
 
 def verse(nth):
+    """
+    Generate a single verse of the song for the nth animal.
+
+    Parameters:
+        nth (int): The number of the verse to generate.
+
+    Returns:
+        List[str]: The lines of the generated verse.
+    """
     animal = ANIMALS[nth - 1]
     result = [f"I know an old lady who swallowed a {animal.kind}."]
     if animal.kind != "horse":
@@ -40,9 +58,19 @@ def verse(nth):
 
 
 def recite(start, end):
+    """
+    Recite verses of the song from start to end.
+
+    Parameters:
+        start (int): The starting verse number.
+        end (int): The ending verse number.
+
+    Returns:
+        List[str]: The lines of the generated verses.
+    """
     result = []
-    for nth in range(start, end + 1):
-        result.extend(verse(nth))
-        if nth < end:
+    for position in range(start, end + 1):
+        result.extend(verse(position))
+        if position < end:
             result.append("")
     return result

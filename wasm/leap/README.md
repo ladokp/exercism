@@ -24,6 +24,10 @@ For a delightful, four-minute explanation of the whole phenomenon of leap years,
 
 Your task is to determine whether a given year is a leap year.
 
+## Reserved Addresses
+
+No linear memory is required for this exercise.
+
 ## Source
 
 ### Created by

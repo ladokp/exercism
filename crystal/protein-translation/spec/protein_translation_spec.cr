@@ -106,10 +106,8 @@ describe "ProteinTranslation" do
     ProteinTranslation.proteins("UGGUGUUAUUAAUGGUUU").should eq(["Tryptophan", "Cysteine", "Tyrosine"] of String)
   end
 
-  pending "Non-existing codon can't translate" do
-    expect_raises(ArgumentError) do
-      ProteinTranslation.proteins("AAA")
-    end
+  pending "Sequence of two non-STOP codons does not translate to a STOP codon" do
+    ProteinTranslation.proteins("AUGAUG").should eq(["Methionine", "Methionine"] of String)
   end
 
   pending "Unknown amino acids, not part of a codon, can't translate" do

@@ -1,6 +1,7 @@
 #!/usr/bin/env bats
 # generated on 2022-11-02T20:59:34Z
 load bats-extra
+load bats-jq
 
 @test 'Empty RNA sequence results in no proteins' {
     #[[ $BATS_RUN_SKIPPED == "true" ]] || skip
@@ -363,6 +364,20 @@ END_INPUT
 
     assert_success
     expected='["Tryptophan","Cysteine","Tyrosine"]'
+    assert_equal "$output" "$expected"
+}
+
+@test 'Sequence of two non-STOP codons does not translate to a STOP codon' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+
+    run jq -c -f protein-translation.jq << 'END_INPUT'
+        {
+          "strand": "AUGAUG"
+        }
+END_INPUT
+
+    assert_success
+    expected='["Methionine","Methionine"]'
     assert_equal "$output" "$expected"
 }
 

@@ -101,7 +101,9 @@ findDataById(4)
 ---
 
 [^1]: `then`, MDN. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then
+
 [^2]: `catch`, MDN. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch
+
 [^3]: `finally`, MDN. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally
 
 [promise-docs]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
@@ -259,3 +261,4 @@ The correct translation of `'arlogh Qoylu'pu'?` is **How many times has it been 
 ### Contributed to by
 
 - @AndrewLawendy
+- @themetar

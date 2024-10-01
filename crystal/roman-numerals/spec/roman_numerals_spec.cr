@@ -102,6 +102,10 @@ describe "RomanNumerals" do
     3001.to_roman.should eq("MMMI")
   end
 
+  pending "3888 is MMMDCCCLXXXVIII" do
+    3888.to_roman.should eq("MMMDCCCLXXXVIII")
+  end
+
   pending "3999 is MMMCMXCIX" do
     3999.to_roman.should eq("MMMCMXCIX")
   end

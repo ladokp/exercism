@@ -4,7 +4,8 @@ from collections.abc import Generator
 def generate_proteins(strand: str) -> Generator[str, None, None]:
     """Yields proteins from RNA strand."""
     for i in range(0, len(strand), 3):
-        current_slice = slice(i, i+3)
+        current_slice = slice(i, i + 3)
+        protein = None
         match strand[current_slice]:
             case "AUG":
                 protein = "Methionine"

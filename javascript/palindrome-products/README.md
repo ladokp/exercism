@@ -46,8 +46,10 @@ Its factors are `(91, 99)`.
 
 - @ankorGH
 - @cmccandless
+- @Cool-Katt
 - @draalger
 - @ErikSchierboom
+- @jagdish-15
 - @javaeeeee
 - @kytrinyx
 - @matthewmorgan

@@ -18,6 +18,13 @@ Write some code to determine whether a number is an Armstrong number.
 
 [armstrong-number]: https://en.wikipedia.org/wiki/Narcissistic_number
 
+<!-- prettier-ignore-start -->
+~~~~exercism/note
+Some of the tests might pass a `BigInt` as input.
+Ensure that your implementation can handle such cases.
+~~~~
+<!-- prettier-ignore-end -->
+
 ## Source
 
 ### Created by
@@ -29,6 +36,7 @@ Write some code to determine whether a number is an Armstrong number.
 - @ankorGH
 - @gargrave
 - @hayashi-ay
+- @jagdish-15
 - @ovidiu141
 - @SleeplessByte
 - @xarxziux

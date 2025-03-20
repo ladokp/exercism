@@ -1,6 +1,6 @@
-# Elon's Toy Car
+# Jedlik's Toy Car
 
-Welcome to Elon's Toy Car on Exercism's Java Track.
+Welcome to Jedlik's Toy Car on Exercism's Java Track.
 If you need help running the tests or submitting your code, check out `HELP.md`.
 If you get stuck on the exercise, check out `HINTS.md`, but try and solve it without using those first :)
 
@@ -93,38 +93,38 @@ You have six tasks, each of which will work with remote controlled car instances
 
 ## 1. Buy a brand-new remote controlled car
 
-Implement the (_static_) `ElonsToyCar.buy()` method to return a brand-new remote controlled car instance:
+Implement the (_static_) `JedliksToyCar.buy()` method to return a brand-new remote controlled car instance:
 
 ```java
-ElonsToyCar car = ElonsToyCar.buy();
+JedliksToyCar car = JedliksToyCar.buy();
 ```
 
 ## 2. Display the distance driven
 
-Implement the `ElonsToyCar.distanceDisplay()` method to return the distance as displayed on the LED display:
+Implement the `JedliksToyCar.distanceDisplay()` method to return the distance as displayed on the LED display:
 
 ```java
-ElonsToyCar car = ElonsToyCar.buy();
+JedliksToyCar car = JedliksToyCar.buy();
 car.distanceDisplay();
 // => "Driven 0 meters"
 ```
 
 ## 3. Display the battery percentage
 
-Implement the `ElonsToyCar.batteryDisplay()` method to return the battery percentage as displayed on the LED display:
+Implement the `JedliksToyCar.batteryDisplay()` method to return the battery percentage as displayed on the LED display:
 
 ```java
-ElonsToyCar car = ElonsToyCar.buy();
+JedliksToyCar car = JedliksToyCar.buy();
 car.batteryDisplay();
 // => "Battery at 100%"
 ```
 
 ## 4. Update the number of meters driven when driving
 
-Implement the `ElonsToyCar.drive()` method that updates the number of meters driven:
+Implement the `JedliksToyCar.drive()` method that updates the number of meters driven:
 
 ```java
-ElonsToyCar car = ElonsToyCar.buy();
+JedliksToyCar car = JedliksToyCar.buy();
 car.drive();
 car.drive();
 car.distanceDisplay();
@@ -133,10 +133,10 @@ car.distanceDisplay();
 
 ## 5. Update the battery percentage when driving
 
-Update the `ElonsToyCar.drive()` method to update the battery percentage:
+Update the `JedliksToyCar.drive()` method to update the battery percentage:
 
 ```java
-ElonsToyCar car = ElonsToyCar.buy();
+JedliksToyCar car = JedliksToyCar.buy();
 car.drive();
 car.drive();
 car.batteryDisplay();
@@ -145,10 +145,10 @@ car.batteryDisplay();
 
 ## 6. Prevent driving when the battery is drained
 
-Update the `ElonsToyCar.drive()` method to not increase the distance driven nor decrease the battery percentage when the battery is drained (at 0%):
+Update the `JedliksToyCar.drive()` method to not increase the distance driven nor decrease the battery percentage when the battery is drained (at 0%):
 
 ```java
-ElonsToyCar car = ElonsToyCar.buy();
+JedliksToyCar car = JedliksToyCar.buy();
 
 // Drain the battery
 // ...
